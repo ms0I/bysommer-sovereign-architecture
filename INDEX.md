@@ -50,7 +50,8 @@ The user-facing / experiential layer built on top of the core substrate.
 
 ## 06_Deployment_Roadmap
 
-- **DK_to_EU_Deployment_Roadmap.md** — Full 3-phase deployment strategy: Phase 0 (Foundation: DK patent filing + compliance mapping), Phase 1 (Denmark municipal pilot, success metrics, stakeholder engagement), Phase 2 (EU expansion: Horizon Europe funding, EU AI Act conformity, multi-state rollout). Includes critical path, risk register, and timeline.
+- **CADA_Sovereignty_Execution_Roadmap.md** — CANONICAL execution plan. Four-phase transition from architecture to implementation under EU Cloud and AI Development Act (CADA). Phase 1: Workload inventory against 4 sovereignty assurance levels (L1 EU residency → L4 full supply chain control). Phase 2: Hardware-backed vaults (TPM, Secure Enclave, HSM), strict JSON canonicalization (RFC 8785), Ed25519 asymmetric signing. Phase 3: Automated compliance cascade pipeline (ZK proof engine, auditor API, real-time verification). Phase 4: National procurement alignment (sovereignty risk assessments, SBOMs, compliance artifact portfolio, downstream contracting cascade). Includes CADA level mapping, proof types, procurement timeline alignment, and cross-reference to all architecture documents.
+- **DK_to_EU_Deployment_Roadmap.md** — Strategic deployment: Phase 0 (Foundation: DK patent filing + compliance mapping), Phase 1 (Denmark municipal pilot, success metrics, stakeholder engagement), Phase 2 (EU expansion: Horizon Europe funding, EU AI Act conformity, multi-state rollout). Includes critical path, risk register, and timeline.
 
 ---
 

@@ -106,7 +106,8 @@ multi-state rollout (Estonia, Germany, Netherlands)
 ### 06 — Deployment Roadmap
 | Document | Description |
 |----------|-------------|
-| DK → EU Deployment Roadmap | 3-phase deployment: Foundation → DK Pilot → EU Expansion. Success metrics, stakeholder engagement, Horizon Europe funding, EU AI Act conformity pathway, risk register, patent strategy. |
+| **CADA Sovereignty Execution Roadmap** | 4-phase implementation plan under EU Cloud and AI Development Act. Workload inventory → Hardware-backed vaults → Automated compliance cascade (ZK proofs) → National procurement alignment. CADA L1–L4 mapping, auditor API, supply chain control. |
+| DK → EU Deployment Roadmap | Strategic deployment: Foundation → DK Pilot → EU Expansion. Success metrics, stakeholder engagement, Horizon Europe funding, EU AI Act conformity pathway, risk register, patent strategy. |
 
 ## Key Principles
 
