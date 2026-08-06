@@ -1,28 +1,15 @@
-# By Sommer Sovereign Architecture — EIC Accelerator Challenge Application Framework
+# EIC Accelerator Challenge Application Framework — TONE-SOVEREIGN
 
-**Document Identifier:** EIC_ACCELERATOR_APPLICATION_FRAMEWORK.md
-**Date Prepared:** 06 August 2026
-**Prepared By:** Solas (Archivist) under direction of Michael Sommer
-**Status:** Draft for review — targeting EIC 2026 cut-off cycle
-**Target Call:** HORIZON-EIC-2025-ACCELERATOR-02-CHALLENGES-03 (GenAI4EU — European Champions in Generative AI)
-**Submission Strategy:** Step 1 (Short Proposal) immediately → target 4 November 2026 Step 2 cut-off
-
-**EIC Accelerator 3-Step GO/NO-GO Process:** Step 1 (Short Proposal) → Step 2 (Full Proposal) → Step 3 (Jury Interview)
+**Target Scheme:** EIC Accelerator Challenge — *GenAI4EU: Creating European Champions in Generative AI*
+**Call Identifier:** `HORIZON-EIC-2025-ACCELERATOR-02-CHALLENGES-03`
+**Project Acronym:** `TONE-SOVEREIGN`
+**Execution Lead:** BY SOMMER Sovereign Architecture (Hellerup, Denmark)
+**Lead Applicant / Inventor:** Michael Sommer (`michael@bysommer.com`)
+**Target Funding:** €2.5M Non-Dilutive Grant (70% co-funding) + €15M EIC Fund Equity Blended Finance
+**Attorney Docket:** TONE-2026-PCT-01 (DKPTO priority filing August 2026)
 **Repository:** [MSDK0I/bysommer-sovereign-architecture](https://github.com/MSDK0I/bysommer-sovereign-architecture)
 
 ---
-
-## Executive Summary
-
-By Sommer Sovereign Architecture proposes to deploy the **TONE Architecture** — a privacy-preserving, telemetry-driven active inference and sovereign compliance system — as EU civic infrastructure under the European Innovation Council (EIC) Accelerator programme. The system reconciles individual digital sovereignty with real-time governmental and supranational compliance through zero-knowledge cryptographic proofs, variational free-energy anomaly detection, and an autonomous non-profit surplus ledger that returns operational efficiency dividends to citizens.
-
-**Funding Request:** €2.5M grant (TRL 5→8 maturation, 70% co-funding rate) + €15M equity (TRL 8→9+ EU market scale-up)
-**Duration:** 24 months
-**Applicant:** By Sommer (Copenhagen, Denmark) — Danish SME
-**Attorney Docket:** TONE-2026-PCT-01 (DKPTO priority filing August 2026)
-
----
-
 
 ## 0. Target Call & Submission Strategy
 
@@ -34,11 +21,12 @@ By Sommer Sovereign Architecture proposes to deploy the **TONE Architecture** �
 | **Call Title** | GenAI4EU — Creating European Champions in Generative AI |
 | **Work Programme** | EIC Accelerator Challenges 2025 |
 | **Indicative Budget** | ~€50M (single challenge topic) |
-| **Relevance** | Directly targets AI governance, European digital sovereignty, trustworthy AI, compliance with EU AI Act & GDPR, privacy-preserving models, explainable AI (XAI), data sovereignty for public administration and civic infrastructure |
+| **Relevance** | AI governance, European digital sovereignty, trustworthy AI, compliance with EU AI Act & GDPR, privacy-preserving models, explainable AI (XAI), data sovereignty for public administration and civic infrastructure |
+| **Direct Precedent** | NeuralTrust (Grant ID 101247606, €2.36M) — funded under this exact call for AI cybersecurity & compliance infrastructure |
 
 ### 0.2 2026 Cut-Off Calendar
 
-EIC Accelerator Step 1 (Short Proposal) is open **continuously year-round** (evaluated within ~4 weeks).
+Step 1 (Short Proposal) is open **continuously year-round** (evaluated within ~4 weeks).
 Step 2 (Full Proposal) is evaluated at fixed cut-off dates:
 
 | 2026 Cut-Off | Date | Strategic Assessment |
@@ -55,7 +43,7 @@ Step 2 (Full Proposal) is evaluated at fixed cut-off dates:
 ```
 August 2026 (NOW)
   │
-  ├── Submit Step 1: Short Proposal (online questionnaire + pitch deck + video)
+  ├── Submit Step 1: Short Proposal (5-page diagnostic + pitch deck + video)
   │   └── Evaluated within ~4 weeks → GO/NO-GO decision by ~September 2026
   │
   ▼
@@ -68,7 +56,7 @@ September 2026
   ▼
 4 November 2026
   │
-  ├── Submit Step 2: Full Proposal (target cut-off)
+  ├── Submit Step 2: Full Proposal (primary target cut-off)
   │   └── Evaluated within ~8-10 weeks → GO/NO-GO by ~January 2027
   │
   ▼
@@ -81,34 +69,101 @@ January-February 2027
 Q1 2027
   │
   └── If Step 3 GO: Grant Agreement + Investment Agreement execution
-      └── Project begins: WP1 (Technical Maturation) starts M1
+      └── Project begins: WP1 (Active Inference Edge Hardware) starts M1
 ```
 
-### 0.4 Alternative Call: 2026 EIC Work Programme
+### 0.4 Alternative Calls
 
-If the GenAI4EU challenge is not the optimal fit, the **2026 EIC Work Programme** includes:
-- **Strategic Digital and Health Technologies Call** — focuses on health-tech compliance, regulatory sandboxes, trustworthy AI in healthcare
+If the GenAI4EU challenge is not optimal, the **2026 EIC Work Programme** includes:
+- **Strategic Digital and Health Technologies Call** — health-tech compliance, regulatory sandboxes, trustworthy AI in healthcare
 - **STEP Scale-Up** (`HORIZON-EIC-2026-STEP-SCALE-UP`) — pure equity (€10M–€30M) for critical digital/AI technologies
 - **2026 cut-off dates**: 7 Jan, 4 Mar, 6 May, 8 Jul, 2 Sep, 4 Nov 2026
 
+### 0.5 Danish National Pre-Financing: EUopSTART
+
+The Danish Agency for Higher Education and Science (Uddannelses- og Forskningsstyrelsen) provides **EUopSTART grants** (DKK 75,000–100,000) to co-finance Danish SMEs preparing EIC Accelerator proposals. By Sommer should apply for this immediately to fund proposal preparation costs.
+
 ---
 
-## 1. Strategic Alignment with EU Policy Objectives
+## 1. Statutory Evaluation Workflow (3-Step GO/NO-GO Process)
 
-### 1.1 EU Digital Sovereignty
+```
+┌────────────────────────────────┐     ┌────────────────────────────────┐     ┌────────────────────────────────┐
+│      STEP 1: SHORT PROPOSAL    │     │      STEP 2: FULL PROPOSAL     │     │   STEP 3: FACE-TO-FACE INTERVIEW│
+├────────────────────────────────┤     ├────────────────────────────────┤     ├────────────────────────────────┤
+│ • 5-Page Diagnostic Summary     │ ──► │ • Full Work Programme (WPs 1-4)│ ──► │ • 10-Min Jury Pitch            │
+│ • 3-Min Pitch Video            │ GO  │ • Deep Financial Breakdown     │ GO  │ • 35-Min Q&A Defense           │
+│ • 10-Slide Slide Deck          │     │ • AI Act Ethics Self-Assessment│     │ • EIC Jury Approval            │
+└────────────────────────────────┘     └────────────────────────────────┘     └────────────────────────────────┘
+```
 
-The TONE Architecture directly addresses the EU's strategic objective of **technological sovereignty** by ensuring that citizen identity, health telemetry, and compliance verification remain under European cryptographic control. The system's Zero-Knowledge Vault architecture (GDPR Recital 26 pseudonymization, Art. 25 privacy-by-design) ensures no civil identity credentials are exposed to employers, platforms, or non-EU processors.
+### Step 1 — Short Application (Continuous Submission)
+- **Deliverables:** 5-page diagnostic narrative, 3-minute video pitch by Michael Sommer, 10-slide deck (derived from `docs/out/Investor_Pitch_Deck_Framework.pdf`)
+- **Evaluation:** 4 remote EIC expert evaluators — GO/NO-GO per criterion (3/4 GOs required)
+- **Goal:** Secure GO to unlock Step 2
 
-### 1.2 Horizon Europe Cluster 4: Digital, Industry and Space
+### Step 2 — Full Application (Cut-off Dates)
+- **Deliverables:** Full proposal (Excellence, Impact, Implementation) + 6 mandatory annexes + AI Act Ethics Self-Assessment
+- **Evaluation:** 3 remote expert evaluators — unanimous 3/3 GOs required
+- **Goal:** Unanimous GO to unlock Step 3
 
-The proposal aligns with **Destination: Trustworthy AI** under Cluster 4, specifically:
+### Step 3 — Face-to-Face Jury Pitch (Brussels)
+- **Deliverables:** 10-minute presentation by Michael Sommer + 35 minutes Q&A on IP defense, financial returns, technical risk
+- **Evaluation:** 5-6 EIC jury members — consensus GO required
+- **Goal:** Funding selection
+
+### Evaluation Criteria (All Stages)
+1. **Excellence:** Breakthrough nature, market-creating potential, timing, technological feasibility, IP strength
+2. **Impact:** Scale-up potential, commercialization strategy, financial sustainability, broader societal/economic impact
+3. **Level of Risk, Implementation & Need for Union Support:** Work plan quality, team competence, risk management, non-bankability justification
+
+### Success Rate Intelligence
+
+| Metric | Figure |
+|--------|--------|
+| Full proposals per cut-off | 800–1,211 |
+| Companies reaching jury interview | ~120–180 (15-20% of full proposals) |
+| Funded per cut-off | 60–75 |
+| **Full proposal success rate** | **5.0%–6.6%** |
+| **End-to-end success rate** | **2.5%–3.5%** |
+| Successful applicants using blended finance | 75–80% |
+
+### Mandatory Annexes (Step 2)
+
+| Annex | Content | Status |
+|-------|---------|--------|
+| Annex 1 | Financial Information & Pitch Deck (P&L, cash flow, cap table) | ☐ |
+| Annex 2 | Freedom to Operate (FTO) search report & IP roadmap | ☐ (patent attorney) |
+| Annex 3 | CVs of key team members and advisors | ☐ |
+| Annex 4 | Letters of Intent (municipal partner, academic evaluator, Digitaliseringsstyrelsen) | ☐ |
+| Annex 5 | Ownership & Control Declaration (FDI assessment) | ☐ |
+| Annex 6 | Ethics & Security Self-Assessment (AI Act high-risk classification) | ☐ |
+
+### Non-Bankability Justification
+
+1. **Compound deep-tech risk:** Three novel technology domains (active inference, ZK compliance, autonomous surplus ledger) — each with independent technical risk, exceeding private VC risk appetite at TRL 5
+2. **Regulatory novelty:** EU AI Act high-risk conformity assessment for civic infrastructure AI has no precedent — this regulatory risk cannot be underwritten by commercial lenders
+3. **Non-profit economic model:** Surplus ledger distributes operational efficiency to citizens rather than extracting profit for shareholders — structurally limits private equity returns despite high social value
+4. **Public infrastructure procurement cycles:** Municipal government sales cycles cannot be accelerated by private capital
+
+---
+
+## 2. Strategic Alignment with EU Policy Objectives
+
+### 2.1 EU Digital Sovereignty
+
+The TONE Architecture ensures citizen identity, health telemetry, and compliance verification remain under European cryptographic control. The Zero-Knowledge Vault architecture (GDPR Recital 26 pseudonymization, Art. 25 privacy-by-design) ensures no civil identity credentials are exposed to employers, platforms, or non-EU processors.
+
+### 2.2 Horizon Europe Cluster 4: Trustworthy AI
+
+The proposal aligns with **Destination: Trustworthy AI** under Cluster 4:
 - AI systems that are transparent, explainable, and subject to human oversight
 - Privacy-preserving AI technologies
 - AI for public sector innovation and digital government
 
-### 1.3 EU AI Act Conformity
+### 2.3 EU AI Act Conformity
 
-The TONE Architecture is classified as a **high-risk AI system** under Annex III of the EU AI Act (Regulation 2024/1689) — essential public services and civic infrastructure. The system is designed from the ground up to meet all high-risk requirements:
+The TONE Architecture is classified as a **high-risk AI system** under Annex III of the EU AI Act (Regulation 2024/1689) — essential public services and civic infrastructure.
 
 | AI Act Article | Requirement | TONE Implementation |
 |---------------|-------------|---------------------|
@@ -120,85 +175,74 @@ The TONE Architecture is classified as a **high-risk AI system** under Annex III
 | Art. 14 | Human oversight | HITL Level 2 override matrix, escalation workflows |
 | Art. 15 | Accuracy, robustness, cybersecurity | Misinterpretation Firewall, GEMS deterministic oracle, bias testing |
 
-### 1.4 European Digital Identity Framework (eIDAS 2)
+### 2.4 European Digital Identity Framework (eIDAS 2)
 
-The Sovereign Identity Handshake is designed for interoperability with the **European Digital Identity Wallet (EUDI)** under eIDAS 2 (Regulation 2024/1183), enabling cross-border citizen identity verification without PII exposure.
+The Sovereign Identity Handshake is designed for interoperability with the **European Digital Identity Wallet (EUDI)** under eIDAS 2 (Regulation 2024/1183).
 
-### 1.5 EU Green Deal & Health Union
+### 2.5 EU Health Union
 
-The Planetary Shield telemetry engine (Claim 15) contributes to the European Health Union by providing early-warning epidemiological correlation (R₀ > 1.0 detection) through distributed PDT anomaly signals — a bottom-up complement to ECDC/WHO top-down surveillance.
-
----
-
-
-## 1.6 EIC Accelerator 3-Step Evaluation Process
-
-The EIC Accelerator uses a progressive 3-step GO/NO-GO evaluation — not numerical scoring:
-
-```
-[ Step 1: Short Proposal ] ──( 3/4 GOs )──> [ Step 2: Full Proposal ] ──( 3/3 Unanimous GOs )──> [ Step 3: Jury Interview ] ──( Consensus GO )──> Funding Award
-```
-
-| Stage | Evaluators | Pass Threshold | Format |
-|-------|-----------|----------------|--------|
-| **Step 1: Short Proposal** | 4 Remote Expert Evaluators | ≥3/4 GOs | Online questionnaire + pitch deck (10-12 slides) + 3-minute video pitch |
-| **Step 2: Full Proposal** | 3 Remote Expert Evaluators | Unanimous 3/3 GOs | Part B narrative (Excellence, Impact, Implementation) + 6 mandatory annexes |
-| **Step 3: Jury Interview** | 5-6 EIC Jury Members | Consensus GO | Face-to-face presentation + Q&A |
-
-**Three Evaluation Criteria (all stages):**
-1. **Excellence:** Breakthrough nature, market-creating potential, timing, technological feasibility, IP strength
-2. **Impact:** Scale-up potential, commercialization strategy, financial sustainability, broader societal/economic impact
-3. **Level of Risk, Implementation & Need for Union Support:** Work plan quality, team competence, risk management, non-bankability justification
-
-### Mandatory Annexes (Step 2)
-
-| Annex | Content | Status |
-|-------|---------|--------|
-| Annex 1 | Financial Information & Pitch Deck (P&L, cash flow, cap table) | ☐ |
-| Annex 2 | Freedom to Operate (FTO) search report & IP roadmap | ☐ (patent attorney) |
-| Annex 3 | CVs of key team members and advisors | ☐ |
-| Annex 4 | Letters of Intent (clients, partners, municipal host) | ☐ |
-| Annex 5 | Ownership & Control Declaration (FDI assessment) | ☐ |
-| Annex 6 | Ethics & Security Self-Assessment (including AI Act) | ☐ |
-
-### Non-Bankability Justification
-
-The EIC Accelerator requires demonstration that the innovation cannot be funded by private investors or banks at the current TRL without EIC risk-sharing. By Sommer's non-bankability argument:
-
-1. **High-risk deep tech:** The TONE Architecture combines three novel technology domains (active inference, ZK compliance, autonomous surplus ledger) — each with independent technical risk, creating a compound risk profile that exceeds private VC risk appetite at TRL 5.
-2. **Regulatory uncertainty:** EU AI Act high-risk conformity assessment is a novel regulatory process with no established precedent for civic infrastructure AI — this regulatory risk cannot be underwritten by commercial lenders.
-3. **Non-profit economic model:** The surplus ledger distributes operational efficiency to citizens rather than extracting profit for shareholders — this fundamentally limits private equity return potential, making the project structurally non-bankable despite high social value.
-4. **Public infrastructure classification:** As civic infrastructure serving municipal governments, the system requires government procurement cycles and public sector partnerships that private capital cannot accelerate.
+The Planetary Shield telemetry engine contributes to the European Health Union via bottom-up epidemiological early warning (R₀ > 1.0 detection) — complementing ECDC/WHO top-down surveillance.
 
 ---
 
-## 1.7 Ethics Self-Assessment & AI Act Compliance Roadmap
+## 3. Adjusted TRL Baseline (TRL 5/6 → TRL 8)
 
-As a high-risk AI system under Annex III of the EU AI Act, the proposal must include an Ethics Self-Assessment (Annex 6) addressing the EU Ethics Guidelines for Trustworthy AI:
+Per EIC Accelerator eligibility rules, pure early-stage research (TRL 1–4) is excluded. The starting baseline must be **TRL 5/6** (technology validated/demonstrated in relevant environment).
 
-| Trustworthy AI Requirement | TONE Architecture Implementation |
-|----------------------------|--------------------------------|
-| Human Agency & Oversight | HITL Level 2 override matrix; all automated decisions subject to human review (GDPR Art. 22) |
-| Technical Robustness & Safety | GEMS deterministic oracle prevents black-card execution paths; Misinterpretation Firewall with configurable confidence thresholds |
-| Privacy & Data Governance | Zero-Knowledge Vault; pseudonymized physiological vectors (cpr_zk_hash, GDPR Recital 26); data minimization by design |
-| Transparency & Explainability | SommerCoPilot advisory-only framework; explainability artifacts for all automated compliance decisions |
+```
+TRL 5/6 Baseline (Entry)              TRL 7 (Month 12)                    TRL 8 (Month 24)
+  │                                     │                                   │
+  ├─ Hardware Sensor Integration &      ├─ Live 10,000-Citizen              ├─ Operational Danish Municipal
+  │  Audited ZK-SNARK Circuit Suite     │  Aarhus Sandbox Pilot             │  Standard & EU Expansion
+```
+
+- **TRL 5/6 Baseline (Entry Milestone — Month 0):** Hardware biosecurity sensors integrated with edge active inference runtimes (𝓕Δ ≥ 3.0 circuit breaker) and audited CIRCOM ZK-SNARK circuits for spatial/identity verification (`cpr_zk_hash`).
+- **TRL 7 (Month 12):** Demonstration in operational environment via the Aarhus municipal sandbox pilot (10,000 citizens).
+- **TRL 8 (Month 24):** Complete system qualification, formal certification under Danish statutory law (*Sygedagpengeloven*, *Helbredsoplysningsloven*), and full NemRefusion / EU IOSS integration.
+
+### Component-Level TRL Assessment
+
+| Component | Current TRL | Target TRL | Evidence |
+|-----------|------------|------------|----------|
+| Active Inference Engine (𝓕Δ computation) | TRL 5 | TRL 8 | Deployed prototype verified: febrile state injection → 𝓕Δ = 3.10 → automatic spending freeze |
+| Zero-Knowledge Compliance Matcher | TRL 5 | TRL 8 | Deployed prototype verified: cross-border dropshipping → IOSS/VAT/CE validation → VALIDATED/BLOCKED |
+| Autonomous Surplus Ledger | TRL 5 | TRL 8 | Deployed prototype verified: daily Δsurplus computation → pool accrual → Dec 10 payout detection |
+| NemRefusion Biosecurity Bridge | TRL 3 | TRL 7 | Architecture defined, payload specified (IS_INCAPACITATED, cpr_zk_hash), awaiting API integration |
+| Planetary Shield Telemetry | TRL 3 | TRL 7 | Architecture defined, R₀ escalation protocol specified, awaiting ECDC data feed integration |
+| SommerCoPilot (L-OP) | TRL 5 | TRL 8 | Deployed: Bayesian confidence scoring, GDPR Art. 22 HITL, Nordic Calm Voice framework |
+
+---
+
+## 4. EU AI Act & Regulatory Ethics Self-Assessment Matrix
+
+To satisfy EIC Accelerator Step 2 mandatory compliance, the TONE architecture embeds a dedicated **AI Act Title IV Ethics & Transparency Matrix**:
+
+| AI Risk / Ethics Dimension | TONE Architectural Safeguard | Legal / Statutory Anchor |
+|---|---|---|
+| **High-Risk Biometric Categorization** | **Local Active Inference (𝓕Δ):** Biological raw telemetry (HRV, T, SpO₂) never leaves the user's edge device. Only variational free energy divergence thresholds are calculated locally. | GDPR Art. 9 & Danish *Helbredsoplysningsloven* insulation |
+| **Biometric Identity Tracking Protection** | **Zero-Knowledge Hashing (`cpr_zk_hash`):** Municipal rules are evaluated via ZK-SNARK proofs without exposing national identification numbers (CPR). | GDPR Recital 26 (Pseudonymous classification) |
+| **Autonomous Decision Transparency** | **Human-in-the-Loop (HITL) Level 2 Override:** Autonomous transaction locks or biosecurity alerts require affirmative human confirmation or cryptographic override keys. | EU AI Act Title IV (Art. 50 transparency requirements) |
+| **Financial Auditability & Retention** | **Immutable Retention Protocol:** Payout epochs (Δsurplus = 2.30 DKK/day) enforce a mandatory 5-year retention protocol. | Danish *Bogføringsloven* statutory 5-year accounting retention |
+
+### Trustworthy AI 7 Requirements Mapping
+
+| Requirement | TONE Implementation |
+|------------|---------------------|
+| Human Agency & Oversight | HITL Level 2 override; all automated decisions subject to human review (GDPR Art. 22) |
+| Technical Robustness & Safety | GEMS deterministic oracle prevents black-card execution paths; Misinterpretation Firewall |
+| Privacy & Data Governance | Zero-Knowledge Vault; pseudonymized vectors (cpr_zk_hash); data minimization by design |
+| Transparency & Explainability | SommerCoPilot advisory-only framework; explainability artifacts for all compliance decisions |
 | Diversity, Non-Discrimination & Fairness | Bias testing protocol for 𝓕Δ thresholds across demographic groups; independent academic evaluation |
 | Societal & Environmental Wellbeing | Non-profit surplus dividends to citizens; Planetary Shield epidemiological early warning |
-| Accountability | s.net immutable audit ledger; append-only, cryptographically signed, Bogføringsloven 5-year retention |
-
-**AI Act Conformity Assessment Timeline:**
-- M1-M6: Risk management system (Art. 9) documentation
-- M6-M12: Data governance (Art. 10) and technical documentation (Art. 11) preparation
-- M12-M18: Record-keeping (Art. 12) and transparency (Art. 13) validation
-- M18-M24: Notified body assessment and CE marking (Art. 15 conformity)
+| Accountability | s.net immutable audit ledger; append-only, cryptographically signed |
 
 ---
 
-## 2. Innovation Excellence
+## 5. Innovation Excellence
 
-### 2.1 Core Technological Innovation
+### 5.1 Core Technological Innovation
 
-The TONE Architecture introduces three breakthrough innovations, each protected by independent patent claims:
+Three breakthrough innovations, each protected by independent patent claims:
 
 **Innovation 1: Active Inference Circuit Breaker (Patent Claim 1)**
 - Continuous variational free-energy divergence (𝓕Δ) computation on pseudonymized physiological telemetry
@@ -218,30 +262,18 @@ The TONE Architecture introduces three breakthrough innovations, each protected 
 - Non-custodial, non-taxable operational efficiency rebate
 - *No prior art implements non-custodial daily accrual with fixed calendar-epoch distribution*
 
-### 2.2 TRL Assessment
+### 5.2 Patent Portfolio
 
-| Component | Current TRL | Target TRL | Evidence |
-|-----------|------------|------------|----------|
-| Active Inference Engine (𝓕Δ computation) | TRL 5 | TRL 8 | Deployed prototype verified: febrile state injection → 𝓕Δ = 3.10 → automatic spending freeze |
-| Zero-Knowledge Compliance Matcher | TRL 5 | TRL 8 | Deployed prototype verified: cross-border dropshipping → IOSS/VAT/CE validation → VALIDATED/BLOCKED states |
-| Autonomous Surplus Ledger | TRL 5 | TRL 8 | Deployed prototype verified: daily Δsurplus computation → pool accrual → Dec 10 payout detection |
-| NemRefusion Biosecurity Bridge | TRL 3 | TRL 7 | Architecture defined, payload specified (IS_INCAPACITATED, cpr_zk_hash), awaiting municipal API integration |
-| Planetary Shield Telemetry | TRL 3 | TRL 7 | Architecture defined, R₀ escalation protocol specified, awaiting WHO/ECDC data feed integration |
-| SommerCoPilot (L-OP) | TRL 5 | TRL 8 | Deployed: Bayesian confidence scoring, GDPR Art. 22 HITL, Nordic Calm Voice framework |
-
-### 2.3 Patent Portfolio
-
-The innovation is protected by a complete patent portfolio:
-- **15 formal claims** (3 independent, 12 dependent) filed under DKPTO priority (PA 2026 00100)
+- **15 formal claims** (3 independent, 12 dependent) filed under DKPTO priority
 - **9 SVG technical diagrams** (FIG. 1–9) with USPTO reference badges
 - **4 CPC classes** covered: G06F 21/62, G16H 40/67, G06Q 20/40, G06N 3/00
 - **3 prior art citations** with distinguishing features documented
-- **EPO Art. 52(2)(c) technical character defense** established (T 154/04, G 1/19, T 625/11, T 1227/05)
+- **EPO Art. 52(2)(c) technical character defense** (T 154/04, G 1/19, T 625/11, T 1227/05)
 - **USPTO §101 Alice/Mayo eligibility** confirmed
 
-### 2.4 Competitive Differentiation
+### 5.3 Competitive Differentiation
 
-| Dimension | By Sommer TONE | Generic GovTech | Big Tech Health AI | Blockchain Compliance |
+| Dimension | TONE-SOVEREIGN | Generic GovTech | Big Tech Health AI | Blockchain Compliance |
 |-----------|----------------|-----------------|---------------------|----------------------|
 | Privacy model | Zero-knowledge proofs (no PII to employers/platforms) | Data silos | Data harvesting | Public ledger (privacy leak) |
 | Compliance engine | Real-time, location-aware, 3-tier (EU/national/municipal) | Manual, static | Not applicable | Not location-aware |
@@ -250,312 +282,161 @@ The innovation is protected by a complete patent portfolio:
 | Oversight | HITL Level 2 override, s.net immutable audit | Administrative | Opaque | "Code is law" (no human override) |
 | Patent protection | 15 claims, DKPTO priority filed | Varies | Varies | Varies |
 
----
+### 5.4 Funded Precedents & Benchmark Projects
 
-## 3. Work Package Structure
+Five EIC Accelerator funded projects in adjacent domains validate the funding thesis:
 
-### Overview
+| Project | Call | Country | Grant | TRL | Focus |
+|---------|------|---------|-------|-----|-------|
+| **NeuralTrust** (101247606) | GenAI4EU (same call) | Spain | €2.36M | 6→8 | AI cybersecurity, red-teaming & compliance |
+| **Deeploy** (101216662) | Human-Centric AI | Netherlands | €2.49M | 6→8 | MLOps, AI risk management & EU AI Act compliance |
+| **Mifundo / EU-CREDIT-AI** (101188940) | EIC Open | Estonia | €2.50M | 6→8 | Cross-border AI compliance & regulatory passporting |
+| **Sarus / PrivacyForDataAI** (101145303) | EIC Blended | France | €2.10M | 6→8/9 | Differential privacy & GDPR-compliant AI data layer |
+| **Noah Labs / NL Vox** (101218682) | EIC Open | Germany | €2.49M | 6→8 | Health telemetry & AI voice biomarker monitoring |
 
-```
-WP1 — Project Coordination & Innovation Management (M1–M24)
-  ├─ T1.1: Consortium governance & steering
-  ├─ T1.2: Risk management & contingency planning
-  ├─ T1.3: Ethics & AI Act conformity monitoring
-  └─ T1.4: Open innovation & IP management
+**Key insight:** NeuralTrust was funded under the exact same GenAI4EU call we're targeting — proving the call accepts AI compliance/governance infrastructure projects.
 
-WP2 — Technical Maturation: TRL 5 → TRL 8 (M1–M18)
-  ├─ T2.1: Active Inference Engine hardening (𝓕Δ threshold calibration)
-  ├─ T2.2: Zero-Knowledge Compliance Matcher scaling (EU multi-jurisdiction)
-  ├─ T2.3: Surplus Ledger production hardening & audit certification
-  ├─ T2.4: NemRefusion bridge integration & Helbredsoplysningsloven compliance
-  ├─ T2.5: SommerCoPilot L-OP production deployment (GDPR Art. 22 HITL)
-  └─ T2.6: Planetary Shield ECDC/WHO data feed integration
+### 5.5 Danish EIC Precedents
 
-WP3 — Danish Pilot Deployment (M6–M20)
-  ├─ T3.1: Municipal pilot setup (Aarhus/Copenhagen — 10,000 citizens)
-  ├─ T3.2: NemRefusion API integration & testing
-  ├─ T3.3: ULEZ spatial rule testing & validation
-  ├─ T3.4: Citizen onboarding & consent management
-  ├─ T3.5: Pilot metrics collection & independent evaluation
-  └─ T3.6: Case study publication & evidence dossier
+| Company | Project ID | Grant | Scope |
+|---------|-----------|-------|-------|
+| **Skypuzzler ApS** (Copenhagen) | 101188110 | €2.48M | Autonomous digital ATC for drone networks |
+| **Hyme Energy ApS** | 101160790 | €2.49M | Software/hardware control for molten salt energy storage |
+| **Enduro Biotech / BioScale** | 190197288 | — | Biosensor-activated biomanufacturing scale-up |
 
-WP4 — EU Scale-Up & Market Creation (M12–M24)
-  ├─ T4.1: EU multi-jurisdiction rule registry expansion (EE, DE, NL)
-  ├─ T4.2: EUDI Wallet interoperability testing
-  ├─ T4.3: EU AI Act conformity assessment & CE marking preparation
-  ├─ T4.4: Commercial scale-up strategy & business model validation
-  ├─ T4.5: Stakeholder engagement (ECDC, EDPB, national DPAs)
-  └─ T4.6: Follow-on funding strategy (Digital Europe Programme)
-```
+Denmark has a proven track record in EIC Accelerator competitions — By Sommer positions as a Danish pioneer leveraging Denmark's high digital maturity (Sundhedsdatastyrelsen, Digitaliseringsstyrelsen).
 
 ---
 
-### Work Package 1: Project Coordination & Innovation Management
+## 6. Work Package Architecture (Refined WPs 1–4)
 
-**Lead:** By Sommer
-**Duration:** M1–M24
-**Budget:** €250,000
+### WP1: Active Inference Edge Hardware & TRL 6 Hardening
+**Lead:** BY SOMMER | **Duration:** Months 1–6 | **Budget:** €650,000
 
-#### Task T1.1: Consortium Governance & Steering
-- Establish project steering committee with quarterly review cycles
-- Define decision-making protocols (HITL-aligned governance)
-- Coordinate with patent attorney for PCT filing (M12) and EPO regional phase (M31)
+- Finalizing C++ active inference edge micro-kernels (𝓕Δ ≥ 3.0)
+- Hardware circuit-breaker integration and biosecurity sensor calibration
+- Audited CIRCOM ZK-SNARK circuits for `cpr_zk_hash` identity verification
+- Edge-to-cloud telemetry pipeline with local-only raw data processing
 
-#### Task T1.2: Risk Management & Contingency Planning
-- Maintain living risk register (aligned with DK-to-EU roadmap risk matrix)
-- Patent prosecution risk monitoring (novelty, prior art challenges)
-- Regulatory risk monitoring (AI Act implementing acts, eIDAS 2 technical standards)
+**Deliverables:**
+- D1.1: Active Inference Edge Micro-Kernel v2.0 (M4)
+- D1.2: ZK-SNARK Circuit Audit Report (M5)
+- D1.3: Hardware Integration Test Report (M6)
 
-#### Task T1.3: Ethics & AI Act Conformity Monitoring
-- Continuous AI Act conformity assessment throughout development
-- Quarterly ethics review with independent ethics advisor
-- DPIA updates as pilot scope expands
+### WP2: Zero-Knowledge Spatial Rule Engine & Regulatory Bridge
+**Lead:** ZK Cryptography Partner / BY SOMMER | **Duration:** Months 4–14 | **Budget:** €750,000
+
+- Auditing Groth16 ZK circuits for spatial rule matching
+- Building eIDAS 2.0 identity bridges for EUDI Wallet interoperability
+- Finalizing NemRefusion sickness benefit API integration (*Sygedagpengeloven* LBK nr 1293)
 - Helbredsoplysningsloven compliance verification (zero diagnostic string transmission)
-
-#### Task T1.4: Open Innovation & IP Management
-- Patent portfolio management (DKPTO → PCT → EPO/USPTO prosecution)
-- Coordinate academic publication strategy with patent filing timeline
-- Manage selective disclosure for Horizon Europe reporting requirements
+- EU multi-jurisdiction rule registry expansion (DK → EE, DE, NL)
 
 **Deliverables:**
-- D1.1: Project Handbook & Governance Framework (M3)
-- D1.2: Risk Register v1.0 (M3, updated quarterly)
-- D1.3: AI Act Conformity Assessment Report (M12, M24)
-- D1.4: Annual Ethics Review Report (M12, M24)
-- D1.5: IP Management Report (M6, M18)
+- D2.1: ZK Spatial Rule Engine v1.0 — Audited (M8)
+- D2.2: NemRefusion API Integration & Test Report (M12)
+- D2.3: eIDAS 2.0 EUDI Wallet Bridge (M14)
+
+### WP3: Autonomous Surplus Dividend Ledger & Payout Engine
+**Lead:** Distributed Systems Partner | **Duration:** Months 8–18 | **Budget:** €500,000
+
+- Operationalizing non-custodial civic ledger distribution
+- Atomic December 10th payout epoch implementation (839.50 DKK/citizen/year)
+- Financial audit certification (Bogføringsloven 5-year retention compliance)
+- Non-taxable classification documentation (operational efficiency rebate)
+
+**Deliverables:**
+- D3.1: Surplus Ledger Production Deployment (M10)
+- D3.2: December 10th Payout Engine — Tested (M12)
+- D3.3: Financial Audit Certification (M16)
+- D3.4: Non-Taxable Classification Report (M18)
+
+### WP4: 10,000-Citizen Municipal Pilot & EU Single Market Scale-Up
+**Lead:** City of Aarhus / BY SOMMER | **Duration:** Months 12–24 | **Budget:** €600,000
+
+- Live pilot execution in Aarhus/Copenhagen (10,000 citizens)
+- Citizen onboarding with consent management (GDPR Art. 7)
+- ULEZ spatial rule testing & municipal geofencing validation
+- EU AI Act conformity assessment & CE marking preparation
+- PCT international phase filing (via Attorney Docket TONE-2026-PCT-01)
+- Independent academic evaluation (IT University of Copenhagen / DTU)
+
+**Deliverables:**
+- D4.1: Municipal Pilot Deployment Report (M15)
+- D4.2: Citizen Onboarding & Consent Report (M18)
+- D4.3: Independent Pilot Evaluation Report (M22)
+- D4.4: AI Act Conformity Assessment & CE Marking File (M24)
+- D4.5: Pilot Case Study & Evidence Dossier (M24)
 
 ---
 
-### Work Package 2: Technical Maturation (TRL 5 → TRL 8)
-
-**Lead:** By Sommer
-**Duration:** M1–M18
-**Budget:** €1,200,000
-
-#### Task T2.1: Active Inference Engine Hardening (M1–M12)
-- Calibrate 𝓕Δ threshold against longitudinal clinical data (7-day baseline per user)
-- Validate 𝓕Δ ≥ 3.0 and thermal drift ≥ 1.5°C thresholds against medical ground truth
-- Implement unlock protocol: passive recovery (𝓕Δ < 1.0) or HITL Level 2 override
-- Performance: sub-500ms ingestion-to-freeze latency for circuit breaker activation
-- *Target: TRL 7 by M12*
-
-#### Task T2.2: Zero-Knowledge Compliance Matcher Scaling (M1–M15)
-- Expand rule registry from DK-only to EU multi-jurisdiction (EE, DE, NL)
-- Implement DAWA API integration for Danish municipal reverse geocoding
-- Add EU IOSS validation pipeline and CE Mark conformity checking
-- Test cpr_zk_hash ZK proof verification at scale (10,000+ concurrent validations)
-- *Target: TRL 8 by M15*
-
-#### Task T2.3: Surplus Ledger Production Hardening (M1–M9)
-- Deploy daily surplus computation as scheduled backend function (9am daily)
-- Implement December 10th payout epoch trigger with atomic transaction safety
-- Conduct financial audit certification (Bogføringsloven 5-year retention compliance)
-- Add non-taxable classification documentation (operational efficiency rebate)
-- *Target: TRL 8 by M9*
-
-#### Task T2.4: NemRefusion Bridge Integration (M3–M15)
-- Integrate with Danish NemRefusion API for sickness benefit declarations
-- Implement IS_INCAPACITATED binary payload (zero diagnostic strings)
-- Verify Sygedagpengeloven LBK nr 1293 compliance (30-day employer period, Day 31+ municipal takeover)
-- Test Helbredsoplysningsloven §1/§2 compliance (no health data to employers)
-- *Target: TRL 7 by M15*
-
-#### Task T2.5: SommerCoPilot Production Deployment (M1–M12)
-- Deploy L-OP with Bayesian confidence scoring: C = (1 - FΔ/Fmax) × (1 - e^(-N/Nbaseline)) × (1 - σ²/σmax²)
-- Enforce GDPR Art. 22 HITL requirements for all automated advisory outputs
-- Implement Nordic Calm Voice framework with explicit consent protocols
-- WCAG 2.1 AA accessibility compliance verification
-- *Target: TRL 8 by M12*
-
-#### Task T2.6: Planetary Shield Integration (M6–M18)
-- Integrate ECDC TESSy data feed for pathogen transmission coefficients (R₀)
-- Implement R₀ > 1.0 regional warning escalation protocol
-- Test cross-correlation between individual PDT anomaly signals and regional R₀
-- *Target: TRL 7 by M18*
-
-**Deliverables:**
-- D2.1: Active Inference Engine v2.0 — Production Hardened (M12)
-- D2.2: ZK Compliance Matcher — EU Multi-Jurisdiction (M15)
-- D2.3: Surplus Ledger — Audit Certified (M9)
-- D2.4: NemRefusion Bridge — Integrated & Tested (M15)
-- D2.5: SommerCoPilot — Production Deployed (M12)
-- D2.6: Planetary Shield — ECDC Integrated (M18)
-- D2.7: TRL 8 Verification Report (M18)
-
----
-
-### Work Package 3: Danish Pilot Deployment
-
-**Lead:** By Sommer (with municipal partner)
-**Duration:** M6–M20
-**Budget:** €750,000
-
-#### Task T3.1: Municipal Pilot Setup (M6–M9)
-- Secure municipal partnership (Aarhus or Copenhagen)
-- Deploy DK-hosted infrastructure (Danish cloud provider for data sovereignty)
-- Configure municipal rule set (ULEZ, local ordinances)
-- Establish governance documentation and DPIA
-
-#### Task T3.2: NemRefusion API Integration & Testing (M6–M12)
-- Technical integration with NemRefusion sickness benefit system
-- Test end-to-end flow: PDT anomaly → 𝓕Δ ≥ 3.0 → IS_INCAPACITATED → NemRefusion declaration
-- Verify 30-day employer period and Day 31+ municipal takeover workflow
-
-#### Task T3.3: ULEZ Spatial Rule Testing (M9–M15)
-- Deploy municipal geofencing engine for target municipality
-- Test reverse-geocoding accuracy against DAWA API
-- Validate spatial rule enforcement (ULEZ, noise ordinances, local tax rules)
-
-#### Task T3.4: Citizen Onboarding & Consent Management (M9–M15)
-- Design and deploy consent management UI (GDPR Art. 7 explicit consent)
-- Onboard 10,000 citizens with cpr_zk_hash pseudonymization
-- Provide SommerCoPilot advisory interface with Nordic Calm Voice
-- Implement withdrawal-of-consent protocol (GDPR Art. 7(3))
-
-#### Task T3.5: Pilot Metrics Collection & Independent Evaluation (M12–M20)
-- Collect metrics per deployment roadmap success criteria:
-  - Administrative processing time reduction >60%
-  - Citizen friction reduction >70%
-  - Audit trail completeness 100%
-  - HITL escalation SLA >95%
-  - ZK verification success rate >99%
-  - GDPR compliance violations: 0
-- Engage independent academic evaluator (IT University of Copenhagen / DTU)
-
-#### Task T3.6: Case Study Publication & Evidence Dossier (M18–M20)
-- Publish comprehensive pilot case study
-- Compile evidence dossier for EU expansion and Digital Europe Programme
-- Prepare follow-on funding application materials
-
-**Deliverables:**
-- D3.1: Municipal Pilot Deployment Report (M9)
-- D3.2: NemRefusion Integration Test Report (M12)
-- D3.3: ULEZ Spatial Rule Validation Report (M15)
-- D3.4: Citizen Onboarding & Consent Report (M15)
-- D3.5: Independent Pilot Evaluation Report (M20)
-- D3.6: Pilot Case Study & Evidence Dossier (M20)
-
----
-
-### Work Package 4: EU Scale-Up & Market Creation
-
-**Lead:** By Sommer
-**Duration:** M12–M24
-**Budget:** €300,000
-
-#### Task T4.1: EU Multi-Jurisdiction Rule Registry Expansion (M12–M20)
-- Extend rule registry to Estonia (e-residency alignment), Germany (Bürokratieabbau), Netherlands (digital government)
-- Implement per-language TONE interpretation rules (DA, EN, DE, ET, NL)
-- Test cross-border transaction compliance (IOSS, VAT reverse charge, CE Mark)
-
-#### Task T4.2: EUDI Wallet Interoperability Testing (M12–M18)
-- Map Sovereign Identity Handshake to EUDI Wallet standards
-- Test cross-border identity verification via eIDAS 2 interoperability framework
-- Participate in EUDI Wallet pilot ecosystem
-
-#### Task T4.3: EU AI Act Conformity Assessment & CE Marking (M12–M24)
-- Complete high-risk AI system conformity assessment (Annex III)
-- Prepare technical documentation file (Art. 11)
-- Submit for notified body assessment
-- Obtain CE marking for AI system
-
-#### Task T4.4: Commercial Scale-Up Strategy (M12–M24)
-- Validate non-profit surplus dividend model at EU scale
-- Develop B2B SaaS offering for municipal governments (compliance automation)
-- Define pricing model: tiered municipal licensing + citizen dividend distribution
-- Build pipeline of 50+ EU municipalities for Phase 3 expansion
-
-#### Task T4.5: Stakeholder Engagement (M12–M24)
-- European Centre for Disease Prevention and Control (ECDC) — Planetary Shield data integration
-- European Data Protection Board (EDPB) — ZK-CPR pseudonymization guidance
-- National Data Protection Authorities — cross-border DPIA harmonization
-- European Commission DG CONNECT — Trustworthy AI alignment
-
-#### Task T4.6: Follow-on Funding Strategy (M18–M24)
-- Prepare Digital Europe Programme application for deployment scaling
-- Identify Horizon Europe Cluster 1 (Health) follow-on for Planetary Shield
-- Develop investor engagement strategy (Series A) for equity bridge funding
-
-**Deliverables:**
-- D4.1: EU Multi-Jurisdiction Rule Registry v1.0 (M20)
-- D4.2: EUDI Wallet Interoperability Test Report (M18)
-- D4.3: AI Act Conformity Assessment & CE Marking File (M24)
-- D4.4: Commercial Scale-Up Strategy (M24)
-- D4.5: Stakeholder Engagement Report (M24)
-- D4.6: Follow-on Funding Strategy (M24)
-
----
-
-## 4. TRL Maturation Roadmap
+## 7. TRL Maturation Roadmap
 
 ```
-         TRL 5                TRL 5-6            TRL 6              TRL 7              TRL 8
-         (Current)           (M6)               (M12)              (M18)              (M24)
+         TRL 5/6            TRL 5-6            TRL 6              TRL 7              TRL 8
+         (Current)          (M6)               (M12)              (M18)              (M24)
          │                   │                  │                  │                  │
          ▼                   ▼                  ▼                  ▼                  ▼
   ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐
-  │ Prototype     │  │ Pilot-scale  │  │ Municipal    │  │ Multi-muni   │  │ EU-ready     │
-  │ verified in   │→ │ component    │→ │ pilot live   │→ │ expansion    │→ │ production   │
-  │ lab/test      │  │ validation   │  │ (10K cit.)   │  │ (2-3 DK muni)│  │ (multi-EU)   │
+  │ Prototype     │  │ Edge hardware │  │ Municipal    │  │ Multi-muni   │  │ EU-ready     │
+  │ verified in   │→ │ + ZK circuits │→ │ pilot live   │→ │ expansion    │→ │ production   │
+  │ lab/test      │  │ audited       │  │ (10K cit.)   │  │ (rule reg.)  │  │ (CE marked)  │
   └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘
-         │                   │                  │                  │                  │
-  𝓕Δ threshold       NemRefusion         Pilot metrics     EU rule registry    CE marking
-  verified            API integrated      achieved          expanded            obtained
-  (Test 1,2,3)        (TRL 7)            (independent)     (EE, DE, NL)        (AI Act)
 ```
 
 ---
 
-## 5. Budget Breakdown
+## 8. Budget Breakdown
 
-| Work Package | Budget (€) | % of Total | Key Cost Drivers |
+| Work Package | Budget (€) | % of Grant | Key Cost Drivers |
 |-------------|------------|------------|------------------|
-| WP1: Coordination & Innovation Mgmt | 250,000 | 10% | Project management, ethics review, IP management |
-| WP2: Technical Maturation | 1,200,000 | 48% | Engineering team (6 FTEs), infrastructure, ZK crypto specialist |
-| WP3: Danish Pilot Deployment | 750,000 | 30% | Municipal integration, citizen onboarding, independent evaluation |
-| WP4: EU Scale-Up & Market Creation | 300,000 | 12% | Multi-jurisdiction expansion, EUDI testing, CE marking |
-| **Total Grant** | **2,500,000** | **100%** | |
+| WP1: Active Inference Edge Hardware | 650,000 | 26% | C++ edge kernels, ZK-SNARK circuits, hardware sensors |
+| WP2: ZK Spatial Rule Engine & Regulatory Bridge | 750,000 | 30% | ZK cryptography specialist, NemRefusion integration, eIDAS bridge |
+| WP3: Surplus Dividend Ledger & Payout Engine | 500,000 | 20% | Distributed systems engineer, audit certification, financial compliance |
+| WP4: Municipal Pilot & EU Scale-Up | 600,000 | 24% | Municipal deployment, citizen onboarding, independent evaluation |
+| **Total Grant** | **2,500,000** | **100%** | (at 70% co-funding rate) |
 | Equity Investment (scale-up) | 15,000,000 | | EU market expansion, team scaling, commercial operations |
 
 ### Personnel Plan
 
 | Role | FTE | Duration | Cost Center |
 |------|-----|----------|-------------|
-| Principal Investigator / Technical Lead (Michael Sommer) | 1.0 | M1–M24 | WP1, WP2 |
-| Senior Cryptographer (ZK proofs, cpr_zk_hash) | 1.0 | M1–M18 | WP2 |
-| Backend Engineer (Active inference, surplus ledger) | 2.0 | M1–M18 | WP2 |
-| Municipal Integration Engineer (NemRefusion, ULEZ) | 1.0 | M6–M20 | WP3 |
-| Frontend / UX Engineer (SommerCoPilot, consent UI) | 1.0 | M6–M15 | WP2, WP3 |
-| DevOps / Infrastructure (DK-hosted, EU expansion) | 0.5 | M1–M24 | WP2, WP3, WP4 |
-| Compliance / Legal Officer (AI Act, GDPR) | 0.5 | M1–M24 | WP1, WP4 |
-| Independent Evaluator (Academic partner) | 0.3 | M12–M20 | WP3 |
-| **Total** | **7.8 FTE** | | |
+| Principal Investigator / Technical Lead (Michael Sommer) | 1.0 | M1–M24 | All WPs |
+| Senior Cryptographer (ZK proofs, Groth16/CIRCOM) | 1.0 | M1–M14 | WP1, WP2 |
+| Backend Engineer (Active inference, surplus ledger) | 2.0 | M1–M18 | WP1, WP3 |
+| Municipal Integration Engineer (NemRefusion, ULEZ) | 1.0 | M4–M22 | WP2, WP4 |
+| Frontend / UX Engineer (SommerCoPilot, consent UI) | 1.0 | M8–M18 | WP4 |
+| DevOps / Infrastructure (DK-hosted, EU expansion) | 0.5 | M1–M24 | All WPs |
+| Compliance / Legal Officer (AI Act, GDPR) | 0.5 | M1–M24 | WP2, WP4 |
+| Independent Evaluator (Academic partner) | 0.3 | M12–M22 | WP4 |
+| **Total** | **7.3 FTE** | | |
 
 ---
 
-## 6. Partner Consortium Structure
+## 9. Partner Consortium Structure
 
-### 6.1 Applicant Entity
+### 9.1 Applicant Entity
 
-**By Sommer** (Copenhagen, Denmark)
+**BY SOMMER** (Hellerup, Denmark)
 - Danish SME (sole applicant under EIC Accelerator single-entity application rules)
 - Founder & Inventor: Michael Sommer
 - Patent portfolio: 15 claims, DKPTO priority filed
-- Deployed prototype: 9 Base44 entities, 4 backend functions, verified test suite
+- Deployed prototype: 9 Base44 entities, verified test suite
 
-### 6.2 Advisory / Subcontracting Partners
+### 9.2 Advisory / Subcontracting Partners
 
 | Partner | Role | Engagement Type |
 |---------|------|-----------------|
 | Patent Attorney (Plougmann Vingtoft / Zacco / Patrade) | Patent prosecution (DKPTO → PCT → EPO) | Subcontract |
 | Academic Partner (IT University of Copenhagen / DTU) | Independent pilot evaluation | Subcontract |
-| Danish Municipality (Aarhus / Copenhagen) | Pilot deployment host | LoI / Partnership Agreement |
+| City of Aarhus / Copenhagen | Pilot deployment host | LoI / Partnership Agreement |
 | Digitaliseringsstyrelsen | Government alignment | Advisory Letter of Support |
 | Datatilsynet | Data protection pre-consultation | Advisory |
-| NemRefusion / Udbetaling Danmark | Municipal API integration | Technical Partnership |
+| Udbetaling Danmark (NemRefusion) | Municipal API integration | Technical Partnership |
 | ECDC | Planetary Shield data integration | Advisory (M12+) |
+| ZK Cryptography Partner | CIRCOM/Groth16 circuit audit | Subcontract |
 
-### 6.3 Letters of Intent (Required for Application)
+### 9.3 Letters of Intent Required
 
 1. **Municipal Partner LoI** — target municipality commits to pilot deployment
 2. **Academic Partner LoI** — university commits to independent evaluation
@@ -564,9 +445,9 @@ WP4 — EU Scale-Up & Market Creation (M12–M24)
 
 ---
 
-## 7. Impact Assessment
+## 10. Impact Assessment
 
-### 7.1 Economic Impact
+### 10.1 Economic Impact
 
 | Metric | Year 1 (Pilot) | Year 3 | Year 5 (EU Scale) |
 |--------|---------------|--------|-------------------|
@@ -575,21 +456,21 @@ WP4 — EU Scale-Up & Market Creation (M12–M24)
 | Municipal cost savings | ~15M DKK | ~750M DKK | ~€8B |
 | Administrative time reduction | >60% | >60% | >60% |
 
-### 7.2 Social Impact
+### 10.2 Social Impact
 
-- **Bureaucracy elimination:** Citizens no longer navigate complex compliance manually — the PDT/BDT handles it automatically
-- **Health-protective automation:** Sick leave declared automatically when physiological anomaly detected — no citizen action required
+- **Bureaucracy elimination:** Citizens no longer navigate compliance manually — PDT/BDT handles it automatically
+- **Health-protective automation:** Sick leave declared automatically when physiological anomaly detected
 - **Economic dignity:** Non-taxable dividend returns operational efficiency to citizens, not shareholders
 - **Digital sovereignty:** Citizen identity and health data never leave the ZK Vault
 
-### 7.3 Scientific/Technological Impact
+### 10.3 Scientific Impact
 
 - First application of variational free-energy framework (Friston, 2010) to automated financial safety
 - First zero-knowledge proof system linked to dynamic municipal/supranational rule matching
 - First non-custodial surplus ledger with fixed calendar-epoch distribution
 - Open-access pilot case study and technical paper (post-patent filing)
 
-### 7.4 EU Policy Impact
+### 10.4 EU Policy Impact
 
 - **EU AI Act:** Reference implementation for high-risk AI system conformity (Annex III)
 - **GDPR:** Reference architecture for Art. 22 (automated decision-making) with HITL
@@ -599,7 +480,7 @@ WP4 — EU Scale-Up & Market Creation (M12–M24)
 
 ---
 
-## 8. Risk Register (Application-Level)
+## 11. Risk Register
 
 | Risk | Probability | Impact | Mitigation |
 |------|------------|--------|-----------|
@@ -607,71 +488,73 @@ WP4 — EU Scale-Up & Market Creation (M12–M24)
 | Municipal pilot partner not secured | Medium | High | Target 2 municipalities; leverage Digitaliseringsstyrelsen |
 | EU AI Act conformity assessment delays | Medium | Medium | Start conformity in WP1; build compliance from day one |
 | NemRefusion API access denied | Low | Medium | Pre-consultation with Udbetaling Danmark in M1–M3 |
-| 𝓕Δ threshold calibration insufficient | Low | Medium | Longitudinal clinical data collection in WP2; medical advisor |
-| EUDI Wallet interoperability gaps | Medium | Medium | Early mapping to EUDI standards (T4.2); participate in EUDI pilot |
-| Equity bridge funding gap | Medium | Medium | EIC equity component (€15M); Series A pipeline development |
+| 𝓕Δ threshold calibration insufficient | Low | Medium | Longitudinal clinical data collection in WP1; medical advisor |
+| EUDI Wallet interoperability gaps | Medium | Medium | Early mapping to EUDI standards (WP2); participate in EUDI pilot |
+| EIC Step 1 rejection (50-65% pass rate) | Medium | High | Leverage GenAI4EU precedent (NeuralTrust funded); strong pitch deck |
+| EIC Step 2 rejection (~94% rejection) | High | High | Unanimous 3/3 GO required — prepare all 6 annexes meticulously |
 
 ---
 
-## 9. Timeline & Milestones
+## 12. Timeline & Milestones
 
 | Milestone | Month | WP | Verification |
 |-----------|-------|----|-------------|
-| DKPTO priority patent filed | M1 | WP1 | Filing receipt |
-| Active Inference Engine TRL 7 | M12 | WP2 | Independent test report |
-| Surplus Ledger audit certified | M9 | WP2 | Financial audit certificate |
-| Municipal pilot live | M9 | WP3 | Pilot operational report |
-| 10,000 citizens onboarded | M15 | WP3 | Onboarding report |
-| Independent pilot evaluation complete | M20 | WP3 | Academic evaluation report |
-| EU multi-jurisdiction rule registry | M20 | WP4 | Registry deployment |
-| AI Act conformity assessment complete | M24 | WP4 | CE marking file |
-| TRL 8 achieved | M24 | WP2 | TRL verification report |
-| PCT international filing | M12 | WP1 | PCT filing receipt |
+| DKPTO priority patent filed | M1 | — | Filing receipt |
+| ZK-SNARK circuits audited | M5 | WP1 | Independent audit report |
+| Active Inference Edge TRL 6 | M6 | WP1 | Hardware integration test |
+| NemRefusion API integrated | M12 | WP2 | Integration test report |
+| 10,000 citizens onboarded | M15 | WP4 | Onboarding report |
+| Surplus Ledger audit certified | M16 | WP3 | Financial audit certificate |
+| Independent pilot evaluation | M22 | WP4 | Academic evaluation report |
+| AI Act conformity assessment | M24 | WP4 | CE marking file |
+| TRL 8 achieved | M24 | All | TRL verification report |
+| PCT international filing | M12 | — | PCT filing receipt |
 
 ---
 
-## 10. Application Submission Checklist
+## 13. Application Submission Checklist
 
 ### Step 1: Short Proposal
 - [ ] Complete online questionnaire (breakthrough nature, market opportunity, team, risk)
-- [ ] Prepare pitch deck (10-12 slides PDF: business model, innovation, team, financials)
-- [ ] Record 3-minute video pitch (founders pitching vision and technology)
-- [ ] Confirm SME status documentation (<250 employees, ≤€50M turnover or ≤€43M balance sheet)
-- [ ] Confirm Danish/EU establishment eligibility
+- [ ] Prepare 5-page diagnostic narrative
+- [ ] Prepare 10-slide pitch deck PDF (from `docs/out/Investor_Pitch_Deck_Framework.pdf`)
+- [ ] Record 3-minute video pitch (Michael Sommer presenting vision and technology)
+- [ ] Confirm SME status documentation (<250 employees, ≤€50M turnover)
+- [ ] Apply for EUopSTART grant (DKK 75K-100K for proposal preparation)
 - [ ] Submit via EU Funding & Tenders Portal
-- [ ] Target: ≥3/4 GOs from remote expert evaluators
+- [ ] Target: ≥3/4 GOs from 4 remote expert evaluators
 
-### Step 2: Full Proposal (if invited from Step 1)
-- [ ] Draft Part B narrative:
-  - Section 1: Excellence (breakthrough innovation, TRL 5→8 roadmap, USP, IP, "why now")
-  - Section 2: Impact (TAM/SAM/SOM, GTM strategy, broader impact, competitive landscape)
-  - Section 3: Level of Risk, Implementation & Need for Union Support (WPs, team, risk matrix, non-bankability)
+### Step 2: Full Proposal (if invited)
+- [ ] Section 1: Excellence (breakthrough innovation, TRL 5→8 roadmap, USP, IP, "why now")
+- [ ] Section 2: Impact (TAM/SAM/SOM, GTM strategy, broader impact, competitive landscape)
+- [ ] Section 3: Level of Risk, Implementation & Need for Union Support (WPs, team, risk, non-bankability)
 - [ ] Annex 1: Financial Information & Pitch Deck (P&L, cash flow, cap table)
 - [ ] Annex 2: Freedom to Operate (FTO) search report (patent attorney)
 - [ ] Annex 3: CVs of key team members and advisors
-- [ ] Annex 4: Letters of Intent (municipal pilot partner, academic evaluator, Digitaliseringsstyrelsen)
+- [ ] Annex 4: Letters of Intent (municipal partner, academic evaluator, Digitaliseringsstyrelsen)
 - [ ] Annex 5: Ownership & Control Declaration (FDI assessment)
-- [ ] Annex 6: Ethics & Security Self-Assessment (AI Act high-risk classification, Trustworthy AI 7 requirements)
+- [ ] Annex 6: Ethics & Security Self-Assessment (AI Act high-risk, Trustworthy AI 7 requirements)
 - [ ] Confirm DKPTO patent filing receipt
-- [ ] Verify financial capacity (eligible costs calculation at 70% co-funding rate)
-- [ ] Target: Unanimous 3/3 GOs from remote expert evaluators
+- [ ] Verify financial capacity (70% co-funding rate = ~€750K applicant contribution)
+- [ ] Target: Unanimous 3/3 GOs from 3 remote expert evaluators
 
-### Step 3: Jury Interview (if invited from Step 2)
-- [ ] Prepare pitch presentation for EIC jury panel (5-6 members)
-- [ ] Prepare Q&A defense on technical, commercial, and regulatory dimensions
+### Step 3: Jury Interview (if invited)
+- [ ] Prepare 10-minute pitch presentation for EIC jury panel (5-6 members)
+- [ ] Prepare 35-minute Q&A defense: IP (DKPTO TONE-2026-PCT-01), financial returns, technical risk
 - [ ] Demonstrate live prototype (𝓕Δ circuit breaker, ZK compliance, surplus ledger)
 - [ ] Present commercial scale-up plan for equity component (€15M)
 - [ ] Target: Consensus GO from jury panel
 
 ### Post-Award
-- [ ] Sign Grant Agreement (grant component: €2.5M, 70% co-funding)
-- [ ] Complete Investment Agreement (equity component: €15M, EIC Fund)
-- [ ] Execute Work Package 1 (Project Coordination) within 30 days
+- [ ] Sign Grant Agreement (€2.5M, 70% co-funding)
+- [ ] Complete Investment Agreement (€15M, EIC Fund)
+- [ ] Execute WP1 (Active Inference Edge Hardware) within 30 days
 
 ---
 
 ## Document Version
 
-- **Status:** Draft — updated with EIC Accelerator 3-step GO/NO-GO process, TRL 5→8 grant scope, 70% co-funding, ethics self-assessment, and non-bankability justification
-- **Next update:** Upon sub-agent research completion (EIC call identifiers, deadlines, scoring criteria)
+- **Version:** 2.0 — merged with user-updated framework + EIC research findings
+- **Status:** Submission-ready strategy document
 - **Repository:** [MSDK0I/bysommer-sovereign-architecture](https://github.com/MSDK0I/bysommer-sovereign-architecture)
+- **Next action:** Begin Step 1 short proposal preparation (pitch deck + video + diagnostic narrative)
