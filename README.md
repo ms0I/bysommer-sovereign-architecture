@@ -88,6 +88,7 @@ multi-state rollout (Estonia, Germany, Netherlands)
 ### 03 — Compliance & Legal
 | Document | Description |
 |----------|-------------|
+| IP & Anti-Counterfeiting Protocol | EUIPO/IPEP integration, DPP verification, KYBC, automated border interception. |
 | L-LEG Living Legal Operating System | The Compliance Book as a living, location-aware legal OS. Jurisdiction detection engine, rule set loader (EU/DK/US-CA/baseline), stricter-rule-wins conflict resolution, GEMS oracle, living update pipeline (append-only). Human-readable + machine-readable sync. |
 | Consolidated Compliance Book | CANONICAL master version. EU AI Act Art. 1–99 article-by-article mapping. GDPR, NIS2, eIDAS 2, Danish national law. Decision Logging Framework + addendum protocol. Deployment compliance checklist. |
 | Compliance Architecture (source PDF) | Original studio-level compliance overview. Retained for reference. |

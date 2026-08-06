@@ -1,6 +1,6 @@
 # By Sommer / AURA Archive — Index
 
-Organized on 2026-08-06. 14 source files uploaded by Michael Sommer, deduplicated to 11 unique documents + 1 portfolio map. Extended with 12 structured Markdown specifications. 24 files total across 7 folders.
+Organized on 2026-08-06. 14 source files uploaded by Michael Sommer, deduplicated to 11 unique documents + 1 portfolio map. Extended with 13 structured Markdown specifications. 25 files total across 7 folders.
 
 ---
 
@@ -34,6 +34,7 @@ The user-facing / experiential layer built on top of the core substrate.
 
 ## 03_Compliance_Legal
 
+- **IP_Anti_Counterfeiting_Protocol.md** — Cross-border IP protection & anti-counterfeiting specification. Integrates BDT with EUIPO (IPEP, DesignView) and EU Customs (EUS). Automated KYBC supplier checks (DSA Art. 30), Digital Product Passport (DPP) cryptographic verification, and real-time border interception. Establishes symmetrical protections for brand holders, entrepreneurs, consumers, and customs enforcement.
 - **By_Sommer_Compliance_Book_Consolidated.md** — CANONICAL master version. Merges both compliance docs + adds full EU AI Act article-by-article mapping (Art. 1–99), GDPR architectural alignment, NIS2 mapping, eIDAS 2 alignment, Danish national law, addendum protocol for decision log contamination prevention, deployment-phase compliance checklist (Phase 0–2).
 - **L-LEG_Living_Legal_Operating_System.md** — Defines the Compliance Book as a living, location-aware legal OS: jurisdiction detection engine, rule set loader (EU/DK/US-CA/baseline), conflict resolution (stricter-rule-wins), GEMS deterministic oracle, living update pipeline (append-only rule registry), multi-jurisdiction scenario (DK citizen traveling to CA), human-readable + machine-readable sync architecture.
 - **BySommer_Compliance_Architecture.pdf** — original GDPR / EU AI Act / NIS2 alignment overview. Retained for reference.
@@ -94,10 +95,3 @@ The user-facing / experiential layer built on top of the core substrate.
 │  Living Compliance Tattoo + Grif Shield                          │
 └─────────────────────────────────────────────────────────────────┘
 ```
-
-## Duplicates removed
-
-Three near-identical duplicate uploads were identified and removed after text extraction confirmed identical content:
-- Resonance Forecast UI (identical text)
-- SommerCoPilot Blueprint (whitespace-only difference)
-- Compliance Book (duplicate had "[Copy]" prefix, otherwise identical)
