@@ -148,6 +148,13 @@ Deployment readiness audit reports — multi-agent systematic verification of te
 
 ---
 
+
+## Tests
+
+Integration test suite validating the mathematical and legal constraints of the TONE Engine against the deployed prototype.
+
+- **tests/test_tone_engine.py** — 77 test cases across 10 test classes validating all 15 patent claims (TONE-2026-PCT-01). Covers: active inference circuit breaker (𝓕Δ ≥ 3.0, Gaussian KL-divergence matching `docs/active_inference_engine.py`), zero-knowledge CPR hash (GDPR Recital 26 pseudonymization), surplus ledger (Δ_surplus = 2.30 DKK/day, Dec 10 payout epoch), Planetary Shield (R₀ > 1.0 escalation), NemRefusion integration (Sygedagpengeloven LBK nr 1293 Day 1-30/31+ split, Helbredsoplysningsloven diagnostic data insulation), three-tier compliance engine (EU/National/Municipal), Bayesian confidence score (C formula), GDPR Art. 22 HITL, Bogføringsloven 5-year retention, environment configuration (process.env fallbacks), end-to-end febrile anomaly cascade, and patent claim traceability matrix.
+
 ## How the whole system fits together
 
 ```
