@@ -433,10 +433,13 @@ s.net: Logs every status change with provenance
 | TONE Protocol (patent) | `01_Core_Architecture_Protocols/TONE_Patent_Draft_Filing_Structured.md` | Claims 1–15, filing strategy (DK→EP), flow diagrams |
 | Sovereign Layer Architecture | `01_Core_Architecture_Protocols/Sovereign_Layer_Architecture_Specification.md` | 7-layer pipeline, L1–L8 fractal stack, per-layer sovereignty, phased separation |
 | Symmetrical Governmental Support | `01_Core_Architecture_Protocols/Symmetrical_Governmental_Support_Protocol.md` | BDT ⇄ NAS/EUS, Rule Compass, dropshipping use case, proactive guidance |
+| SommerCoPilot Blueprint | `02_Interactive_Governance_Systems/SommerCoPilot_Blueprint_Consolidated.md` | Ripple Engine, Resonance Forecast, Voice of Future Self, Sommer Ocean, glyph archive |
+| Nordic Calm Voice Framework | `02_Interactive_Governance_Systems/Nordic_Calm_Voice_Framework_Specification.md` | Dual-role voice spec, 7 features, compliance accessibility (WCAG/GDPR/AI Act) |
 | Living Legal Operating System | `03_Compliance_Legal/L-LEG_Living_Legal_Operating_System.md` | Jurisdiction detection, rule set loader, conflict resolution, living update pipeline |
 | Consolidated Compliance Book | `03_Compliance_Legal/By_Sommer_Compliance_Book_Consolidated.md` | EU AI Act Art. 1–99 mapping, GDPR, NIS2, eIDAS 2, Danish law, decision logging |
+| Digital Twin Framework | `04_Digital_Twin_Framework/Digital_Twin_Functional_Framework_Specification.md` | 10 basic functions, 6 consent-based interventions, acute-risk escalation, sovereignty guarantees |
 | Deployment Roadmap | `06_Deployment_Roadmap/DK_to_EU_Deployment_Roadmap.md` | Phase 0–2, DK pilot, EU expansion, Horizon Europe, critical path, risks |
-| **This document** | `00_MASTER_Unified_Framework.md` | Synthesis of all components, new concepts (Tone Headers, GEMS, Advisory Classes, Compliance Tattoo) |
+| **This document (Master)** | `00_MASTER_Unified_Framework.md` | Synthesis of all components, new concepts (Tone Headers, GEMS, Advisory Classes, Compliance Tattoo) |
 
 ---
 
