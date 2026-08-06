@@ -1,211 +1,128 @@
-# TONE Patent — Claims Draft
+# FORMAL PATENT CLAIMS
 
-**Invention:** TONE Architecture (Telemetry-Driven Active Inference & Sovereign Privacy Protocol)  
-**Applicant:** By Sommer  
-**Document:** Formal Claims Draft — Independent and Dependent Claims (Claims 1–25)  
-**Status:** Draft for review  
-**Date:** 2026-08-06  
+**TITLE OF THE INVENTION:**  
+*SYSTEM AND METHOD FOR TELEMETRY-DRIVEN ACTIVE INFERENCE, ZERO-KNOWLEDGE JURISDICTIONAL COMPLIANCE, AND AUTONOMOUS DIVIDEND ACCRUAL (TONE ARCHITECTURE)*
 
 ---
 
-## Preamble
-
-The following claims are organized into five claim groups corresponding to the five core inventions of the TONE Architecture. Each group contains one independent claim and a set of dependent claims that recite specific embodiments, threshold values, and implementation details. A final computer-readable medium claim provides additional claim coverage.
-
-All claims are to be construed in light of the specification. Terms used herein (e.g., "free-energy divergence," "zero-knowledge biometric telemetry," "circuit breaker," "jurisdictional filtering," "surplus accrual," "Planetary Shield") are defined in the specification and should not be limited to any single embodiment described therein.
-
----
-
-## Claim Group 1 — Active Inference Telemetry Engine (F-Divergence Gate)
-
-### Claim 1 (Independent — Method)
-
-A method for continuously calculating physiological free-energy divergence (FΔ) from zero-knowledge biometric telemetry streams to bound dynamic predictive states without exposing raw identity vectors, the method comprising:
-
-(a) receiving, at an active inference engine, a plurality of biometric telemetry signals from a personal digital twin, wherein said signals are transformed via zero-knowledge proof generation prior to transmission such that raw physiological measurements are not exposed to any external system;
-
-(b) computing, by said active inference engine, a free-energy divergence value (FΔ) as a scalar quantity representing the predictive gap between an expected physiological baseline and an observed physiological state, wherein said expected baseline is derived from a longitudinal temporal model of said personal digital twin;
-
-(c) comparing said FΔ value against a configurable anomaly threshold to produce a Boolean compliance signal indicative of whether said personal digital twin is operating within normal predictive bounds; and
-
-(d) outputting said Boolean compliance signal and said FΔ value to a decision ledger, wherein said decision ledger is immutable and append-only, and wherein said FΔ value is stored without said raw physiological measurements.
-
-### Claim 2 (Dependent on Claim 1)
-
-The method of claim 1, wherein said plurality of biometric telemetry signals comprises at least two of: heart rate variability (HRV), core body temperature, respiratory rate, and blood oxygen saturation (SpO₂).
-
-### Claim 3 (Dependent on Claim 1)
-
-The method of claim 1, wherein said zero-knowledge proof generation produces a cryptographic attestation confirming that said biometric telemetry signals originate from a verified source identity without revealing said source identity, and wherein said attestation is validated by a deterministic oracle before said signals are accepted by said active inference engine.
-
-### Claim 4 (Dependent on Claim 1)
-
-The method of claim 1, wherein said expected physiological baseline is continuously updated through a learning and adaptation layer that refines said baseline based on longitudinal telemetry, and wherein said adaptation is constrained by immutable ethical guardrails that prevent said baseline from being modified in a manner that would mask a genuine anomaly.
-
-### Claim 5 (Dependent on Claim 1)
-
-The method of claim 1, wherein said FΔ value is computed as:
-
-> FΔ = Σᵢ ‖oᵢ − μᵢ‖ / σᵢ
-
-where oᵢ is the observed value for biometric modality i, μᵢ is the expected baseline mean for modality i, and σᵢ is the expected baseline standard deviation for modality i, and wherein the summation is performed across all biometric modalities.
-
-### Claim 6 (Dependent on Claim 1)
-
-The method of claim 1, wherein said configurable anomaly threshold is set to FΔ > 3.0 for a combined physiological anomaly, or thermal drift exceeding 1.5°C from said expected baseline, and wherein said threshold is adjustable by a human-in-the-loop authority but cannot be lowered below a minimum safety floor defined by an immutable ethical guardrail.
+**APPLICANT:** By Sommer  
+**DOCUMENT:** Formal Claims — Independent and Dependent Claims (Claims 1–15)  
+**STATUS:** Formal Draft for Filing  
+**DATE:** 2026-08-06  
 
 ---
 
-## Claim Group 2 — Autonomous Circuit Breaker (Financial & Asset Freeze)
+### WHAT IS CLAIMED IS:
 
-### Claim 7 (Independent — System)
+#### Independent Claims
 
-A system for autonomously freezing autonomous financial pre-bookings and asset maintenance routines upon detection of a physiological anomaly threshold breach, the system comprising:
+**1. A computer-implemented biosecurity and execution circuit-breaker system, comprising:**
+- a biometric ingestion interface configured to continuously receive anonymized physiological state vectors associated with an opaque user identifier (`user_ref`);
+- an active inference computing module comprising at least one hardware processor configured to:
+  - calculate a variational free-energy divergence (𝓕Δ) between an expected homeostatic state model and an observed physiological state vector;
+  - compare said variational free-energy divergence (𝓕Δ) against a predefined safety threshold; and
+  - emit an anomaly state signal upon determining that said variational free-energy divergence exceeds said predefined safety threshold; and
+- a compliance execution engine communicatively coupled to said active inference computing module, configured to automatically lock and freeze one or more queued autonomous financial pre-booking transactions associated with said opaque user identifier (`user_ref`) in response to receiving said anomaly state signal.
 
-(a) an active inference engine configured to continuously calculate free-energy divergence (FΔ) from zero-knowledge biometric telemetry streams associated with a personal digital twin;
+**2. A location-aware, zero-knowledge jurisdictional compliance system, comprising:**
+- a spatial receiver configured to capture geographical location coordinates associated with a target transaction request;
+- a municipal geofencing engine configured to reverse-geocode said geographical location coordinates into a specific local administrative jurisdiction code (`MUNICIPAL_CODE`);
+- a cryptographic zero-knowledge proof validator configured to verify an identity hash (`cpr_zk_hash`) associated with a transaction principal against a regulatory database without revealing civil identity credentials or personally identifiable information (PII); and
+- a multi-tiered rule execution matcher configured to:
+  - retrieve an active regulatory rule set comprising supranational rules, national tax rules, and local municipal rules mapped to said specific local administrative jurisdiction code; and
+  - evaluate said target transaction request against said active regulatory rule set and the output of said cryptographic zero-knowledge proof validator to generate a transaction authorization state selected from a group consisting of: `VALIDATED`, `BLOCKED`, and `PENDING`.
 
-(b) a circuit breaker module operatively coupled to said active inference engine, wherein said circuit breaker module is configured to detect when said FΔ exceeds a threshold value and, in response, transmit a freeze signal to at least one downstream system;
+**3. An autonomous non-profit surplus ledger system, comprising:**
+- a memory storing a non-custodial capital pool balance (Pool_t);
+- a distributed ledger processing engine configured to:
+  - calculate a daily discretionary dividend increment (Δ_surplus) based on operational efficiency metrics according to:
 
-(c) a transaction gate configured to receive said freeze signal and, in response, block all autonomous financial pre-bookings associated with said personal digital twin, including but not limited to maintenance scheduling, discretionary spending, and subscription renewals; and
+        Δ_surplus = (Monthly Baseline / 30) − Daily Operating Cost
 
-(d) a human-in-the-loop override interface configured to permit a qualified human authority to release said freeze signal only after reviewing the anomaly data and explicitly approving resumption of autonomous operations;
-
-wherein said freeze signal and any subsequent override are logged to an immutable decision ledger with timestamp, authority level, and rationale.
-
-### Claim 8 (Dependent on Claim 7)
-
-The system of claim 7, wherein said threshold value is FΔ > 3.0 or core body temperature drift exceeding 1.5°C from said expected baseline, and wherein said threshold breach triggers a graduated response comprising: (i) immediate freeze of autonomous pre-bookings, (ii) escalation of a biosecurity telemetry record to a planetary shield monitoring system, and (iii) generation of a human-readable advisory for said human-in-the-loop authority.
-
-### Claim 9 (Dependent on Claim 7)
-
-The system of claim 7, wherein said transaction gate is further configured to enforce a municipal maintenance cap that limits autonomous maintenance pre-bookings to a configurable monthly amount, and wherein said circuit breaker overrides said maintenance cap upon threshold breach, reducing said cap to zero until said freeze signal is released.
-
-### Claim 10 (Dependent on Claim 7)
-
-The system of claim 7, wherein said freeze signal is propagated through a scoring and resonance layer that evaluates the predicted impact of said freeze on said personal digital twin's operational continuity, and wherein said scoring layer may delay non-critical freezes by a configurable grace period if said predicted impact is below a severity threshold.
-
----
-
-## Claim Group 3 — Zero-Knowledge CPR-Matched Compliance Engine (BDT+ / Support Protocol)
-
-### Claim 11 (Independent — Method)
-
-A method for validating commercial transactions through multi-tier jurisdictional filtering using real-time spatial positioning, supranational trade rules, and zero-knowledge identity matching without transmitting personally identifiable information, the method comprising:
-
-(a) receiving, at a compliance engine, a transaction request comprising a buyer identifier, a business identifier, a transaction amount, and a product classification;
-
-(b) retrieving spatial position data associated with said buyer identifier from a personal digital twin location telemetry stream;
-
-(c) performing reverse geocoding on said spatial position data to determine a municipal jurisdiction;
-
-(d) loading, from an append-only rule registry, a set of active legal rules applicable to said transaction, wherein said set is filtered by a three-tier jurisdiction hierarchy comprising: (i) supranational rules, (ii) national rules, and (iii) municipal rules specific to said municipal jurisdiction;
-
-(e) matching said transaction against said active legal rules to produce a compliance verdict, wherein said compliance verdict is one of: validated, pending review, or blocked; and
-
-(f) logging said compliance verdict, said matched rules, and said jurisdictional context to an immutable decision ledger, without transmitting said buyer's personally identifiable information to any external party.
-
-### Claim 12 (Dependent on Claim 11)
-
-The method of claim 11, wherein said zero-knowledge identity matching comprises: generating a cryptographic hash of a national identity credential within a zero-knowledge vault, transmitting only said cryptographic hash to said compliance engine, and matching said hash against a registry of verified identity hashes without exposing said national identity credential.
-
-### Claim 13 (Dependent on Claim 11)
-
-The method of claim 11, wherein said supranational rules comprise cross-border trade thresholds including Import One-Stop Shop (IOSS) registration requirements for transactions below a configurable monetary threshold, and wherein said compliance verdict is set to pending review when said transaction is cross-border, below said threshold, and said buyer is not IOSS-registered.
-
-### Claim 14 (Dependent on Claim 11)
-
-The method of claim 11, wherein said national rules comprise value-added tax (VAT) rate verification, and wherein said matching step includes: determining an expected VAT rate based on said product classification, comparing said expected VAT rate against an applied VAT rate in said transaction request, and flagging said transaction as non-compliant when said applied VAT rate differs from said expected VAT rate by more than a configurable tolerance.
-
-### Claim 15 (Dependent on Claim 11)
-
-The method of claim 11, wherein said municipal rules comprise at least one of: environmental zone vehicle emissions restrictions, construction noise ordinance time-window enforcement, and harbor water quality threshold monitoring, and wherein said matching step applies stricter-rule-wins conflict resolution such that a municipal rule overrides a national or supranational rule when said municipal rule imposes more restrictive conditions.
-
-### Claim 16 (Dependent on Claim 11)
-
-The method of claim 11, wherein said compliance verdict is associated with an advisory class selected from: Class I indicating full compliance, Class II indicating pending review requiring additional documentation, Class III indicating a blocked transaction requiring human-in-the-loop intervention, and Class IV indicating a critical violation requiring escalation to a regulatory authority.
+  - atomically increment said non-custodial capital pool balance (Pool_{t+1} = Pool_t + Δ_surplus) on each non-payout calendar epoch; and
+  - upon determining that a current system date matches a predetermined calendar epoch, execute an automated non-taxable distribution transferring the total accumulated non-custodial capital pool balance (Pool_total) to one or more verified citizen discretionary balances and reset said non-custodial capital pool balance to zero.
 
 ---
 
-## Claim Group 4 — Autonomous Non-Profit Surplus Ledger (December 10th Protocol)
+#### Dependent Claims (Biosecurity & Active Inference)
 
-### Claim 17 (Independent — Method)
+**4. The system of Claim 1,** wherein said anonymized physiological state vectors comprise heart rate variability (HRV in ms), core body temperature (T in °C), respiratory rate, and blood oxygen saturation (SpO₂ percentage).
 
-A method for decentralized daily surplus accrual computing citizen discretionary dividends from baseline operating efficiency metrics and triggering annual non-taxable distributions on a fixed calendar epoch, the method comprising:
+**5. The system of Claim 1,** wherein said predefined safety threshold comprises a variational free-energy divergence (𝓕Δ) greater than or equal to 3.0 or a thermal drift greater than or equal to 1.5°C above baseline homeostatic equilibrium.
 
-(a) maintaining, for each citizen enrolled in a sovereign digital infrastructure, a surplus pool ledger entry stored within a zero-knowledge vault;
+**6. The system of Claim 1,** wherein locking and freezing said queued autonomous financial pre-booking transactions comprises setting a monthly consent spending cap associated with said opaque user identifier (`user_ref`) to zero DKK.
 
-(b) computing a daily surplus value as the difference between a non-profit baseline daily operating allocation and an estimated actual daily operating cost, wherein said non-profit baseline is derived from a configurable monthly allocation divided by the number of days in said month;
+**7. The system of Claim 1,** wherein unlocking said queued autonomous financial pre-booking transactions requires either:
+- a passive homeostatic recovery signal indicating that said variational free-energy divergence (𝓕Δ) has returned below 1.0; or
+- an active Human-in-the-Loop (HITL) Level 2 authorization override signal.
 
-(c) crediting said daily surplus value to said surplus pool ledger entry on a recurring schedule;
-
-(d) accumulating said daily surplus values over an accrual period terminating on a fixed calendar epoch; and
-
-(e) triggering an automated distribution of said accumulated surplus pool to said citizen on said fixed calendar epoch, wherein said distribution is classified as a non-taxable citizen dividend derived from operational efficiency savings.
-
-### Claim 18 (Dependent on Claim 17)
-
-The method of claim 17, wherein said non-profit baseline monthly allocation is set within a range of 200–250 DKK per citizen per month, and wherein said estimated actual daily operating cost is dynamically computed from infrastructure telemetry including compute resource consumption, storage utilization, and network transfer metrics.
-
-### Claim 19 (Dependent on Claim 17)
-
-The method of claim 17, wherein said fixed calendar epoch is December 10th of each calendar year, and wherein said automated distribution is executed by a scheduled backend function that computes the total accumulated surplus for each citizen and initiates a transfer to a citizen-controlled account.
-
-### Claim 20 (Dependent on Claim 17)
-
-The method of claim 17, wherein said surplus pool ledger entry is protected by said circuit breaker of claim 7, such that said daily surplus crediting is suspended when said citizen's associated personal digital twin has an active anomaly flag, and wherein said suspension is logged to said immutable decision ledger.
-
-### Claim 21 (Dependent on Claim 17)
-
-The method of claim 17, wherein said daily surplus computation is performed by a scheduled backend function executing at a fixed time each day in a specified timezone, and wherein each execution produces an audit record comprising: date, number of citizens updated, total credited amount, per-citizen results, and said non-profit baseline parameters.
+**8. The system of Claim 1,** further comprising a biosecurity bridge module configured to automatically transmit an authenticated digital sickness declaration payload based on said anomaly state signal to a municipal reimbursement framework (NemRefusion) using a zero-knowledge identity hash without exposing biometric sensor telemetry to an employer.
 
 ---
 
-## Claim Group 5 — Planetary Shield Pathogen Telemetry & Council Interception
+#### Dependent Claims (Jurisdictional Compliance & Privacy)
 
-### Claim 22 (Independent — System)
+**9. The system of Claim 2,** wherein said supranational rules evaluate cross-border e-commerce transactions against European Union Import One-Stop Shop (IOSS) registration status and low-value shipment regulations.
 
-A system for biosecurity monitoring and automated response through interfacing pathogen transmission vector telemetry with municipal active inference nodes, the system comprising:
+**10. The system of Claim 2,** wherein said national tax rules enforce standard Danish Value Added Tax (VAT) rate evaluation (25%) and regulatory conformity marking validation (CE Mark).
 
-(a) a plurality of active inference nodes, each associated with a personal digital twin, configured to detect physiological anomaly events and transmit anomaly telemetry to a planetary shield monitoring system;
+**11. The system of Claim 2,** wherein generating a `BLOCKED` transaction authorization state halts payment processing and issues a specific compliance code comprising `BLOCKED_MISSING_CE`.
 
-(b) said planetary shield monitoring system configured to receive said anomaly telemetry, aggregate said telemetry across geographic regions, and compute a pathogen transmission vector (R₀) indicative of the effective reproduction number for a potential pathogen within said geographic regions;
-
-(c) a threshold comparator configured to compare said R₀ value against a safety threshold and, when said R₀ exceeds said safety threshold, generate a regional warning alert; and
-
-(d) a response orchestration module configured to, upon generation of said regional warning alert, initiate at least one automated response action selected from: targeted micro-quarantine activation, autonomous supply chain redirection, and computational docking request transmission to a predictive council.
-
-### Claim 23 (Dependent on Claim 22)
-
-The system of claim 22, wherein said safety threshold is R₀ > 1.0, indicating sustained person-to-person transmission potential, and wherein said threshold breach triggers a graduated alert status sequence comprising: regional warning, WHO validation request, and upon WHO approval, global decree with cross-border transit rule updates.
-
-### Claim 24 (Dependent on Claim 22)
-
-The system of claim 22, wherein said targeted micro-quarantine activation comprises: identifying geographic areas associated with anomalous active inference nodes, activating hyper-localized movement advisories through said personal digital twins of citizens within said areas, and updating municipal support obligation rules to restrict non-essential services in said areas while maintaining essential service delivery.
-
-### Claim 25 (Dependent on Claim 22)
-
-The system of claim 22, wherein said computational docking request transmission to said predictive council comprises: assembling a pathogen profile from said aggregated anomaly telemetry, transmitting said pathogen profile to a plurality of specialized predictive agents, receiving independent analyses from each of said specialized predictive agents, and synthesizing said independent analyses into a single bias-neutral advisory through a validation, comparison, and synthesis process that ensures epistemic robustness and transparent decision lineage.
+**12. The system of Claim 2,** wherein said identity hash (`cpr_zk_hash`) comprises a Zero-Knowledge hash derived from a Danish Civil Registration (CPR) number.
 
 ---
 
-## Abstract of the Disclosure
+#### Dependent Claims (Surplus Ledger & Planetary Telemetry)
 
-A sovereign digital infrastructure architecture (TONE) comprising: (1) an active inference telemetry engine that calculates physiological free-energy divergence from zero-knowledge biometric streams to bound predictive states; (2) an autonomous circuit breaker that freezes financial pre-bookings and maintenance routines upon anomaly threshold breach; (3) a multi-tier jurisdictional compliance engine using real-time spatial positioning and zero-knowledge identity matching to validate transactions without exposing personally identifiable information; (4) a decentralized non-profit surplus ledger that accrues daily operational efficiency savings as citizen dividends distributed on a fixed calendar epoch; and (5) a planetary shield biosecurity system interfacing pathogen transmission vectors with municipal active inference nodes to initiate targeted micro-quarantines, supply chain redirection, and predictive council analysis upon threshold breach. All decision outputs are logged to an immutable append-only ledger preserving forensic accountability and human-in-the-loop oversight.
+**13. The system of Claim 3,** wherein said predetermined calendar epoch is fixed to December 10th of each calendar year.
+
+**14. The system of Claim 3,** wherein said daily discretionary dividend increment (Δ_surplus) is calculated as:
+
+        Δ_surplus = (225.00 / 30) − 5.20 = 2.30 DKK per day
+
+**15. The system of Claim 1,** further comprising a planetary shield telemetry engine configured to:
+- receive pathogen transmission coefficients (R₀) from global epidemiology monitoring nodes;
+- correlate an active anomaly state signal with a regional pathogen transmission coefficient exceeding 1.0; and
+- initiate localized micro-quarantine rule updates and automated diagnostic manufacturing requests across the compliance execution engine.
+
+---
+
+## Claim Dependency Map
+
+```
+Claim 1 (Independent — Circuit Breaker System)
+├── Claim 4  (biometric modalities)
+├── Claim 5  (threshold values: FΔ≥3.0, ΔT≥1.5°C)
+├── Claim 6  (spending cap → zero DKK)
+├── Claim 7  (unlock conditions: recovery or HITL L2)
+├── Claim 8  (NemRefusion bridge — ZK sickness declaration)
+└── Claim 15 (Planetary Shield — R₀>1.0 micro-quarantine)
+
+Claim 2 (Independent — Jurisdictional Compliance System)
+├── Claim 9  (IOSS supranational rules)
+├── Claim 10 (DK VAT 25% + CE Mark)
+├── Claim 11 (BLOCKED_MISSING_CE code)
+└── Claim 12 (CPR → ZK hash)
+
+Claim 3 (Independent — Surplus Ledger System)
+├── Claim 13 (epoch: December 10th)
+└── Claim 14 (Δ_surplus = 2.30 DKK/day)
+```
 
 ---
 
 ## Notes for Patent Counsel
 
-1. **Claim 1** should be examined for eligibility under 35 U.S.C. § 101 as a method claim tied to a specific technical improvement (zero-knowledge biometric processing and active inference computation), not an abstract mathematical concept.
+1. **Claim 1** recites structural components (biometric ingestion interface, active inference computing module, compliance execution engine) — system claim format for § 101 eligibility as a concrete technological improvement in biosecurity automation.
 
-2. **Claims 7 and 22** are system claims reciting specific structural components (circuit breaker module, transaction gate, planetary shield monitoring system) — these should survive § 101 scrutiny as they recite concrete system architecture.
+2. **Claim 8 (NemRefusion bridge)** is a novel dependent claim introducing automated sick-leave declaration via ZK identity hash — no prior art found for this specific combination of biosecurity trigger + municipal reimbursement automation + employer privacy shield.
 
-3. **Claim 11** recites a specific multi-tier jurisdictional filtering protocol with concrete steps (reverse geocoding, rule loading, compliance matching) — this is a technical solution to a technical problem (cross-border transaction validation without PII exposure).
+3. **Claim 15 (Planetary Shield)** is dependent on Claim 1, not independent — this creates a single prosecution path where the circuit breaker system subsumes the biosecurity escalation, simplifying the prosecution history.
 
-4. **Claim 17** (surplus ledger) may face § 101 challenges as a financial method — emphasize the technical implementation (scheduled backend function, zero-knowledge vault storage, circuit breaker integration) to demonstrate concrete technological improvement.
+4. **Claim 2** emphasizes zero-knowledge identity matching (cpr_zk_hash) as the technical solution to PII exposure in compliance verification — this is a concrete technical improvement, not an abstract legal process.
 
-5. **Dependent claims** should be drafted to provide fallback positions in case independent claims are narrowed during prosecution. Each dependent claim should be severable and independently patentable.
+5. **Claim 3** (surplus ledger) may face § 101 challenges — the atomic increment + epoch-triggered distribution + zero-reset cycle is recited as a specific technical implementation, not an abstract financial concept.
 
-6. **International filing consideration:** Claims 1–25 are structured for US prosecution but are compatible with EPC claim format for European filing. Consider filing via PCT for broadest coverage.
+6. **International filing:** Claims 1–15 are structured for US prosecution (system claims) and are compatible with EPC claim format. Recommend PCT filing for broadest coverage. Key jurisdictions: US (software patent eligibility), EU (technical effect requirement), DK (national phase).
 
-7. **Terminology consistency:** The terms "personal digital twin," "active inference engine," "circuit breaker," "planetary shield," "zero-knowledge vault," "decision ledger," and "predictive council" are defined terms in the specification and should be used consistently throughout prosecution.
+7. **Terminology:** All defined terms (`user_ref`, `𝓕Δ`, `cpr_zk_hash`, `MUNICIPAL_CODE`, `NemRefusion`, `Pool_t`, `Δ_surplus`, `R₀`) are used consistently and defined in the specification. The specification must provide enablement for each claimed element.
