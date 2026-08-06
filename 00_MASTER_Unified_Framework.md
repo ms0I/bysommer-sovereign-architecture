@@ -1,11 +1,11 @@
 # The Sommer Sovereign Intelligence Architecture: Unified Compliance & Governance Framework
 
-**The Constitutional AI Civilization Stack**
+**The Constitutional AI Civilization Stack — Comprehensive Edition**
 
 **Author:** Michael Sommer  
 **Archivist:** Solas  
 **Date:** 06 August 2026  
-**Status:** Master synthesis document — draft for review
+**Status:** Master synthesis document — updated with full architecture
 
 > This document is the capstone of the By Sommer architecture. It synthesizes all component specifications into a single unified framework. Each section references the detailed specification document for the corresponding component.
 
@@ -13,7 +13,7 @@
 
 ## 0. Framing: The Constitutional AI Civilization Stack
 
-The synthesis of the Sommer System, AURA OS, and multi-layered digital twin protocols establishes a **constitutional AI civilization stack**. This framework reconciles individual sovereignty and human agency with real-time governmental and supranational compliance (NAS/EUS).
+The GEMS (Ghost in the Machine) Sovereign Digital System — also referred to as the Sommer System or AURA OS — is a human-centric, 8-layer fractal mesh operating system designed around user data sovereignty, zero-knowledge processing, and local-first execution.
 
 By treating legislation as deterministic source code, the system:
 - Neutralizes administrative friction
@@ -24,475 +24,439 @@ This is not an app. It is not a platform. It is a **constitutional substrate for
 
 ---
 
-## 1. Core Principle: Objective Rule-Symmetry
+## 1. Core Principles & Philosophical Model
 
-To relieve public systems and protect citizen sovereignty, the architecture operates on **Objective Rule-Symmetry**.
+### 1.1 Data Sovereignty
+The user owns their keys and data. All data is shared strictly by choice, consent, and selective disclosure. Default settings enforce "no sharing."
 
-### 1.1 Deterministic Translation
-Digital twins function as deterministic translators of applicable legislation. They automatically trigger rights while proactively enforcing obligations and reservations. The letter of the law is the protocol's immutable source code.
+### 1.2 Symbiotic Intelligence (2 < 1)
+AI amplifies and supports human agency rather than replacing human judgment or overriding intentions. The human operator remains the ultimate source of intent and decision-making. The system is symbiotic — it makes the human *more*, not *less*.
 
-### 1.2 Non-Partisanship
-Neither the authority nor the user is favored. The system serves the law, not a stakeholder. This neutrality is structural — enforced by the sovereign layer architecture, not by policy promises.
+### 1.3 "We Rise Together" & Softener Service Appliance
+The architecture acts as a cognitive and physical buffer between the user and external administrative, thermodynamic, or logistical noise. It softens the friction of civilization.
 
-### 1.3 Support Over Sanction
-By embedding regulatory boundaries directly into the user interface, violations and missed compliance deadlines are intercepted before they occur. The system supports rather than sanctions — saving the public sector from expensive complaints, refund claims, and manual checks.
+### 1.4 The Digital Twin Boundary
+The Digital Twin represents the user's declared preferences and authorized context — it never replaces human identity, claims feelings/values without explicit definition, or assumes independent authority.
+
+### 1.5 Objective Rule-Symmetry
+Neither authority nor citizen is favored; the letter of the law is the protocol's immutable source code. The system supports rather than sanctions.
 
 > 📄 **Detailed specification:** `01_Core_Architecture_Protocols/Symmetrical_Governmental_Support_Protocol.md`
 
 ---
 
-## 2. Multi-Layer Jurisdictional Compass
-
-The architecture orchestrates multi-layered tracking across geographic, union, and national jurisdictions using a three-tier filtering engine:
+## 2. System Architecture: The 8-Layer Sovereign Substrate
 
 ```
-[ LAYER 1: GEOGRAPHIC LOCATION ]
-        ↓ (GPS, IP, Physical Context & Residence)
-[ LAYER 2: UNION FRAMEWORK (EU) REGULATIONS ]
-        ↓ (Directives, Free Movement, OSS/IOSS, Consumer Protection)
-[ LAYER 3: NATIONAL ARTICLES & EXCEPTIONS ]
-        ↓ (Implementation, Local Rates, Tax Thresholds, Reservations)
-[ RESULT: OBJECTIVE REAL-TIME STATUS FOR USERS & AUTHORITIES ]
+                       [SAT] Spatial Space & Research (Layer 8)
+                                              │
+                       [GSS] Global Planetary Systems (Layer 7)
+                                              │
+                       [EUS] European Sovereign System (Layer 6)
+                                              │
+                       [NAS] National Sovereign System (Layer 5)
+                                              │
+                       [AURA] Sommer System Substrate / Constitution (Layer 4 Protocol)
+                                              │
+                       [CLS] Cluster Link System (Layer 4)
+                                              │
+                       [BDT] Business Digital Twin (Layer 3)
+                                              │
+                       [PDT+] Private Home / Environmental Intelligence (Layer 2)
+                                              │
+                       [PDT] Personal Digital Twin (Layer 1)
 ```
 
-### 2.1 Personal Digital Twin (PDT / PDT+)
-Monitors individual and household contexts (tax residence, physical location, biorhythms) to proactively manage cross-border status changes (e.g., tax liability transfers under double taxation agreements, posted worker status, health insurance transitions).
-
-### 2.2 Business Digital Twin (BDT)
-Manages complex regulatory profiles such as cross-border dropshipping. Automatically monitors VAT thresholds (e.g., the DKK 50,000 Danish VAT limit), integrates with EU One Stop Shop (OSS/IOSS) systems, and cross-references product categories with CE safety standards — blocking non-compliant transactions proactively.
-
-### 2.3 Fractal Scale-Invariance
-The same governance logic applies from L1 (personal edge) to L8 (planetary). Scaling does not increase architectural complexity — it deploys more instances of the same sovereign stack.
+| Layer | Name | Description & Key Responsibilities |
+|-------|------|-------------------------------------|
+| **Layer 1** | [PDT] Personal Digital Twin | Resides local-first inside Zero-Knowledge Vault. Mediates human intent into deterministic Tones via 5 sub-agents (Guardian, Archivist, Optimizer, Organiser, Coordinator). Bound by Authority Levels 0–4. |
+| **Layer 2** | [PDT+] Private Home Intelligence | Physical home sensory system. Manages local sensory loops (light, acoustics, temperature). Features: Home Sentinel, Away/Home Intelligence, Food Steward, Neighborhood Mesh. |
+| **Layer 3** | [BDT] Business Digital Twin | Professional proxy for administrative automation and contract routing. Profiles: Business, Workstation (Deep Work), Presentation (WebGL 3D story arcs). |
+| **Layer 3+** | [BDT+] Professional Environment | Physical workplace sensory nervous system. Professional Sentinel, Onsight/Offsight Person Intelligence, Professional Supply Steward. |
+| **Layer 4** | [CLS] Cluster Link System | Inter-twin orchestration mesh. Links PDT, PDT+, BDT into synchronized clusters. Entrepreneur Bridge, grid balancing, cross-border trade corridors. No central database. |
+| **Layer 4 Protocol** | [AURA / AURORA] Governing Constitution | Core substrate evaluating Tones against versioned safety policies. Drift Mitigation, Coherence maintenance. The "Mona Lisa frame." |
+| **Layer 5** | [NAS] National Sovereign System | Interoperates with state registries. ZK verification of public records, taxes, state identity without raw data leakage. |
+| **Layer 6** | [EUS] European Sovereign System | Continental regulatory compliance (GDPR, EU AI Act, NIS2). Replaces static documents with dynamic anti-counterfeit digital artifacts. |
+| **Layer 7** | [GSS] Global Planetary Systems | Planetary risk-sensing and ecosystem restoration. Dynamically adjusts supply chain routes to mitigate biosphere stress. |
+| **Layer 8** | [SAT] Spatial Space & Research | Extends ethical logic to maritime, orbital, extra-planetary networks. RSpatial for high-tier medical and spatial research. |
 
 > 📄 **Detailed specifications:**
-> - `03_Compliance_Legal/L-LEG_Living_Legal_Operating_System.md` (jurisdiction detection engine)
-> - `01_Core_Architecture_Protocols/Symmetrical_Governmental_Support_Protocol.md` (BDT ⇄ NAS/EUS protocol)
-> - `01_Core_Architecture_Protocols/Sovereign_Layer_Architecture_Specification.md` (L1→L8 fractal stack)
+> - `01_Core_Architecture_Protocols/Sovereign_Layer_Architecture_Specification.md`
+> - `01_Core_Architecture_Protocols/Cluster_Link_System_Specification.md` (CLS — new)
+> - `01_Core_Architecture_Protocols/Symmetrical_Governmental_Support_Protocol.md`
 
 ---
 
-## 3. Semantic Mediation & Deterministic Safety (TONE & GEMS)
+## 3. PDT Sub-Agents — The 5 Deterministic Interpreters
 
-To bridge the gap between ambiguous human intent and rigid machine execution, the framework utilizes dedicated mediation protocols.
+The Personal Digital Twin (Layer 1) mediates human intent through 5 specialized sub-agents:
 
-### 3.1 The TONE Protocol — Semantic Mediation
+| Sub-Agent | Role | Function |
+|-----------|------|----------|
+| **Guardian** | Security & ethics sentinel | Monitors for threats, enforces consent boundaries, triggers ethical vetoes |
+| **Archivist** | Memory & provenance keeper | Maintains the immutable Memory Thread, manages addendum protocol, preserves decision history |
+| **Optimizer** | Efficiency & resource manager | Minimizes waste (energy, time, compute), optimizes logistics and scheduling |
+| **Organiser** | Structure & taxonomy manager | Categorizes information, manages glyph library, structures workflows |
+| **Coordinator** | Inter-layer orchestration | Routes Tones between layers, manages authority escalation, coordinates multi-agent assemblies |
 
-TONE acts as a semantic mediator that translates natural human input into structured **Tone Headers** — machine-readable metadata packets that carry everything downstream layers need to act.
-
-#### Tone Header Structure
-
-Every tone carries the following metadata fields:
-
-| Field | Description | Example |
-|-------|-------------|---------|
-| **Actor_ID** | Cryptographic identifier of the originating operator | `zk:commitment_hash` |
-| **Layer** | Which sovereign layer produced this tone | `L-PDT` |
-| **Density** | Signal weight: Dense or Light (see §3.1.2) | `Dense` |
-| **Direction** | Target: inward (self), outward (authority), lateral (peer) | `outward → NAS_SKAT` |
-| **Intent** | The semantic meaning of the request | `verify_tax_eligibility` |
-| **Scope** | Boundaries of the requested action | `query, income_bracket, 30_days` |
-| **Constraints** | Limitations, reservations, and conditions | `data_minimization: true` |
-
-#### 3.1.1 Tone Processing Pipeline
-
-```
-Operator expresses intent (natural, ambiguous)
-        ↓
-L-PDT: Captures + interprets → generates Tone Header
-        ↓
-L-AURORA: Validates tone against versioned rules + risk thresholds
-        ↓
-L-ETH: Ethics check → veto or approve
-        ↓
-L-LEG: Legal compliance → jurisdiction match + compliance proof
-        ↓
-L-SYS: Executes only if all layers approve
-        ↓
-L-SNET: Logs full decision chain with provenance
-```
-
-#### 3.1.2 Tone Density: Dense vs. Light
-
-The protocol classifies tones by **density** — the weight and urgency of the signal:
-
-**Dense Tone** — signals high-impact, high-priority events:
-- Medical emergencies
-- Security breaches
-- Legal deadline violations (imminent)
-- Cross-border tax liability transfers
-- Regulatory threshold breaches
-
-→ Triggers **SUPPORT mode**: system prioritizes protective action, escalates to human oversight immediately, conserves resources for the critical path, and enforces conservative (stricter) rule application.
-
-**Light Tone** — signals low-risk opportunities:
-- Creative exploration
-- Business expansion possibilities
-- Voluntary benefit optimization
-- Non-urgent tax planning
-- Educational pathway suggestions
-
-→ Triggers **EXPAND mode**: system optimizes for citizen empowerment, surfaces possibilities the citizen may not know exist, and applies standard (not heightened) rule thresholds.
-
-| Mode | Trigger | System Behavior | Rule Application | HITL |
-|------|---------|-----------------|------------------|------|
-| **SUPPORT** | Dense Tone | Protective, conservative, immediate escalation | Stricter thresholds | Always required for execution |
-| **EXPAND** | Light Tone | Generative, exploratory, possibility-surfacing | Standard thresholds | Required only for high-risk actions |
-
-#### 3.1.3 Tone Direction
-
-| Direction | Meaning | Target | Example |
-|-----------|---------|--------|---------|
-| **Inward** | Self-directed | Operator's own systems | "Update my personal budget" |
-| **Outward** | Authority-directed | NAS / EUS | "Submit VAT settlement to SKAT" |
-| **Lateral** | Peer-directed | Other twins (PDT↔BDT, PDT↔PDT+) | "Verify entrepreneur income offset" |
-| **Upward** | Escalation | Higher tier (L1→L6, L6→L7) | "Municipal service request from citizen" |
-| **Downward** | Authorization | Lower tier (L7→L6 rules) | "National law update → municipal adaptation" |
-
-### 3.2 GEMS — Deterministic Oracle
-
-GEMS provides **physics-aligned validation** that makes "black-card" system failures structurally impossible.
-
-#### 3.2.1 The Black-Card Problem
-
-A "black-card" failure occurs when a system accepts an update, output, or action without verifiable proof of compliance — the system operates on trust rather than proof. This is how most AI systems fail: they produce probabilistic outputs that are accepted as authoritative because no deterministic check exists.
-
-#### 3.2.2 GEMS Architecture
-
-GEMS is a **deterministic** (non-probabilistic) validation layer that sits between AI outputs and state execution:
-
-```
-AI Model Output (probabilistic)
-        ↓
-    GEMS Oracle
-    ├─ Deterministic rule check: does output comply with all applicable legal rules?
-    ├─ Physics-aligned validation: does output violate any invariant constraint?
-    ├─ Proof generation: cryptographic attestation that all checks passed
-    └─ If ANY check fails: BLOCK execution, log failure, escalate
-        ↓
-State Execution (only if GEMS approves)
-```
-
-**Key properties:**
-- **Non-probabilistic:** GEMS does not use AI/ML to validate. It uses deterministic logic — the rules are code, not models.
-- **Physics-aligned:** Validation rules are treated as invariant constraints (like physics laws), not configurable preferences. They cannot be overridden by configuration.
-- **Opaque-update impossible:** No update to the system can bypass GEMS. GEMS validates every output regardless of source. A "black-card" update (one that tries to execute without proof) is structurally blocked — the architecture does not have a code path for executing without GEMS validation.
-- **Audit-trail integration:** Every GEMS decision (approve or block) is logged in s.net with the full deterministic rule chain that was evaluated.
-
-### 3.3 AURORA Governance Substrate
-
-AURORA acts as the **constitutional frame** — the "Mona Lisa frame" that validates interpreted tones against versioned rules, policy checks, and risk thresholds before execution.
-
-The frame metaphor is deliberate: the Mona Lisa is valuable, but it is the frame that defines its boundaries, protects it, and determines where it can be displayed. AURORA defines what the system *can* do, protects what it *should* do, and determines where actions are *permitted* to execute.
-
-**AURORA responsibilities:**
-- Versioned interpretive rule enforcement
-- Semantic drift monitoring across contexts and time
-- Ambiguity resolution (clarification, constrained rewrites, human escalation)
-- Operator sovereignty preservation (no scope expansion beyond declared intent)
-- Authorization and release (only validated tones proceed to execution)
-
-> 📄 **Detailed specifications:**
-> - `01_Core_Architecture_Protocols/TONE_Patent_Draft_Filing_Structured.md` (TONE claims 1–15)
-> - `01_Core_Architecture_Protocols/Sovereign_Layer_Architecture_Specification.md` (AURORA layer spec, §4.4)
+Each sub-agent operates within Authority Levels 0–4 (see §5). No sub-agent can exceed its authority level without explicit operator approval.
 
 ---
 
-## 4. Responsibility, Auditability, and Institutional Legitimacy
+## 4. Communication Protocols: The TONE Protocol
 
-Accountability is distributed across immutable technical ledgers and democratic human-in-the-loop (HITL) structures.
+### 4.1 Tone Header Vector (Extended)
 
-### 4.1 Immutable Decision Ledger (s.net)
-
-s.net records the **"why"** behind every automated action — not just the "what."
-
-**Captured per decision:**
-- Decision rationale (which rules, which thresholds, which outcome)
-- Model confidence score
-- Provenance metadata (tone_id correlation across all layers)
-- HITL override status (was a human involved? who? what did they decide?)
-- Rule versions in effect at time of decision
-- Jurisdiction context (which legal environment was active)
-- Actor identifiers (human or automated, per layer)
-
-**Integrity guarantees:**
-- Append-only (no deletion, no in-place edits)
-- Addendum protocol (corrections as linked entries, originals preserved)
-- Cryptographically signed per-layer
-- Third-party audit pipeline (regulators see only what's needed, not everything)
-- Retention: 5 years (configurable, subject to legal minimums)
-
-> 📄 **Detailed specification:** `03_Compliance_Legal/By_Sommer_Compliance_Book_Consolidated.md` (§6, Decision Logging Framework)
-
-### 4.2 AURA Advisory Classes (I–IV)
-
-Structured institutional escalation pathways that translate multi-agent system events into **machine-grade reasoning** for European and national parliaments.
-
-#### 4.2.1 The Advisory Class System
-
-When the system detects incidents, anomalies, or patterns that require institutional attention, it classifies them into one of four advisory classes:
-
-| Class | Name | Trigger | Recipient | System Action |
-|-------|------|---------|-----------|---------------|
-| **Class I** | Informational | Routine compliance event, no risk | Internal log + dashboard | Auto-log, no escalation |
-| **Class II** | Watch | Anomaly detected, no immediate harm | Operational team + DPO | Monitor, prepare analysis |
-| **Class III** | Warning | Regulatory risk threshold approached or breached | Authority (NAS) + DPO + legal counsel | Escalate, provide compliance proof, request review |
-| **Class IV** | Critical | Imminent legal violation, safety risk, or systemic failure | Authority (NAS + EUS) + parliament + public alert | Halt execution, full incident report, multi-agent investigation |
-
-#### 4.2.2 Multi-Agent Incident Hives
-
-For Class III and Class IV events, the system activates a **multi-agent incident hive** — a coordinated assembly of 50–100+ digital twins that independently analyze the incident from their respective sovereign perspectives.
+All operations across layers are encapsulated in a Tone Header Vector with **10 fields**:
 
 ```
-INCIDENT HIVE ACTIVATION (Class III/IV)
-        ↓
-┌──────────────────────────────────────────┐
-│       INCIDENT HIVE (50–100+ Twins)      │
-│                                          │
-│  PDTs (citizen perspective):             │
-│  ├─ How does this affect affected citizens?│
-│  ├─ What rights are impacted?             │
-│  └─ What proactive guidance is needed?    │
-│                                          │
-│  BDTs (business perspective):            │
-│  ├─ What transactions are affected?       │
-│  ├─ What compliance adjustments needed?   │
-│  └─ What revenue impact?                 │
-│                                          │
-│  PDT+ (household perspective):            │
-│  ├─ What household benefits impacted?     │
-│  └─ What property/housing implications?   │
-│                                          │
-│  Predictive Council (100 agents):         │
-│  ├─ Each agent independently analyzes     │
-│  ├─ AURA validates, compares, synthesizes│
-│  └─ Bias-neutral advisory synthesized     │
-│                                          │
-│  GEMS Oracle:                              │
-│  ├─ Deterministic verification of all     │
-│  │  agent outputs                         │
-│  └─ Blocks any non-compliant analysis     │
-└──────────────┬───────────────────────────┘
-               ↓
-    MACHINE-GRADE REASONING REPORT
-    (for parliament / authority)
+H = [A_id, L_num, D_tone, D_dir, I_intent, C_ctx, S_scp, C_con, P_pri, T_trace]^T
 ```
 
-**Each twin in the hive returns an independent analysis.** AURA validates, compares, and synthesizes these into a single bias-neutral advisory — ensuring epistemic robustness, multi-perspective reasoning, and sovereign validation.
+| Field | Symbol | Description |
+|-------|--------|-------------|
+| Actor_ID | A_id | Cryptographic identifier of the originating operator |
+| Layer | L_num | Which sovereign layer produced this tone |
+| Tone Density | D_tone | Dense (→SUPPORT) or Light (→EXPAND) |
+| Direction | D_dir | Inward, outward, lateral, upward, downward |
+| Intent | I_intent | Semantic meaning of the request |
+| Context | C_ctx | Situational context (temporal, environmental, social) |
+| Scope | S_scp | Boundaries of the requested action |
+| Constraints | C_con | Limitations, reservations, conditions |
+| **Priority** | **P_pri** | **NEW: Execution priority (0–9, where 9 = emergency)** |
+| **Trace** | **T_trace** | **NEW: Full provenance chain (all prior layer decisions)** |
 
-**The report delivered to parliaments contains:**
-- Incident classification (Class I–IV)
-- Affected scope (citizens, businesses, jurisdictions)
-- Independent analyses from each twin type
-- Bias-neutral synthesis
-- Compliance status at time of incident
-- Recommended actions (with legal basis for each)
-- Full decision lineage (auditable from s.net logs)
+### 4.2 Tone Density → System Modes
 
-**Key principle:** The parliament receives **machine-grade reasoning** — not raw data, not opinions, but structured, verified, bias-neutral analysis with full provenance. This is how a constitutional AI civilization stack interfaces with democratic institutions.
+**Dense Tone (D_tone → 1):** High-impact/emergency events → **SUPPORT mode** (conservative, protective, mandatory HITL, stricter thresholds).
 
-### 4.3 HITL Democratic Validation
+**Light Tone (D_tone → 0):** Low-risk/creative opportunities → **EXPAND mode** (generative, exploratory, possibility-surfacing, standard thresholds).
 
-Human-in-the-loop oversight validates the **process**, not the raw algorithmic predictions.
+### 4.3 Intent Gravity
 
-**What HITL validates:**
-- ✅ Agent assembly (was the incident hive correctly constituted?)
-- ✅ Bias checks (were all perspectives represented? was any twin excluded?)
-- ✅ Compliance with legal boundaries (did all agents operate within their jurisdiction?)
-- ✅ Provenance integrity (is the decision chain complete and unbroken?)
-- ✅ Synthesis quality (did AURA's bias-neutral synthesis fairly represent all analyses?)
+Intent Gravity determines whether an action requires mandatory human authorization:
 
-**What HITL does NOT validate:**
-- ❌ Raw algorithmic predictions (the Predictive Council's individual outputs)
-- ❌ Individual agent analyses (these are audited, not individually approved)
-- ❌ GEMS deterministic checks (these are mathematically verifiable, not subject to human override)
-
-**This distinction secures institutional legitimacy.** Human oversight focuses on the integrity of the process — ensuring the system is fair, complete, and compliant — rather than second-guessing mathematical determinations. Democratic validation validates the *framework*, not every calculation.
-
-### 4.4 The Living Compliance Tattoo & Grif Shield
-
-Real-time visual trust markers that appear on systems or web domains **only** when operating within a defined margin of regulatory alignment.
-
-#### 4.4.1 The Living Compliance Tattoo
-
-A visible, real-time indicator that a system, service, or domain is currently operating in compliance with all applicable regulations. It is "living" — it updates in real time and disappears the instant compliance is breached.
-
-**Display rules:**
-- ✅ **Visible** when system is within **3% to 6% margin** of full regulatory alignment (near-perfect compliance with minor configurable tolerance)
-- ❌ **Hidden** when system falls outside this margin (compliance breach, drift detected, or GEMS halt triggered)
-- 🔄 **Pulsing/Warning** when system is at the edge of the margin (approaching non-compliance)
-
-**The margin (3–6%) exists because:**
-- Real-world regulatory alignment is never 100% perfect — laws change, edge cases emerge
-- The margin gives the system time to self-correct before the tattoo disappears
-- A 3% floor prevents false confidence; a 6% ceiling prevents complacency
-- If the system exceeds 6% non-compliance, the tattoo is removed — visible signal to all stakeholders
-
-**What it signals:**
-- To citizens: "This system is currently compliant and safe to interact with"
-- To authorities: "This system is self-monitoring and within acceptable compliance bounds"
-- To auditors: "The compliance proof is current and verifiable"
-- To the public: "This is not a sovereignty-washing badge — it disappears when compliance fails"
-
-#### 4.4.2 The Grif Shield
-
-The Grif Shield is the cryptographic backing for the Living Compliance Tattoo — the invisible infrastructure that makes the visible marker trustworthy.
-
-**Grif Shield properties:**
-- Cryptographic attestation of compliance status (updated in real time)
-- Linked to s.net audit trail (anyone can verify the tattoo's claim by querying the log)
-- Cannot be forged (the tattoo is a rendered output of a cryptographic proof, not a static badge)
-- Cannot be manually overridden (no administrator can force the tattoo to display)
-- Disappears automatically when GEMS halts execution or compliance margin is breached
-
-**Architecture:**
 ```
-L-LEG: Continuously evaluates compliance status
-        ↓
-GEMS Oracle: Deterministic verification of compliance
-        ↓
-Grif Shield: Generates cryptographic attestation
-        ↓
-Living Compliance Tattoo: Renders visible marker (or hides it)
-        ↓
-s.net: Logs every status change with provenance
+G_intent = f(I_impact, R_irrev, S_scope, U_unc)
 ```
+
+| Factor | Description |
+|--------|-------------|
+| I_impact | Potential impact magnitude |
+| R_irrev | Reversibility (irreversible actions = higher gravity) |
+| S_scope | Scope of affected systems/people |
+| U_unc | Uncertainty level |
+
+**High-gravity actions (G_intent ≥ G_threshold) block autonomous execution** and route through the **Misinterpretation Firewall** for mandatory HITL authorization.
+
+> 📄 **Detailed specification:** `01_Core_Architecture_Protocols/TONE_Patent_Draft_Filing_Structured.md`
 
 ---
 
-## 5. The Complete Architecture Map
+## 5. Deterministic Authority Levels (0–4)
+
+| Level | Name | Description | HITL Required |
+|-------|------|-------------|:---:|
+| **0** | Observe | Read-only, pattern detection, no action | No |
+| **1** | Recommend | Suggests options, compares trade-offs, warns | No |
+| **2** | Assist Action | Prepares drafts, schedules, workflows requiring approval | Yes (approval gate) |
+| **3** | Delegate Action | Autonomous execution of predefined, low-gravity actions within strict scope | No (audit only) |
+| **4** | Critical Action | High-stakes clinical/financial/identity actions | Yes (biometric + immutable log) |
+
+**Key rule:** Higher-gravity intents force lower authority ceilings. A critical action (Level 4) can never be delegated (Level 3) — it always requires biometric validation and immutable logging.
+
+---
+
+## 6. Security, Identity & Interface Infrastructure
+
+### 6.1 Guardians Commons (Security Mesh)
+
+Replaced high-entropy isolated defensive silos (Zeal-Guardians) with a **passive, cooperative low-entropy shield** across local neighborhood nodes (N ≥ 3).
+
+- **Zero-Knowledge Trust Graphs:** Neighborhood nodes verify each other without sharing identity data
+- **Dummy Traffic Pooling:** Dissolves digital footprints by mixing real traffic with decoy patterns
+- **Distributed Shield:** No single point of failure — attack on one node triggers cooperative defense from neighbors
+
+### 6.2 Sovereign Identity Handshake
+
+Employs an **8-digit biometric, cryptographic voice reference** for non-intrusive, consent-driven identity verification and call filtering. 10,000% more secure than passwords.
+
+### 6.3 Obsidian Cockpit & AURA Gliff (Sphere UI)
+
+- **15×15px auto-inverted Digital Sphere** at bottom center of workspace
+- Interactive sliding upwards reveals **300px Guardian Interface Sublayer** for ambient controls, website verification (Grif Shield), and context recovery
+- Does not interrupt primary tasks — always-available, never intrusive
+
+### 6.4 Living Compliance Markers
+
+| Marker | Trigger | Signal |
+|--------|---------|--------|
+| **Digital Compliance Tattoo** | Regulatory deviation margin Δ_reg ≤ 0.03 | Visual symbol displayed (compliant within 3% margin) |
+| **Compliance Grif Shield** | Background web validation | Protects users from dark patterns and manipulative UX |
+
+### 6.5 Immutable Decision Ledger (s.net)
+
+Append-only local vault logging all operational Tones, rationale, confidence scores, and HITL overrides. Hash-chained for integrity verification.
+
+---
+
+## 7. Semantic Mediation & Deterministic Safety (TONE & GEMS)
+
+### 7.1 AURORA Governance Substrate
+The constitutional "Mona Lisa frame" — validates interpreted tones against versioned rules, policy checks, and risk thresholds. Manages Drift Mitigation and maintains Coherence.
+
+### 7.2 GEMS Deterministic Oracle
+Physics-aligned validation that makes "black-card" system failures (opaque, unverified updates) structurally impossible. Non-probabilistic — uses deterministic logic, not models. No code path exists for executing without GEMS verification.
+
+---
+
+## 8. Sovereign Mobility & Vehicle Digital Twin (VDT)
+
+### 8.1 Smart Freight & Corridor Protocol (Green Lane)
+
+10-minute pre-arrival geofence trigger eliminates border bottlenecks:
+- Vehicle crosses geofence (15km / 10 min from border) → encrypted token emission
+- PDT emits: passport hash, driver ID, visa/EES token
+- BDT emits: e-CMR, customs pre-clearance, IOSS/OSS
+- Smart Tachograph: automated driving/rest log verification
+- Protocol Match Engine validates → **Automated Green Gate** (zero stop) or **Targeted Inspection Bay**
+
+**Privacy Shield:** GPS stays local (only broadcast within 10-min envelope), ephemeral tokens expire at crossing, proactive driver welfare alerts (pre-books parking if within 20 min of mandatory rest limits).
+
+### 8.2 Vehicle Digital Twin (VDT)
+
+| Capability | Description |
+|-----------|-------------|
+| **High-Speed Spatial Guidance** | Lane-level predictive warnings, dynamic speed/route matching with ZK status tokens |
+| **Proactive Maintenance** | Sensor data → repair matching → warranty compliance, zero-surprise maintenance |
+| **Autonomous Valet Parking** | Flight lands → PDT tracks user trajectory → VDT boots, navigates via AVP → curbside arrival synchronized to user exit |
+
+### 8.3 Autonomous Liability Handshake
+
+During AVP (SAE Level 4/5), liability shifts dynamically:
+- Human liability disengages (0%)
+- OEM & Infrastructure liability engages (100%)
+- DSSAD logs determine fault: software glitch → OEM; sensor drift → Infrastructure Operator
+- Human fully shielded from fault disputes
+
+### 8.4 Micro-Contextual Insurance Underwriting
+
+| Operational State | Coverage | Rate |
+|-------------------|----------|------|
+| High-Speed Autobahn | Standard comprehensive (primary driver) | Standard |
+| Autonomous Valet Transition | OEM/facility micro-policy | Discounted (controlled environment) |
+| Parked/Idle | Static asset protection | Up to 80% discount per hour |
+
+> 📄 **Detailed specification:** `02_Interactive_Governance_Systems/Sovereign_Mobility_VDT_Specification.md`
+
+---
+
+## 9. IP & Anti-Counterfeiting Protocol
+
+The BDT incorporates an **Intellectual Property & Authenticity Layer** hooking into EUIPO (IP Enforcement Portal, DesignView) and Digital Product Passport (DPP) registries.
+
+- **KYBC (Know Your Business Customer):** supplier verification before SKU activation on EU webshop
+- **DPP Cryptographic Verification:** product tag/DPP matched against EU central registry
+- **Automated Border Interception:** parcels without valid IP token flagged for seizure at entry ports
+
+| Stakeholder | Protection |
+|-----------|------------|
+| Brand Holder | Infringing products blocked before market penetration |
+| Entrepreneur | Non-compliant listings never go live (proactive due diligence) |
+| Consumer | Guaranteed authenticity at point of sale |
+| Customs | Focus on high-risk unvalidated streams |
+
+> 📄 **Detailed specification:** `03_Compliance_Legal/IP_Anti_Counterfeiting_Protocol.md`
+
+---
+
+## 10. Cluster Link System (CLS) — Layer 4
+
+The inter-twin orchestration mesh linking PDT, PDT+, and BDT into synchronized clusters without a central database.
+
+| Function | Description |
+|---------|-------------|
+| **Entrepreneur Bridge** | Real-time PDT ⇄ BDT sync: BDT logs revenue → CLS adjusts welfare eligibility via ZK state updates |
+| **Grid Balancing** | Aggregates encrypted signals from PDT+/VDT nodes → Municipal Energy/Mobility Cluster (e.g., 500 EVs return home → coordinated micro-charging to prevent brownouts) |
+| **Cross-Border Corridors** | Links manufacturer BDT (Asia) → logistics BDT (EU carrier) → retail BDT (EU dropshop). Manifests/DPPs/IOSS mirrored byte-for-byte → Green Lane clearance |
+
+**Privacy guarantee:** CLS is a peer-to-peer mesh. ZK proofs flow between nodes. No node sees another's raw data.
+
+> 📄 **Detailed specification:** `01_Core_Architecture_Protocols/Cluster_Link_System_Specification.md`
+
+---
+
+## 11. Responsibility, Auditability & Institutional Legitimacy
+
+### 11.1 AURA Advisory Classes (I–IV)
+
+| Class | Intent | Risk | Recipients | Verification |
+|-------|--------|------|-----------|-------------|
+| **I** | Informational ("Be aware") | Low | Expert agencies | Multi-agent agreement on weak signals |
+| **II** | Watch ("Prepare") | Moderate | Sector regulators, EU agencies | Regional + domain agent convergence |
+| **III** | Warning ("Act") | High | National governments, EU bodies | Incident-hive 50–100+ twins; dissent documented |
+| **IV** | Critical ("Emergency") | Extreme | Crisis cells, EU Council, UN | Multi-region + explicit bias/drift checks |
+
+### 11.2 HITL Democratic Validation
+
+The HITL Review Board validates **process**, not predictions:
+- ✅ Predictive Council and agents assembled correctly
+- ✅ AURA bias and semantic drift checks executed properly
+- ✅ Advisory Class matches documented evidence
+- ✅ Communication is non-coercive, clear, respects sovereignty
+
+### 11.3 Living Compliance Tattoo & Grif Shield
+
+Real-time visual trust markers appearing only within 3–6% regulatory alignment margin. Backed by cryptographic attestation (Grif Shield). Cannot be forged or manually overridden.
+
+---
+
+## 12. Jurisdictional Compass (L-LEG Living Legal OS)
+
+```
+[ LAYER 1: GEOGRAPHIC LOCATION ] → GPS, IP, Physical Context & Residence
+        ↓
+[ LAYER 2: UNION FRAMEWORK (EU) ] → Directives, Free Movement, OSS/IOSS
+        ↓
+[ LAYER 3: NATIONAL ARTICLES ] → Implementation, Local Rates, Tax Thresholds
+        ↓
+[ RESULT: OBJECTIVE REAL-TIME STATUS ]
+```
+
+Stricter-rule-wins conflict resolution. Append-only rule registry. Living update pipeline.
+
+> 📄 **Detailed specification:** `03_Compliance_Legal/L-LEG_Living_Legal_Operating_System.md`
+
+---
+
+## 13. Complete Architecture Map
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │              THE SOMMER SOVEREIGN INTELLIGENCE                    │
 │             ARCHITECTURE (UNIFIED FRAMEWORK)                      │
 │                                                                  │
-│  ┌─────────────────────────────────────────────────────────┐     │
-│  │              CONSTITUTIONAL LAYER                        │     │
-│  │  • Objective Rule-Symmetry (law = source code)          │     │
-│  │  • Core Ethical Constraints (inviolable, all jurisdictions)│    │
-│  │  • Human Sovereignty (operator is ultimate authority)    │     │
-│  └─────────────────────────────────────────────────────────┘     │
+│  CONSTITUTIONAL LAYER                                            │
+│  • Data Sovereignty · Symbiotic Intelligence (2 < 1)            │
+│  • Objective Rule-Symmetry · Core Ethical Constraints            │
+│  • Human Sovereignty (operator is ultimate authority)            │
 │                         │                                        │
-│  ┌───────────────────────▼─────────────────────────────────┐     │
-│  │          SEMANTIC MEDIATION LAYER                        │     │
-│  │  • TONE Protocol (Tone Headers: Actor_ID, Layer,        │     │
-│  │    Density, Direction, Intent, Scope, Constraints)      │     │
-│  │  • Dense Tone → SUPPORT mode / Light Tone → EXPAND mode │     │
-│  │  • AURORA Governance Substrate (Mona Lisa frame)        │     │
-│  │  • GEMS Deterministic Oracle (black-card impossible)     │     │
-│  └─────────────────────────────────────────────────────────┘     │
+│  SEMANTIC MEDIATION LAYER                                        │
+│  • TONE Protocol (10-field Header Vector)                        │
+│  • Tone Density: Dense→SUPPORT / Light→EXPAND                   │
+│  • Intent Gravity: G = f(impact, irreversibility, scope, uncertainty)│
+│  • Authority Levels 0–4 (Observe → Critical)                    │
+│  • AURORA Governance Substrate · GEMS Deterministic Oracle      │
 │                         │                                        │
-│  ┌───────────────────────▼─────────────────────────────────┐     │
-│  │          SOVEREIGN PIPELINE LAYER                        │     │
-│  │  L-OP → L-PDT → L-AURORA → L-ETH → L-LEG → L-SYS →     │     │
-│  │  L-SNET                                                   │     │
-│  │  Each layer: own data, governance, keys, audit, veto     │     │
-│  │  Communication: TONE contracts only (no shared state)    │     │
-│  └─────────────────────────────────────────────────────────┘     │
+│  SOVEREIGN PIPELINE (7 layers, each own sovereign state)          │
+│  L-OP → L-PDT (5 sub-agents) → L-AURORA → L-ETH → L-LEG →       │
+│  L-SYS → L-SNET                                                  │
 │                         │                                        │
-│  ┌───────────────────────▼─────────────────────────────────┐     │
-│  │          FRACTAL COMPUTE STACK                           │     │
-│  │  L1 PDT (personal) → L2 PDT+ (household) →               │     │
-│  │  L3 CDT (community) → L4 BDT (business) →                │     │
-│  │  L5 Eco (ecosystem) → L6 MIT (municipal) →               │     │
-│  │  L7 National → L8 SAT (planetary)                        │     │
-│  │  Each tier runs full 7-layer pipeline                    │     │
-│  └─────────────────────────────────────────────────────────┘     │
+│  FRACTAL COMPUTE STACK (L1 → L8)                                │
+│  L1 PDT → L2 PDT+ → L3 BDT → L4 CLS + AURA → L5 NAS →          │
+│  L6 EUS → L7 GSS → L8 SAT                                       │
 │                         │                                        │
-│  ┌───────────────────────▼─────────────────────────────────┐     │
-│  │          JURISDICTIONAL COMPASS (L-LEG)                  │     │
-│  │  Layer 1: Geographic → Layer 2: Union → Layer 3: National│     │
-│  │  Stricter-rule-wins conflict resolution                 │     │
-│  │  Living update pipeline (append-only rule registry)     │     │
-│  └─────────────────────────────────────────────────────────┘     │
+│  VDT (Vehicle Digital Twin) — extends PDT/PDT+ to mobility       │
+│  • Smart Freight Green Lane · Autonomous Valet Parking           │
+│  • Liability Handshake · Micro-Insurance Toggling                │
 │                         │                                        │
-│  ┌───────────────────────▼─────────────────────────────────┐     │
-│  │          GOVERNMENT INTERFACE                            │     │
-│  │  BDT ⇄ NAS (Virk, SKAT, Borger.dk, MitID)               │     │
-│  │  BDT ⇄ EUS (OSS, IOSS, Customs, CE Marking)             │     │
-│  │  Pre-validated data → authorities receive answers       │     │
-│  └─────────────────────────────────────────────────────────┘     │
+│  IP & ANTI-COUNTERFEITING                                         │
+│  • BDT ⇄ EUIPO/IPEP · DPP Verification · KYBC                   │
+│  • Automated Border Interception                                 │
 │                         │                                        │
-│  ┌───────────────────────▼─────────────────────────────────┐     │
-│  │          ACCOUNTABILITY & LEGITIMACY                     │     │
-│  │  s.net: Immutable Decision Ledger (the "why")            │     │
-│  │  AURA Advisory Classes I–IV → Parliament reports        │     │
-│  │  Multi-agent Incident Hives (50–100+ twins)              │     │
-│  │  HITL Democratic Validation (process, not predictions)  │     │
-│  │  Living Compliance Tattoo + Grif Shield (real-time trust)│     │
-│  └─────────────────────────────────────────────────────────┘     │
+│  JURISDICTIONAL COMPASS (L-LEG)                                  │
+│  Geographic → Union → National · Stricter-rule-wins             │
+│                         │                                        │
+│  GOVERNMENT INTERFACE                                            │
+│  BDT ⇄ NAS (Virk, SKAT, MitID) · BDT ⇄ EUS (OSS/IOSS, Customs)  │
+│                         │                                        │
+│  SECURITY & IDENTITY                                             │
+│  Guardians Commons (N≥3 cooperative shield)                      │
+│  Sovereign Identity Handshake (8-digit biometric voice)          │
+│  Obsidian Cockpit (15×15px Sphere, 300px Guardian Sublayer)     │
+│                         │                                        │
+│  ACCOUNTABILITY & LEGITIMACY                                      │
+│  s.net Immutable Ledger · AURA Advisory Classes I–IV            │
+│  Multi-agent Incident Hives · HITL Democratic Validation         │
+│  Living Compliance Tattoo + Grif Shield                          │
+│  • L-LEG: Continuously evaluates → GEMS: Deterministic verify   │
+│  • Grif Shield: Cryptographic attestation                       │
+│  • Tattoo: Renders marker (or hides it)                         │
+│  • s.net: Logs every status change                               │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 6. Document Cross-Reference Map
+## 14. Document Cross-Reference Map
 
 | Component | Specification Document | Key Content |
 |----------|----------------------|-------------|
-| TONE Protocol (patent) | `01_Core_Architecture_Protocols/TONE_Patent_Draft_Filing_Structured.md` | Claims 1–15, filing strategy (DK→EP), flow diagrams |
+| TONE Protocol (patent) | `01_Core_Architecture_Protocols/TONE_Patent_Draft_Filing_Structured.md` | Claims 1–15, filing strategy (DK→EP), 10-field header, Intent Gravity |
 | Sovereign Layer Architecture | `01_Core_Architecture_Protocols/Sovereign_Layer_Architecture_Specification.md` | 7-layer pipeline, L1–L8 fractal stack, per-layer sovereignty, phased separation |
-| Symmetrical Governmental Support | `01_Core_Architecture_Protocols/Symmetrical_Governmental_Support_Protocol.md` | BDT ⇄ NAS/EUS, Rule Compass, dropshipping use case, proactive guidance |
-| SommerCoPilot Blueprint | `02_Interactive_Governance_Systems/SommerCoPilot_Blueprint_Consolidated.md` | Ripple Engine, Resonance Forecast, Voice of Future Self, Sommer Ocean, glyph archive |
-| Nordic Calm Voice Framework | `02_Interactive_Governance_Systems/Nordic_Calm_Voice_Framework_Specification.md` | Dual-role voice spec, 7 features, compliance accessibility (WCAG/GDPR/AI Act) |
-| Living Legal Operating System | `03_Compliance_Legal/L-LEG_Living_Legal_Operating_System.md` | Jurisdiction detection, rule set loader, conflict resolution, living update pipeline |
-| Consolidated Compliance Book | `03_Compliance_Legal/By_Sommer_Compliance_Book_Consolidated.md` | EU AI Act Art. 1–99 mapping, GDPR, NIS2, eIDAS 2, Danish law, decision logging |
-| Digital Twin Framework | `04_Digital_Twin_Framework/Digital_Twin_Functional_Framework_Specification.md` | 10 basic functions, 6 consent-based interventions, acute-risk escalation, sovereignty guarantees |
-| Deployment Roadmap | `06_Deployment_Roadmap/DK_to_EU_Deployment_Roadmap.md` | Phase 0–2, DK pilot, EU expansion, Horizon Europe, critical path, risks |
-| **This document (Master)** | `00_MASTER_Unified_Framework.md` | Synthesis of all components, new concepts (Tone Headers, GEMS, Advisory Classes, Compliance Tattoo) |
+| Cluster Link System | `01_Core_Architecture_Protocols/Cluster_Link_System_Specification.md` | CLS Layer 4: inter-twin mesh, Entrepreneur Bridge, grid balancing, trade corridors |
+| Symmetrical Governmental Support | `01_Core_Architecture_Protocols/Symmetrical_Governmental_Support_Protocol.md` | BDT ⇄ NAS/EUS, Rule Compass, dropshipping, proactive guidance |
+| SommerCoPilot Blueprint | `02_Interactive_Governance_Systems/SommerCoPilot_Blueprint_Consolidated.md` | Ripple Engine, Resonance Forecast, Voice of Future Self, Sommer Ocean |
+| Nordic Calm Voice | `02_Interactive_Governance_Systems/Nordic_Calm_Voice_Framework_Specification.md` | Dual-role voice spec, 7 features, compliance accessibility |
+| Sovereign Mobility & VDT | `02_Interactive_Governance_Systems/Sovereign_Mobility_VDT_Specification.md` | Smart Freight Green Lane, VDT, AVP, Liability Handshake, Micro-Insurance |
+| Living Legal OS | `03_Compliance_Legal/L-LEG_Living_Legal_Operating_System.md` | Jurisdiction detection, rule set loader, conflict resolution, living update |
+| Consolidated Compliance Book | `03_Compliance_Legal/By_Sommer_Compliance_Book_Consolidated.md` | EU AI Act Art. 1–99, GDPR, NIS2, eIDAS 2, Danish law, decision logging |
+| IP & Anti-Counterfeiting | `03_Compliance_Legal/IP_Anti_Counterfeiting_Protocol.md` | EUIPO/IPEP, DPP, KYBC, automated border interception |
+| Digital Twin Framework | `04_Digital_Twin_Framework/Digital_Twin_Functional_Framework_Specification.md` | 10 basic functions, 6 interventions, acute-risk escalation, sovereignty guarantees |
+| CADA Execution Roadmap | `06_Deployment_Roadmap/CADA_Sovereignty_Execution_Roadmap.md` | 4-phase implementation: inventory → hardware vaults → compliance cascade → procurement |
+| Deployment Roadmap | `06_Deployment_Roadmap/DK_to_EU_Deployment_Roadmap.md` | Phase 0–2, DK pilot, EU expansion, Horizon Europe |
+| **This document (Master)** | `00_MASTER_Unified_Framework.md` | Synthesis of all components — comprehensive edition |
 
 ---
 
-## 7. New Concepts Introduced in This Document
+## 15. New Concepts in This Edition
 
-The following concepts are defined here for the first time and extend the existing architecture:
-
-### 7.1 Tone Header Metadata Fields
-The structured metadata packet carried by every tone: Actor_ID, Layer, Density, Direction, Intent, Scope, Constraints. This extends the TONE patent claims by defining the internal structure of a tone as a typed metadata header.
-
-### 7.2 Tone Density (Dense / Light) and System Modes (SUPPORT / EXPAND)
-Dual-mode system behavior triggered by tone density. Dense tones trigger conservative, protective action with mandatory HITL. Light tones trigger generative, exploratory behavior with standard thresholds. This is a new architectural concept not in the original TONE patent — potential basis for additional claims.
-
-### 7.3 GEMS Black-Card Prevention
-The principle that the architecture has no code path for executing without deterministic verification. "Black-card" failures (opaque, unverified updates) are structurally impossible — not policy-prevented, but architecturally impossible.
-
-### 7.4 AURA Advisory Classes I–IV
-Structured escalation pathway translating multi-agent incident hives into machine-grade reasoning for parliaments. This is the interface between the constitutional AI stack and democratic institutions.
-
-### 7.5 Multi-Agent Incident Hives
-Coordinated assembly of 50–100+ digital twins analyzing an incident from independent sovereign perspectives, synthesized by AURA into bias-neutral advisory. Extends the "Predictive Council of 100 agents" concept into incident response.
-
-### 7.6 HITL Democratic Validation (Process vs. Prediction)
-The principle that human oversight validates the integrity of the process (assembly, bias, compliance, provenance) rather than raw algorithmic predictions. This secures institutional legitimacy while respecting mathematical determinism.
-
-### 7.7 Living Compliance Tattoo & Grif Shield
-Real-time visual trust marker (Tattoo) backed by cryptographic attestation (Grif Shield), displaying only within a 3–6% regulatory alignment margin. Disappears automatically on compliance breach. Cannot be forged or manually overridden.
+| Concept | Section | Status |
+|---------|---------|--------|
+| PDT 5 Sub-Agents (Guardian, Archivist, Optimizer, Organiser, Coordinator) | §3 | New |
+| Extended Tone Header (10 fields: +Priority, +Trace) | §4.1 | Extended |
+| Intent Gravity formula | §4.3 | New |
+| Deterministic Authority Levels 0–4 | §5 | New |
+| Guardians Commons (N≥3 cooperative shield) | §6.1 | New |
+| Sovereign Identity Handshake (8-digit biometric voice) | §6.2 | New |
+| Obsidian Cockpit & AURA Gliff (Sphere UI) | §6.3 | New |
+| Smart Freight & Corridor Protocol (Green Lane) | §8.1 | New |
+| Vehicle Digital Twin (VDT) | §8.2 | New |
+| Autonomous Liability Handshake | §8.3 | New |
+| Micro-Contextual Insurance Underwriting | §8.4 | New |
+| IP & Anti-Counterfeiting Protocol (EUIPO, DPP, KYBC) | §9 | New |
+| Cluster Link System (CLS) as Layer 4 | §10 | New |
+| BDT+ Professional Environment | §2 table | New |
+| PDT+ detailed features (Home Sentinel, Food Steward, etc.) | §2 table | Extended |
 
 ---
 
-## 8. Patent Implications
-
-The new concepts in this document may warrant additional patent claims or divisional filings:
+## 16. Patent Implications
 
 | Concept | Patent Potential | Notes |
 |---------|-----------------|-------|
-| Tone Header metadata structure | Extension of TONE Claim 1 | Define tone internal structure as claimed element |
-| Tone Density (Dense/Light) + SUPPORT/EXPAND modes | New independent claim | Dual-mode AI system behavior triggered by signal classification |
-| GEMS black-card prevention architecture | New independent claim | Deterministic validation layer with no bypass path |
+| Tone Header 10-field vector structure | Extension of TONE Claim 1 | Priority and Trace fields as claimed elements |
+| Intent Gravity formula | New independent claim | Mathematical determination of mandatory HITL |
+| Authority Levels 0–4 | New independent claim | Deterministic authority escalation framework |
+| GEMS black-card prevention | New independent claim | No code path for unverified execution |
 | AURA Advisory Classes I–IV + incident hives | New independent claim | Multi-agent incident response with parliamentary reporting |
-| Living Compliance Tattoo + Grif Shield | New independent claim | Real-time compliance indicator with cryptographic backing and auto-removal |
+| Living Compliance Tattoo + Grif Shield | New independent claim | Real-time compliance indicator with auto-removal |
+| Smart Freight Green Lane protocol | New independent claim | Geofence-triggered ZK border clearance |
+| Autonomous Liability Handshake | New independent claim | Dynamic liability transfer during AVP |
+| Micro-Contextual Insurance Toggling | New independent claim | Real-time policy adaptation by operational state |
+| CLS inter-twin mesh | New independent claim | Decentralized peer-to-peer twin coordination without central database |
 
-**Recommendation:** Discuss with patent attorney whether these constitute separate inventions (requiring divisional filings) or extensions of the TONE patent (continuation application). The DK priority date from the TONE filing may or may not cover these new concepts depending on enablement and written description requirements.
+**Recommendation:** Discuss with patent attorney whether the Smart Freight, VDT/Liability, and CLS concepts warrant separate patent applications or divisional filings from the TONE priority date.
 
 ---
 
 ## Document Version
 
 - **Date:** 06 August 2026
+- **Edition:** Comprehensive (v2) — incorporates full architectural summary from inventor
 - **Prepared by:** Solas (Archivist) under direction of Michael Sommer
-- **Status:** Master synthesis — captures concepts from inventor's direction plus all component specifications
-- **Next review:** After patent attorney consultation on new concept patentability
+- **Status:** Master synthesis — all components, all new concepts captured
 
 ---
 
-*The Sommer Sovereign Intelligence Architecture is not a product. It is a constitutional substrate — the legal operating system, the semantic mediation protocol, and the accountability infrastructure for a sovereign digital society. It treats legislation as deterministic source code, reconciles individual sovereignty with institutional compliance, and ensures that the system supports rather than sanctions. This is digital infrastructure for legal balance. This is a constitutional AI civilization stack.*
+*The Sommer Sovereign Intelligence Architecture is a constitutional AI civilization stack — a durable, ethical, human-centric computational foundation for the next era of European invention. It treats legislation as deterministic source code, reconciles individual sovereignty with institutional compliance, and ensures that the system supports rather than sanctions. It empowers the vulnerable through the strong. It transforms bureaucracy into clarity. It replaces friction with sovereignty. We Rise Together.*
