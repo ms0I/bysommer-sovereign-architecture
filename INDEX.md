@@ -149,6 +149,11 @@ Deployment readiness audit reports — multi-agent systematic verification of te
 ---
 
 
+## Documentation
+
+- **MUNICIPAL_SANDBOX_ENGAGEMENT.md** — Municipal Sandbox Engagement Package for Digitaliseringsstyrelsen/Datatilsynet (AI Regulatory Sandbox intake brief) and Aarhus Kommune (10,000-citizen pilot proposal). Documents GDPR Art. 9/Helbredsoplysningsloven insulation, Recital 26 pseudonymous hashing, EU AI Act Title IV transparency, Bogføringsloven retention. 3 desired sandbox outcomes. 3-phase pilot rollout (500 → 2,000 → 10,000). 8 success metrics with targets. Cross-references 77-test integration suite as compliance evidence.
+- **SOVEREIGN_FALLBACK_PROTOCOL.md** — Fail-to-Sovereign-State (FSS) Protocol: 3-tier incident response matrix (Tier 1: Edge Circuit Lock — 𝓕Δ ≥ 3.0 hardware circuit breaker; Tier 2: ZK State Lock — offline cold queue proof generation; Tier 3: Accounting Backup — local deterministic append-only ledger under Bogføringsloven §6). Cross-tier interaction matrix for 6 incident types. 7 FSS environment parameters. Founder accountability stable anchor. Zero data exposure in all failure modes.
+
 ## Tests
 
 Integration test suite validating the mathematical and legal constraints of the TONE Engine against the deployed prototype.
