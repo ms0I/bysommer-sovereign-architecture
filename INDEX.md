@@ -9,6 +9,7 @@ Foundational, constitutional-layer documents — the "why" and the core substrat
 - **Sovereign_AI_Governance_Framework.pdf** — condensed ~2000-char "sovereignty block" for grant/evaluator use (sovereign vs. external pipeline diagram, DG-CNECT tone).
 - **Research_Sommer_Sovereign_Digital_Systems_8Layer.pdf** — market/demand analysis for the 8-layer fractal model (L1 PDT → L8 Spatial Autonomous Twin) across Denmark / EU / Global scales, stakeholder matrix, threat vectors.
 - **Sovereign_Layer_Architecture_Specification.md** — full operational spec: each layer as its own sovereign state (own data, governance, audit trail, keys, failure isolation). Two-axis architecture (TONE pipeline × L1→L8 fractal compute stack), per-layer sovereignty guarantees, TONE contract protocol, DK pilot deployment topology, accelerated EU timeline (18 months).
+- **Symmetrical_Governmental_Support_Protocol.md** — the BDT ⇄ NAS/EUS protocol: objective rule-symmetry between citizens/entrepreneurs and authorities. Three twin types (PDT/PDT+/BDT) with Rule Compass (geographic → union → national filtering). Dropshipping use case: OSS/IOSS, CE marking, cross-border VAT. Cross-sector harmonization (citizen + business = entrepreneur). NAS/EUS interface spec (Virk, SKAT, EUS IOSS). Proactive guidance with 5 warning tiers. "The law is the source code."
 
 ## 02_Interactive_Governance_Systems
 The user-facing / experiential layer built on top of the core substrate.
