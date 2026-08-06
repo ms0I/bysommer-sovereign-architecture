@@ -31,6 +31,9 @@ Three near-identical duplicate uploads were identified and removed after text ex
 - SommerCoPilot Blueprint (whitespace-only difference)
 - Compliance Book (duplicate had "[Copy]" prefix, otherwise identical)
 
+## 06_Deployment_Roadmap
+- **DK_to_EU_Deployment_Roadmap.md** — Full 3-phase deployment strategy: Phase 0 (Foundation: DK patent filing + compliance mapping), Phase 1 (Denmark municipal pilot, success metrics, stakeholder engagement), Phase 2 (EU expansion: Horizon Europe funding, EU AI Act conformity, multi-state rollout). Includes critical path, risk register, and timeline.
+
 ## How the whole system fits together
 ```
 Operator (human intent)

@@ -425,14 +425,40 @@ The pipeline operates as follows:
 
 ## FILING NOTES FOR PATENT ATTORNEY
 
+### Filing strategy: Denmark first, then EU
+
+The deployment strategy is **DK pilot → EU expansion**. The patent filing strategy should mirror this:
+
+**Phase 1 — Denmark (DK) national filing:**
+- File a national DK patent application first (via the Danish Patent and Trademark Office / DKPTO)
+- DK national applications can be filed in Danish or English
+- This secures priority date while the DK pilot runs
+- Use the 12-month priority window to assess pilot results before committing to broader filings
+- A DK national filing is fast and inexpensive (~3,000–5,000 DKK official fees) and gives immediate priority protection
+
+**Phase 2 — European (EP) filing within 12 months of DK priority:**
+- File a European patent application claiming priority from the DK national filing
+- Via the European Patent Office (EPO) under the European Patent Convention (EPC)
+- This covers all EPC contracting states (38+ countries including all EU member states)
+- Ensure claims comply with the EPC's requirements for technical character (the "technical effect" doctrine — T 154/04, G 1/19)
+- The governance/policy aspects may need careful framing to satisfy EPO exclusions (Art. 52(2)(c) EPC — "methods for doing business" / "programs for computers")
+- Foreground the technical implementation: cryptographic identity proofs, confidence-score computation, provenance metadata, audit trail mechanisms
+
+**Alternative — PCT route:**
+- Instead of separate DK + EP filings, consider a PCT international application
+- File within 12 months of the earliest priority date
+- National phase entries: DK (Receiving Office), EP (EPO), and optionally US (USPTO) if US protection becomes relevant
+- PCT gives flexibility to defer national-phase decisions by up to 30/31 months
+- But for a DK-first pilot, the direct DK + EP route may be simpler and faster
+
 ### Recommended next steps before filing:
-1. **Prior art search** — Conduct a thorough prior art search covering: semantic mediation layers, intent-to-action translation systems, digital twin architectures for identity mediation, governance substrates for AI systems, and ambiguity resolution in HCI.
+1. **Prior art search** — Conduct a thorough prior art search covering: semantic mediation layers, intent-to-action translation systems, digital twin architectures for identity mediation, governance substrates for AI systems, and ambiguity resolution in HCI. Focus on EP and DK patent databases.
 2. **Claim refinement** — Claims 3 and 9 overlap significantly (both cover clarification workflows for ambiguous tones). Consider merging or differentiating with clearer limitations.
 3. **System vs. method claims** — Ensure each method claim has a corresponding system claim where appropriate. Currently claims 7, 8, and 10 lack system claim counterparts.
-4. **"Means-plus-function" considerations** — Several claims describe functional elements (e.g., "governance substrate configured to validate") that may benefit from explicit means-plus-function language under 35 U.S.C. § 112(f).
-5. **European filing considerations** — If pursuing EP protection, ensure claims comply with the EPC's requirements for technical character (the "technical effect" doctrine). The governance/policy aspects may face Alice-style abstract idea rejections in the US; ensure the technical implementation details are foregrounded.
-6. **Drawing formalization** — The flow diagrams in Section 5 should be formalized into patent-style figures with reference numerals.
-7. **PCT strategy** — Consider a PCT international filing given the EU-centric nature of the project, with national phase entries in DK, EP, US at minimum.
+4. **EPO technical character** — Under EPO practice, ensure the claims produce a *further technical effect* beyond the normal interaction of software with hardware. The identity mediation (cryptographic proofs), confidence-score computation, and audit trail logging should be foregrounded as technical features. Pure governance/policy rules alone may be excluded under Art. 52(2) EPC.
+5. **Drawing formalization** — The flow diagrams in Section 5 should be formalized into patent-style figures with reference numerals (e.g., 100=Operator Layer, 110=PDT, 120=AURORA, 130=System, 140=s.net).
+6. **Danish patent attorney** — Engage a DK-registered patent attorney (e.g., via Plougmann Vingtoft, Zacco, or Patrade) who can file nationally and handle the EP phase. They will also advise on whether Danish or English language is best for the initial filing.
+7. **Novelty grace period** — Note: Denmark/EPO does NOT have a general novelty grace period (unlike US 35 U.S.C. § 102(b)(1)). Any public disclosure of the invention before the priority filing date could destroy novelty. If the bysommer.net website or any published material describes TONE in enabling detail, this may constitute prior disclosure. **Consult your attorney urgently on this point.**
 
 ### Document version
 - **Source PDF:** TONE_Interpreter_Semantic_Mediation_Architecture.pdf (9 pages)
