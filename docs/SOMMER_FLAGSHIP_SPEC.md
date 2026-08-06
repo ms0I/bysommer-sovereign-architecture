@@ -72,6 +72,28 @@ The SOMMER Sovereign Ecosystem bridges human biological intent, automated physic
 - `compliance_status` (Enum: `VALIDATED`, `BLOCKED_MISSING_CE`, `PENDING_IOSS`)
 - `timestamp` (DateTime)
 
+### Table: `sommer_copilot_forecasts`
+- `id` (UUID, Primary Key)
+- `user_ref` (String, ZK / opaque reference)
+- `forecast_type` (Enum: `SURPLUS`, `RESONANCE`, `BIOSECURITY_RISK`)
+- `horizon_days` (Integer, e.g., 30, 90, 365)
+- `confidence_score` (Float, 0.00–1.00)
+- `predicted_value` (Decimal)
+- `lower_bound` (Decimal)
+- `upper_bound` (Decimal)
+- `algorithm_metadata` (JSON: model_version, features_used, free_energy_delta)
+- `created_at` (DateTime, ISO 8601)
+- `retention_until` (DateTime, ISO 8601 — Strict 90-day rolling window)
+
+### Table: `sommer_copilot_glyphs`
+- `id` (UUID, Primary Key)
+- `user_ref` (String, ZK / opaque reference)
+- `glyph_code` (String, Visual symbol representation)
+- `semantic_label` (String)
+- `energy_state` (Enum: `STABLE`, `TRANSIENT`, `DEEP_REST`, `ALERT`)
+- `active` (Boolean)
+- `updated_at` (DateTime)
+
 ### Table: `planetary_council_telemetry`
 - `id` (UUID, Primary Key)
 - `alert_status` (Enum: `GREEN`, `REGIONAL_WARNING`, `GLOBAL_DECREE`)
@@ -103,9 +125,4 @@ The SOMMER Sovereign Ecosystem bridges human biological intent, automated physic
 - `trajectory` (Enum: `amplifying`, `stabilizing`, `fading`, `mutating`)
 - `tone_mode_selected` (Enum: `hopeful`, `cautionary`, `legacy`, `neutral`)
 - `timestamp` (DateTime)
----
 
-## 4. Operational Principles
-1. **The $2 < 1$ Sommer Synergy:** Human intuition and machine active inference act as a unified, non-extractive utility.
-2. **December 10th Dividend:** The system operates strictly at a non-profit cost baseline (200–250 DKK/mo); all administrative and operational efficiency surpluses are credited back to user accounts annually on December 10th.
-3. **Bio-Centric Hierarchy of Value:** Extends system protection and scientific priority beyond humans to encompass pollinators (bees), ocean ecosystems (blue whales), and planetary health.

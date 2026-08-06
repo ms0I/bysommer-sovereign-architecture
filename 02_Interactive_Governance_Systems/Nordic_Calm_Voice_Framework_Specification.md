@@ -225,3 +225,37 @@ The Nordic Calm voice is **synthesized output**, not biometric identification:
 - **This document:** Structured, annotated with compliance integration, GDPR Art. 7/9/28, WCAG 2.1 AA testing, data retention, and architecture mapping
 - **Status:** Execution-ready (Pass 3 consolidation — 06 August 2026)
 - **Prepared by:** Solas (Archivist) under direction of Michael Sommer
+
+---
+
+## 10. SommerCoPilot Voice Integration (Updated per Pass 4)
+
+### 10.1 On-Device Keyword Spotting
+
+Per GDPR Art. 7 consent and Art. 5(1)(c) data minimization:
+
+- **Raw audio buffering occurs locally** on the client device. No continuous audio streaming to servers.
+- **Audio telemetry is only streamed upstream** upon detection of the local wake-word (keyword spotting model runs on-device).
+- **Raw voice streams are discarded immediately** following acoustic-to-text transformation and pitch/tone inference.
+- **Only abstract vector features** (pitch drift, cadence delta) are retained for emotional resonance modeling — no raw audio, no voice biometrics, no speaker identification.
+
+### 10.2 Voice Processing Consent Schema
+
+Stored on user profile as timestamped proof:
+
+```json
+{
+  "voice_processing_consent": true,
+  "consent_timestamp": "2026-08-06T14:42:00Z",
+  "consent_scope": "nordic_calm_playback + future_self_narration",
+  "withdrawable": true,
+  "snet_log_ref": "snet:0x8b4c...f2a1"
+}
+```
+
+### 10.3 Edge Fallback TTS
+
+For high-privacy or offline scenarios, a local edge TTS model is available:
+- No data transmitted to any external processor when edge model is active
+- Same Nordic Calm voice profile, rendered locally
+- Quality slightly reduced vs. Azure TTS but maintains compliance posture for air-gapped deployments

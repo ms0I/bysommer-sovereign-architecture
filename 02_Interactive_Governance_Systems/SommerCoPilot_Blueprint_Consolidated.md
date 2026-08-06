@@ -265,177 +265,217 @@ This is the first step toward a self-aware, user-participatory system — where 
 
 ---
 
-## 11. EU AI Act Risk Classification
+## 11. Regulatory Risk & Transparency Mapping
 
-The SommerCoPilot is classified as a **Limited-Risk AI System** under the EU AI Act (Regulation (EU) 2024/1689).
+### 11.1 EU AI Act Risk Classification
+
+**Classification:** Limited Risk AI System (EU AI Act Title IV, Article 50 / Recital 132).
+
+The SommerCoPilot is classified as a **Limited-Risk AI System** under the EU AI Act (Regulation (EU) 2024/1689). It interacts directly with natural persons and generates personalized forecasts and insights, triggering transparency obligations.
 
 | AI Act Article | Classification | SommerCoPilot Compliance |
 |---------------|----------------|--------------------------|
-| **Art. 50(1)** | Transparency obligation for AI systems interacting with persons | Users are informed via Nordic Calm voice narration that they are interacting with an AI-generated forecast. Voice playback includes AI disclosure. |
+| **Art. 50(1)** | Transparency obligation for AI systems interacting with persons | Users are informed via Nordic Calm voice narration that they are interacting with an AI interface. Voice playback includes AI disclosure. All forecast panels display "AI-generated prediction" label. |
 | **Art. 50(2)** | Emotion recognition or biometric categorisation systems | SommerCoPilot does **not** perform emotion recognition or biometric categorisation. Ripple trajectories are based on behavioral pattern analysis, not emotional state inference. |
+| **Art. 5** | Prohibited practices | The system explicitly prohibits real-time biometric identification and subliminal behavioral manipulation. The active inference engine (𝓕Δ) acts strictly as a **passive physiological safety circuit breaker**, not an invasive emotion-recognition model used for workplace monitoring. |
 | **Art. 6** | High-risk classification (Annex III) | SommerCoPilot does **not** fall under Annex III high-risk categories. It is not used for employment decisions, credit scoring, essential services, or law enforcement. |
 
 **Risk justification:** The SommerCoPilot is advisory-only (Light Tone / EXPAND mode). It generates foresight narratives and symbolic encodings but never executes autonomous actions, makes binding decisions, or processes special category data (Art. 9). User always retains full decision authority (§8 key constraint).
 
-**Compliance Book reference:** See `By_Sommer_Compliance_Book_Consolidated.md` Chapter IV (Transparency Obligations) for full Art. 50 mapping.
+**Prohibited Practice Safeguards (Art. 5):** The system explicitly prohibits:
+- Real-time biometric identification in publicly accessible spaces
+- Subliminal or manipulative behavioral techniques
+- Social scoring of individuals or groups
+- Emotion recognition in workplaces or educational institutions
+
+The 𝓕Δ active inference engine operates as a passive circuit breaker — it detects physiological anomaly thresholds and triggers protective freezes, not behavioral profiling or workplace surveillance.
+
+**Compliance Book reference:** See `By_Sommer_Compliance_Book_Consolidated.md` Chapter IV (Transparency Obligations) for full Art. 50 mapping and Chapter I (Prohibited Practices) for Art. 5 safeguards.
 
 ---
 
-## 12. GDPR Compliance & Data Protection
+### 11.2 GDPR Article 22 Compliance (Automated Individual Decision-Making)
+
+**Human-in-the-Loop (HITL) Architecture:** The CoPilot engine functions strictly as an advisory and predictive system. It produces recommended actions, health nudges, and financial forecasts (e.g., resonance updates, surplus forecasts). No action is taken without explicit citizen initiation.
+
+| Art. 22 Requirement | SommerCoPilot Implementation |
+|---------------------|------------------------------|
+| **Art. 22(1)** — No solely automated decisions with legal/significant effects | Critical financial actions (e.g., freezing consent caps or submitting sickness declarations to NemRefusion) require **explicit citizen consent** or **passive physiological recovery signals** (𝓕Δ < 1.0), ensuring human agency remains intact. The CoPilot never initiates these actions autonomously. |
+| **Right to explanation** | Any automated anomaly flag provides the citizen with a **human-readable trace** detailing the parameter drift (e.g., HRV drop, core temperature shift) driving the recommendation. The trace is logged to s.net and exportable via GDPR Art. 15 access request. |
+| **Right to human intervention** | Users can challenge, revise, or override any forecast at any point in the user journey (§4, step 7). The "Let It Settle" and "Archive" actions explicitly reject the AI recommendation without penalty. |
+| **No profiling with legal effects** | The CoPilot does not profile users for credit, employment, insurance, or law enforcement purposes. All forecasts are user-facing advisory outputs for the citizen's own benefit. |
+
+**Key constraint:** The SommerCoPilot is **advisory only**. It never executes actions. It shows, narrates, and suggests — the user decides. This maps to the Light Tone / EXPAND mode in the TONE protocol.
+
+---
+
+## 12. Privacy & Processor Framework (GDPR Art. 7 & Art. 28)
+
+### 12.1 GDPR Compliance Matrix
 
 | GDPR Article | Requirement | SommerCoPilot Implementation |
 |---------------|-------------|------------------------------|
 | **Art. 6** | Lawful basis for processing | Art. 6(1)(f) — legitimate interest (user-requested foresight simulation); no processing without user trigger |
-| **Art. 7** | Consent management | Voice playback and glyph encoding require explicit user opt-in per session. Consent stored in s.net with timestamp. Withdrawable at any time → ripple/glyph deletion cascade. |
-| **Art. 9** | Special category data | SommerCoPilot does **not** process health, biometric, or special category data. Physiological telemetry is handled exclusively by the Active Inference Engine (PDT) and never reaches the CoPilot layer. |
+| **Art. 7** | Consent management | Voice processing requires explicit, granular opt-in (`voice_processing_consent: true`, timestamped). Withdrawable at any time → ripple/glyph deletion cascade. See §12.2 for voice-specific consent. |
+| **Art. 9** | Special category data | SommerCoPilot does **not** process health, biometric, or special category data. Physiological telemetry is handled exclusively by the Active Inference Engine (PDT) and never reaches the CoPilot layer. Voice synthesis is generated TTS output, not biometric input. |
 | **Art. 12** | Transparent information | All forecasts include confidence score, data sources used, and AI-generated disclaimer. Voice narration includes system identity disclosure. |
-| **Art. 15** | Right of access | Users can export all ripples, glyphs, and forecasts associated with their account. |
+| **Art. 15** | Right of access | Users can export all ripples, glyphs, and forecasts associated with their account, including human-readable explanation traces. |
 | **Art. 20** | Data portability | Glyph archive exportable in JSON + SSML format for cross-platform migration. |
-| **Art. 22** | Automated individual decision-making | **Not applicable.** SommerCoPilot does not make decisions about users. It generates advisory forecasts. All actions (amplify, archive, transform) require explicit user initiation. No automated decisions, no profiling with legal/significant effects. |
+| **Art. 22** | Automated individual decision-making | **Not applicable.** SommerCoPilot does not make decisions about users. See §11.2 for full compliance. |
 | **Art. 25** | Data protection by design | Ripple data is associated with `user_ref` (pseudonymous identifier), not raw identity. Glyphs are encrypted at rest. Forecast models train on aggregated, pseudonymized behavioral patterns. |
 | **Art. 32** | Security of processing | All ripple/glyph/forecast data encrypted at rest (AES-256) and in transit (TLS 1.3). Access logged to s.net immutable ledger. |
 
-**Consent flow:** User trigger → "Would you like to hear from your future self?" → User confirms → Ripple simulation runs → Voice playback (with AI disclosure) → User selects action → Consent record logged to s.net → Glyph encoded with provenance chain.
+### 12.2 Voice Telemetry & Audio Consent (GDPR Art. 7)
+
+All voice narration requires explicit user opt-in with granular consent:
+
+- **Explicit Opt-In:** Activation of the Nordic Calm Voice Framework requires explicit, granular consent stored as a timestamped proof on the user's profile (`voice_processing_consent: true`).
+- **On-Device Keyword Spotting:** Raw audio buffering occurs locally on the client device. Audio telemetry is only streamed upstream upon detection of the local wake-word. No continuous audio streaming.
+- **Data Minimization:** Raw voice streams are discarded immediately following acoustic-to-text transformation and pitch/tone inference. Only abstract vector features (pitch drift, cadence delta) are retained for emotional resonance modeling.
+- **Consent record:** Each playback session is logged to s.net with timestamp, `user_ref`, content reference, and consent status. Consent is revocable at any time → voice data deletion cascade.
+- **Children:** No voice processing for users under 13 (COPPA/GDPR Art. 8 age threshold). Age verification via parent entity (`SommerUsers.role`).
+
+**Consent flow:** User trigger → "Would you like to hear from your future self?" → User confirms → `voice_processing_consent: true` logged to s.net → Ripple simulation runs → Voice playback (with AI disclosure) → User selects action → Consent record logged to s.net → Glyph encoded with provenance chain.
+
+### 12.3 Third-Party Processor Compliance (GDPR Art. 28 DPA)
+
+The Nordic Calm voice is rendered via Microsoft Azure Speech Services (or local fallback edge model). This constitutes a third-party data processing relationship:
+
+| Art. 28 Requirement | Implementation |
+|---------------------|----------------|
+| **Data Processing Agreement (DPA)** | Azure Cognitive Services operates under Microsoft's standard DPA and EU Data Boundary. SSML text is processed in EU region. |
+| **Processor constraints** | Transmitted audio payloads are subject to a binding DPA under Article 28, mandating: **zero-retention** on vendor logging endpoints, **no secondary training** on user voice streams, and regional processing strictly pinned to **EU Data Boundary** data centers (`westeurope`). |
+| **Processing scope** | Only SSML text strings are transmitted to Azure for rendering. No biometric data, no user identity, no audio recordings of the user. Azure processes the text → returns synthesized audio. |
+| **Sub-processor disclosure** | Microsoft Azure disclosed as sub-processor in privacy policy. Listed in Compliance Book §3. |
+| **Data residency** | Azure TTS processing pinned to EU region (West Europe) for DK pilot. No data leaves EU jurisdiction. |
+| **Retention by processor** | Azure Cognitive Services does not retain SSML input or audio output beyond the rendering session. Zero-retention confirmed per Azure data residency documentation and DPA terms. |
+| **Edge fallback** | Local edge TTS model available as fallback for offline or high-privacy scenarios. No data transmitted to any external processor when edge model is active. |
+
+**Key distinction:** The system sends *text* to Azure (SSML scripts), not *user voice data*. Azure TTS is a text-to-speech service, not a speech-to-text service. No user voice biometrics are collected, processed, or transmitted. The synthesized voice is generated output, not biometric input — GDPR Art. 9 is not applicable.
 
 ---
 
-## 13. Data Model & Entity Schemas
+## 13. Data Schema & Architecture Unification
 
-### 13.1 Entity: `GlyphArchive`
+### 13.1 Layer Naming Standardization
 
-Stores encoded glyphs (symbolic artifacts capturing action + prediction + outcome).
-
-```json
-{
-  "properties": {
-    "user_ref": { "type": "string", "description": "Pseudonymous user identifier (not CPR)" },
-    "glyph_name": { "type": "string", "description": "User-assigned symbolic name for the ripple" },
-    "action_type": { "type": "string", "enum": ["amplify", "settle", "transform", "archive"] },
-    "trigger_context": { "type": "string", "description": "What user decision triggered the ripple" },
-    "ocean_layer": { "type": "string", "enum": ["blue", "red", "sommer"] },
-    "forecast_confidence": { "type": "number", "description": "Confidence score (0.0–1.0)" },
-    "forecast_half_life": { "type": "string", "description": "Estimated impact duration (e.g., '12 weeks')" },
-    "forecast_trajectory": { "type": "string", "enum": ["amplifying", "stabilizing", "fading", "mutating"] },
-    "voice_tone_mode": { "type": "string", "enum": ["hopeful", "cautionary", "legacy", "neutral"] },
-    "ssml_script": { "type": "string", "description": "SSML voice narration script for this glyph" },
-    "is_public": { "type": "boolean", "default": false, "description": "User opted to share in public glyph library" },
-    "outcome_actual": { "type": "string", "description": "Filled in later — actual outcome for forecast accuracy training" },
-    "snet_log_ref": { "type": "string", "description": "Reference to s.net immutable ledger entry" }
-  },
-  "type": "object"
-}
-```
-
-### 13.2 Entity: `RippleForecast`
-
-Stores computed ripple simulations before user action.
-
-```json
-{
-  "properties": {
-    "user_ref": { "type": "string" },
-    "trigger_decision_id": { "type": "string", "description": "Reference to the triggering user decision" },
-    "ocean_scores": {
-      "type": "object",
-      "properties": {
-        "blue_score": { "type": "number" },
-        "red_score": { "type": "number" },
-        "sommer_score": { "type": "number" }
-      }
-    },
-    "hierarchy_scores": {
-      "type": "object",
-      "properties": {
-        "symbolic": { "type": "number" },
-        "behavioral": { "type": "number" },
-        "systemic": { "type": "number" },
-        "cultural": { "type": "number" }
-      }
-    },
-    "composite_resonance": { "type": "number", "description": "Weighted aggregate (see §14)" },
-    "confidence_score": { "type": "number", "description": "0.0–1.0 likelihood estimate" },
-    "half_life_estimate": { "type": "string" },
-    "trajectory": { "type": "string", "enum": ["amplifying", "stabilizing", "fading", "mutating"] },
-    "tone_mode_selected": { "type": "string", "enum": ["hopeful", "cautionary", "legacy", "neutral"] },
-    "timestamp": { "type": "string", "format": "date-time" }
-  },
-  "type": "object"
-}
-```
-
-### 13.3 Architecture Layer Alignment
-
-The SommerCoPilot operates at **L-OP (Operator Layer)** — the experiential interface between the user and the TONE pipeline. The earlier draft referenced `L-COPILOT` which is corrected here to align with the Sovereign Layer Architecture Specification.
+**Canonical Naming:** All architecture references across the blueprint, system specifications, and INDEX.md are standardized from `L-COPILOT` to **L-OP (Layer Operational & Perception Engine)** — the experiential interface between the operator and the TONE pipeline.
 
 ```
-L-OP (Operator Layer)
+L-OP (Layer Operational & Perception Engine)
   └─ SommerCoPilot
-       ├─ Ripple Engine → RippleForecast entity
-       ├─ Resonance Forecast → RippleForecast entity (computed scores)
+       ├─ Ripple Engine → RippleForecast / SommerCopilotForecasts entities
+       ├─ Resonance Forecast → RippleForecast entity (ocean + hierarchy scores)
        ├─ Voice of Future Self → GlyphArchive entity (SSML + encoding)
-       └─ User Action → GlyphArchive entity (finalized glyph)
+       └─ User Action → GlyphArchive / SommerCopilotGlyphs entities
 ```
+
+### 13.2 Base44 Entity Schemas
+
+#### SommerCopilotForecasts
+
+Stores computed predictive forecasts with confidence intervals and algorithm metadata.
+
+```typescript
+interface SommerCopilotForecast {
+  id: string;               // UUID
+  user_ref: string;         // ZK / opaque reference (pseudonymous)
+  forecast_type: "SURPLUS" | "RESONANCE" | "BIOSECURITY_RISK";
+  horizon_days: number;     // e.g., 30, 90, 365
+  confidence_score: number; // Float 0.00 to 1.00 (see §14)
+  predicted_value: number;
+  lower_bound: number;
+  upper_bound: number;
+  algorithm_metadata: {
+    model_version: string;
+    features_used: string[];
+    free_energy_delta: number;  // 𝓕Δ at time of forecast
+  };
+  created_at: string;      // ISO 8601
+  retention_until: string;  // ISO 8601 (Strict 90-day rolling window)
+}
+```
+
+#### SommerCopilotGlyphs
+
+Stores glyph visual states with semantic labels and energy states.
+
+```typescript
+interface SommerCopilotGlyph {
+  id: string;
+  user_ref: string;
+  glyph_code: string;      // Visual symbol representation
+  semantic_label: string;
+  energy_state: "STABLE" | "TRANSIENT" | "DEEP_REST" | "ALERT";
+  active: boolean;
+  updated_at: string;
+}
+```
+
+#### Existing Entities (Cross-Reference)
+
+The following entities were created in Pass 3 and continue to serve the ripple simulation and full glyph lifecycle:
+
+- **`GlyphArchive`** — Full glyph lifecycle: 14 fields including `action_type`, `ocean_layer`, `forecast_trajectory`, `voice_tone_mode`, `ssml_script`, `is_public`, `snet_log_ref`, `outcome_actual`. Stores the complete action + prediction + outcome artifact.
+- **`RippleForecast`** — Ripple simulation scores: 11 fields including `ocean_scores` (blue/red/sommer), `hierarchy_scores` (symbolic/behavioral/systemic/cultural), `composite_resonance`, `confidence_score`, `trajectory`, `tone_mode_selected`. Stores the computed cascade simulation before user action.
+
+**Relationship:** `SommerCopilotForecasts` stores the predictive output (what will happen), `RippleForecast` stores the simulation input (how the ripple cascades), `SommerCopilotGlyphs` stores the visual state (what the user sees), and `GlyphArchive` stores the full lifecycle artifact (action + prediction + outcome + SSML voice script).
 
 ---
 
-## 14. Confidence Score Algorithm
+## 14. Algorithmic Confidence & Data Retention
 
-The confidence score (0.0–1.0) estimates the likelihood that the forecast trajectory will match actual outcomes, based on historical glyph accuracy.
+### 14.1 Confidence Score Formulation
 
-### 14.1 Composite Resonance Score
-
-```
-R_composite = (w_symbolic × S_symbolic) + (w_behavioral × S_behavioral)
-             + (w_systemic × S_systemic) + (w_cultural × S_cultural)
-```
-
-Where prognostic weights are:
-- `w_symbolic = 0.20` (High signal, but harder to quantify)
-- `w_behavioral = 0.15` (Medium — patterns are observable but slow to cascade)
-- `w_systemic = 0.45` (Very High — policy/infra changes have broadest impact)
-- `w_cultural = 0.20` (High — peer adoption signals, but noisy)
-
-Each layer score `S_layer` is normalized to [0.0, 1.0].
-
-### 14.2 Confidence Calculation
+The predictive engine computes the confidence metric **C ∈ [0, 1]** for forecasts by integrating historical sample density N, physiological stability (inverse free energy divergence), and sensor signal noise σ²:
 
 ```
-C = (N_historical / (N_historical + K)) × A_historical + (K / (N_historical + K)) × A_prior
+        ┌             ┐   ┌                    ┐   ┌             ┐
+C =  (1 −   FΔ / F_max  ) × (1 − e^(−N / N_baseline)) × (1 − σ² / σ²_max)
+        └             ┘   └                    ┘   └             ┘
+```
 
 Where:
-  N_historical = number of past glyphs with similar ocean+trajectory profile
-  K            = smoothing constant (default: 5 — requires 5 similar past glyphs
-                 before historical data dominates the estimate)
-  A_historical = accuracy of past glyphs with same profile
-                 (actual outcome matched forecast trajectory)
-  A_prior      = 0.5 (uninformed prior — 50% for new glyph types with no history)
-```
+- **FΔ** = current variational free-energy divergence of the user's PDT
+- **F_max** = maximum free-energy threshold (default: 3.0, per active inference spec)
+- **N** = number of historical samples with similar forecast profile
+- **N_baseline** = minimum sample count for stable predictions (default: 50)
+- **σ²** = current sensor signal noise variance (from PDT telemetry)
+- **σ²_max** = maximum acceptable noise threshold (default: 0.15)
 
 **Interpretation:**
+- A higher 𝓕Δ directly reduces the output confidence of long-term economic predictions due to biological uncertainty. When the user is physiologically anomalous, the system becomes less confident in its forecasts — it hedges.
+- Low sample density (N < N_baseline) reduces confidence for new glyph types with no historical baseline.
+- High sensor noise (σ² approaching σ²_max) reduces confidence — the system knows when its own inputs are unreliable.
+
+**Confidence bands and voice tone selection:**
 - `C > 0.75` — High confidence. Voice tone: Hopeful or Legacy.
 - `0.50 < C ≤ 0.75` — Moderate confidence. Voice tone: Neutral.
 - `C ≤ 0.50` — Low confidence. Voice tone: Cautionary. Forecast explicitly hedged in narration.
 
-This ensures the system is honest about its own uncertainty — the voice narrates confidence levels transparently, per GDPR Art. 12 and AI Act Art. 50.
+This ensures the system is honest about its own uncertainty — the voice narrates confidence levels transparently, per GDPR Art. 12 (transparent information) and AI Act Art. 50 (transparency obligation).
+
+**Comparison to Pass 3 formula:** The earlier Bayesian formula (C = (N/(N+K)) × A_historical + (K/(N+K)) × A_prior) has been replaced with this tri-factor model that integrates physiological stability and sensor noise — a more robust approach that ties forecast confidence directly to the user's biological state and data quality.
+
+### 14.2 Data Retention Policy Matrix
+
+| Data Category | Storage Location | Retention Period | Destruction Mechanism | GDPR Basis |
+|---------------|-----------------|-----------------|----------------------|------------|
+| **Raw Voice Telemetry** | Local RAM Buffer | Transient (Max 500ms post-inference) | Overwritten in memory | Art. 5(1)(c) — data minimization |
+| **Acoustic Feature Vectors** | PdtTelemetry | 30 Days | Automated DB purge cron | Art. 5(1)(e) — storage limitation |
+| **Resonance & Surplus Forecasts** | SommerCopilotForecasts | 90 Days Rolling | Soft-delete to automated purge | Art. 5(1)(e) — storage limitation |
+| **Glyph Visual States** | SommerCopilotGlyphs | Current State Only (1 record/user) | Overwritten on update | Art. 5(1)(c) — data minimization |
+| **RippleForecast records** | RippleForecast | 365 days from creation | Auto-deleted after 365 days unless archived as glyph | Art. 5(1)(e) — storage limitation |
+| **GlyphArchive (private)** | GlyphArchive | User-controlled | Deleted on user request or account closure | GDPR Art. 17 — right to erasure |
+| **GlyphArchive (public)** | GlyphArchive | Indefinite (community asset) | Removed if user revokes publication consent | Art. 6(1)(f) + user consent |
+| **SSML voice scripts** | GlyphArchive | Same retention as associated glyph | Deleted with parent glyph | Tied to glyph lifecycle |
+| **Consent records** | s.net ledger | Duration of processing + 3 years | Retained for audit, then purged | GDPR Art. 7(1) — demonstrable consent |
+
+**s.net exception:** Immutable ledger entries (decision provenance chain) are retained permanently as audit trail. These contain only pseudonymous identifiers and action references — no personal data, no voice content, no SSML scripts, no acoustic features.
 
 ---
 
-## 15. Data Retention Policy
-
-| Data Type | Retention Period | Basis | Disposal |
-|-----------|-----------------|-------|----------|
-| **RippleForecast** records | 365 days from creation | GDPR Art. 5(1)(e) — storage limitation | Auto-deleted after 365 days unless user archives as glyph |
-| **GlyphArchive** (private) | User-controlled | GDPR Art. 17 — right to erasure | Deleted on user request or account closure |
-| **GlyphArchive** (public) | Indefinite (community asset) | Art. 6(1)(f) legitimate interest + user consent at publication | Removed if user revokes publication consent; historical s.net audit entry retained |
-| **SSML voice scripts** | Same retention as associated glyph | Tied to glyph lifecycle | Deleted with parent glyph |
-| **Consent records** | Duration of processing + 3 years | GDPR Art. 7(1) — demonstrable consent | Retained for audit, then purged |
-| **Forecast accuracy training data** | Aggregated & pseudonymized | Art. 5(1)(b) — purpose limitation | Aggregated stats retained; individual glyph links severed after 365 days |
-
-**s.net exception:** Immutable ledger entries (decision provenance chain) are retained permanently as audit trail. These contain only pseudonymous identifiers and action references — no personal data, no voice content, no SSML scripts.
-
----
-
-## 16. Implementation Timeline (Aligned with DK→EU Deployment Roadmap)
+## 15. Implementation Timeline (Aligned with DK→EU Deployment Roadmap)
 
 | Phase | Timeline | SommerCoPilot Scope | Dependency |
 |-------|----------|---------------------|------------|
@@ -457,7 +497,7 @@ This ensures the system is honest about its own uncertainty — the voice narrat
 
 ---
 
-## 17. Cross-References
+## 16. Cross-References
 
 | Document | Cross-Reference |
 |----------|-----------------|
