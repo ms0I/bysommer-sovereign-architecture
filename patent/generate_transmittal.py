@@ -4,9 +4,7 @@
 import os
 from weasyprint import HTML
 
-# Create output directories if needed
 os.makedirs("patent/out", exist_ok=True)
-os.makedirs("docs/out", exist_ok=True)
 
 html_content = """<!DOCTYPE html>
 <html lang="en">
@@ -16,7 +14,6 @@ html_content = """<!DOCTYPE html>
   @page {
     size: A4;
     margin: 20mm 15mm 20mm 15mm;
-    background-color: #fcfcfd;
     @bottom-right {
       content: "Page " counter(page) " of " counter(pages);
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -31,7 +28,6 @@ html_content = """<!DOCTYPE html>
       font-weight: bold;
     }
   }
-
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 10pt;
@@ -40,7 +36,6 @@ html_content = """<!DOCTYPE html>
     margin: 0;
     padding: 0;
   }
-
   .header-table {
     width: 100%;
     border-collapse: collapse;
@@ -48,11 +43,7 @@ html_content = """<!DOCTYPE html>
     border-bottom: 2px solid #2b6cb0;
     padding-bottom: 15px;
   }
-
-  .header-table td {
-    vertical-align: top;
-  }
-
+  .header-table td { vertical-align: top; }
   .brand-title {
     font-size: 18pt;
     font-weight: 800;
@@ -60,7 +51,6 @@ html_content = """<!DOCTYPE html>
     letter-spacing: -0.5px;
     text-transform: uppercase;
   }
-
   .brand-sub {
     font-size: 9pt;
     color: #4a5568;
@@ -68,7 +58,6 @@ html_content = """<!DOCTYPE html>
     letter-spacing: 1px;
     margin-top: 2px;
   }
-
   .meta-box {
     background-color: #ebf8ff;
     border-left: 4px solid #3182ce;
@@ -76,27 +65,10 @@ html_content = """<!DOCTYPE html>
     margin-bottom: 20px;
     border-radius: 0 4px 4px 0;
   }
-
-  .meta-grid {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 9.5pt;
-  }
-
-  .meta-grid td {
-    padding: 3px 0;
-  }
-
-  .meta-label {
-    font-weight: 700;
-    color: #2c5282;
-    width: 22%;
-  }
-
-  .meta-val {
-    color: #1a202c;
-  }
-
+  .meta-grid { width: 100%; border-collapse: collapse; font-size: 9.5pt; }
+  .meta-grid td { padding: 3px 0; }
+  .meta-label { font-weight: 700; color: #2c5282; width: 22%; }
+  .meta-val { color: #1a202c; }
   h2 {
     font-size: 12pt;
     color: #2b6cb0;
@@ -107,47 +79,13 @@ html_content = """<!DOCTYPE html>
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
-
-  p {
-    margin-top: 0;
-    margin-bottom: 12px;
-    text-align: justify;
-  }
-
-  ul, ol {
-    margin-top: 0;
-    margin-bottom: 12px;
-    padding-left: 20px;
-  }
-
-  li {
-    margin-bottom: 6px;
-  }
-
-  table.data-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 15px 0;
-    font-size: 9pt;
-  }
-
-  table.data-table th {
-    background-color: #2b6cb0;
-    color: white;
-    text-align: left;
-    padding: 8px 10px;
-    font-weight: 600;
-  }
-
-  table.data-table td {
-    padding: 7px 10px;
-    border-bottom: 1px solid #e2e8f0;
-  }
-
-  table.data-table tr:nth-child(even) td {
-    background-color: #f7fafc;
-  }
-
+  p { margin-top: 0; margin-bottom: 12px; text-align: justify; }
+  ul, ol { margin-top: 0; margin-bottom: 12px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  table.data-table { width: 100%; border-collapse: collapse; margin: 15px 0; font-size: 9pt; }
+  table.data-table th { background-color: #2b6cb0; color: white; text-align: left; padding: 8px 10px; font-weight: 600; }
+  table.data-table td { padding: 7px 10px; border-bottom: 1px solid #e2e8f0; }
+  table.data-table tr:nth-child(even) td { background-color: #f7fafc; }
   .privilege-notice {
     background-color: #fff5f5;
     border: 1px solid #feb2b2;
@@ -157,19 +95,8 @@ html_content = """<!DOCTYPE html>
     border-radius: 4px;
     margin-bottom: 20px;
   }
-
-  .signature-block {
-    margin-top: 30px;
-    page-break-inside: avoid;
-  }
-
-  .signature-line {
-    border-top: 1px solid #a0aec0;
-    width: 220px;
-    margin-top: 40px;
-    margin-bottom: 5px;
-  }
-
+  .signature-block { margin-top: 30px; page-break-inside: avoid; }
+  .signature-line { border-top: 1px solid #a0aec0; width: 220px; margin-top: 40px; margin-bottom: 5px; }
   .checklist {
     background-color: #f0fff4;
     border: 1px solid #9ae6b4;
@@ -177,22 +104,9 @@ html_content = """<!DOCTYPE html>
     padding: 12px 15px;
     margin: 15px 0;
   }
-
-  .checklist h3 {
-    font-size: 10pt;
-    color: #276749;
-    margin: 0 0 8px 0;
-  }
-
-  .checklist ul {
-    margin-bottom: 0;
-  }
-
-  .checklist li {
-    margin-bottom: 4px;
-    font-size: 9pt;
-  }
-
+  .checklist h3 { font-size: 10pt; color: #276749; margin: 0 0 8px 0; }
+  .checklist ul { margin-bottom: 0; }
+  .checklist li { margin-bottom: 4px; font-size: 9pt; }
   .footer-note {
     margin-top: 25px;
     padding-top: 12px;
@@ -232,7 +146,7 @@ html_content = """<!DOCTYPE html>
     </tr>
     <tr>
       <td class="meta-label">FROM:</td>
-      <td class="meta-val">Michael Sommer | BY SOMMER Sovereign Architecture</td>
+      <td class="meta-val">Michael Sommer | Founder &amp; Inventor of Record, BY SOMMER Sovereign Architecture &lt;michael@bysommer.com&gt;</td>
     </tr>
     <tr>
       <td class="meta-label">SUBJECT:</td>
@@ -352,11 +266,13 @@ html_content = """<!DOCTYPE html>
 <p>Please confirm receipt of this transmittal and advise on your availability for a 30-minute intake alignment call next week.</p>
 
 <div class="signature-block">
-  <p>Respectfully submitted,</p>
+  <p>Sincerely,</p>
   <div class="signature-line"></div>
   <p style="margin-top: 5px;">
     <strong>Michael Sommer</strong><br>
-    Founder, BY SOMMER Sovereign Architecture<br>
+    Founder &amp; Chief Architect / Inventor of Record<br>
+    BY SOMMER Sovereign Architecture<br>
+    Email: michael@bysommer.com<br>
     Hellerup, Denmark<br>
     <em>Attorney Docket: TONE-2026-PCT-01</em>
   </p>
@@ -370,13 +286,11 @@ html_content = """<!DOCTYPE html>
 </body>
 </html>"""
 
-# Generate the PDF
 output_path = "patent/out/TONE_PATENT_TRANSMITTAL.pdf"
 HTML(string=html_content).write_pdf(output_path)
 print(f"Transmittal letter generated: {output_path}")
 print(f"File size: {os.path.getsize(output_path)} bytes")
 
-# Also save the HTML version for email embedding
 html_path = "patent/out/TONE_PATENT_TRANSMITTAL.html"
 with open(html_path, "w", encoding="utf-8") as f:
     f.write(html_content)
