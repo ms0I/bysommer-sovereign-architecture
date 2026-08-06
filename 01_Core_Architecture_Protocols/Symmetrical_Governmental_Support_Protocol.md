@@ -115,7 +115,7 @@ The BDT protocol structures the exchange between the company, the National Autho
 - Ensures correct registration from day one
 
 **Tax & Accounting:**
-- BDT monitors turnover limits (e.g., VAT registration limit of DKK 50,000)
+- BDT monitors turnover limits (e.g., Danish VAT registration limit of DKK 50,000 domestic; EU-wide €10,000 cross-border B2C threshold for OSS/IOSS registration)
 - Ensures the company does not violate tax legislation
 - Automatically reports A-tax, AM contributions, or B-income based on applicable national rates
 - Financial records retained per Danish Bookkeeping Act (Bogføringsloven)

@@ -10,14 +10,14 @@
  */
 export async function handleDec10SurplusAccrual(req, res) {
   // Itemized daily operating cost breakdown
-  const COST_COMPUTE_INFRA = 2.10;
-  const COST_STORAGE_INDEX = 1.30;
-  const COST_NETWORK_EGRESS = 0.85;
-  const COST_API_CALLS = 0.95;
+  const COST_COMPUTE_INFRA = Number(process.env.COST_COMPUTE_INFRA_DKK || 2.10);
+  const COST_STORAGE_INDEX = Number(process.env.COST_STORAGE_INDEX_DKK || 1.30);
+  const COST_NETWORK_EGRESS = Number(process.env.COST_NETWORK_EGRESS_DKK || 0.85);
+  const COST_API_CALLS = Number(process.env.COST_API_CALLS_DKK || 0.95);
   const DAILY_OPERATING_COST_DKK =
     COST_COMPUTE_INFRA + COST_STORAGE_INDEX + COST_NETWORK_EGRESS + COST_API_CALLS; // ~5.20 DKK
 
-  const MONTHLY_BASE_DKK = 225.0;
+  const MONTHLY_BASE_DKK = Number(process.env.NON_PROFIT_BASELINE_DKK || 225.0);
   const dailyBase = MONTHLY_BASE_DKK / 30.0; // 7.50 DKK
   const dailyAccrual = Math.max(0, dailyBase - DAILY_OPERATING_COST_DKK); // ~2.30 DKK/day
 

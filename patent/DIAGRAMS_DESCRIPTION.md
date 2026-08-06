@@ -200,7 +200,7 @@ FIG. 6 illustrates the zero-knowledge identity validation process, emphasizing t
 2. **Zero-Knowledge Vault (center-left):**
    - Input: CPR Number (private)
    - Process: Hash(CPR Number) = `cpr_zk_hash`
-   - Output: `cpr_zk_hash` (public, non-reversible)
+   - Output: `cpr_zk_hash` (pseudonymous — non-reversible without the ZK vault private key; classified as pseudonymous personal data per GDPR Recital 26)
    - A thick trust boundary is drawn around the vault, labeled "CPR number never exits this boundary"
 
 3. **Compliance Engine (center-right):**

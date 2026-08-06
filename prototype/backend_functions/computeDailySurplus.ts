@@ -14,17 +14,6 @@
  * 
  * Scheduled via Base44 Workflow: daily at 09:00 Europe/Copenhagen
  * 
- * Economics:
- *   - Non-profit baseline: 225 DKK/month (midpoint of 200-250 range)
- *   - Daily baseline: 7.50 DKK/day (225/30)
- *   - Itemized daily operating cost (computed, not hardcoded):
- *     · Compute infrastructure: 2.10 DKK/day
- *     · Storage & indexing: 1.30 DKK/day
- *     · Network egress: 0.85 DKK/day
- *     · API calls (EUR-Lex, DAWA, Virk): 0.95 DKK/day
- *     · Total: ~5.20 DKK/day
- *   - Daily surplus per citizen: ~2.30 DKK
- * 
  * Deployed at: https://solas-7221afc1.base44.app/functions/computeDailySurplus
  * Runtime: Deno (Base44 backend function)
  */
@@ -36,26 +25,27 @@ Deno.serve(async (req) => {
     const base44 = createClientFromRequest(req);
 
     // Use service role for scheduled cron operations to bypass RLS
-    // (cron jobs are unauthenticated and must access all citizen records)
     const serviceRole = base44.asServiceRole;
 
-    // ── Economic Parameters (itemized, not hardcoded flat rate) ──
-    const NON_PROFIT_BASELINE_DKK = 225;        // midpoint of 200-250 DKK/mo
-    const DAILY_BASELINE = NON_PROFIT_BASELINE_DKK / 30;  // ~7.5 DKK/day
+    // ── Economic Parameters (from environment with fallback defaults) ──
+    const NON_PROFIT_BASELINE_DKK = Number(Deno.env.get("NON_PROFIT_BASELINE_DKK") || 225);
+    const DAILY_BASELINE = NON_PROFIT_BASELINE_DKK / 30;
 
-    // Itemized daily operating cost breakdown
-    const COST_COMPUTE_INFRA = 2.10;     // DKK/day — compute infrastructure
-    const COST_STORAGE_INDEX = 1.30;     // DKK/day — storage & indexing
-    const COST_NETWORK_EGRESS = 0.85;    // DKK/day — network egress
-    const COST_API_CALLS = 0.95;         // DKK/day — API calls (EUR-Lex, DAWA, Virk)
+    // Itemized daily operating cost (from environment with fallbacks)
+    const COST_COMPUTE_INFRA = Number(Deno.env.get("COST_COMPUTE_INFRA_DKK") || 2.10);
+    const COST_STORAGE_INDEX = Number(Deno.env.get("COST_STORAGE_INDEX_DKK") || 1.30);
+    const COST_NETWORK_EGRESS = Number(Deno.env.get("COST_NETWORK_EGRESS_DKK") || 0.85);
+    const COST_API_CALLS = Number(Deno.env.get("COST_API_CALLS_DKK") || 0.95);
     const ESTIMATED_DAILY_OPERATING_COST =
-      COST_COMPUTE_INFRA + COST_STORAGE_INDEX + COST_NETWORK_EGRESS + COST_API_CALLS;  // ~5.20 DKK
+      COST_COMPUTE_INFRA + COST_STORAGE_INDEX + COST_NETWORK_EGRESS + COST_API_CALLS;
 
-    const DAILY_SURPLUS = DAILY_BASELINE - ESTIMATED_DAILY_OPERATING_COST;  // ~2.30 DKK/day
+    const DAILY_SURPLUS = DAILY_BASELINE - ESTIMATED_DAILY_OPERATING_COST;
 
-    // ── December 10th Annual Payout Trigger ──
+    // ── December 10th Annual Payout Trigger (from env epoch) ──
+    const payoutEpoch = Deno.env.get("DEC10_PAYOUT_EPOCH") || "12-10";
+    const [payoutMonth, payoutDay] = payoutEpoch.split("-").map(Number);
     const today = new Date();
-    const isPayoutDay = (today.getMonth() === 11 && today.getDate() === 10);  // Dec 10
+    const isPayoutDay = (today.getMonth() === payoutMonth - 1 && today.getDate() === payoutDay);
 
     // Load all citizens via service role (bypasses RLS for scheduled cron)
     const citizens = await serviceRole.entities.SommerUsers.list({
@@ -71,14 +61,13 @@ Deno.serve(async (req) => {
       const current_surplus = citizen.dec_10_surplus_pool_dkk || 0;
 
       if (isPayoutDay) {
-        // ── Annual Dividend Payout Event (December 10th) ──
-        // Transfer accumulated surplus to discretionary income + reset pool
+        // ── Annual Dividend Payout Event ──
         const payout_amount = current_surplus + DAILY_SURPLUS;
         const new_discretionary = (citizen.true_discretionary_income_dkk || 0) + payout_amount;
 
         await serviceRole.entities.SommerUsers.update(citizen.id, {
           true_discretionary_income_dkk: Math.round(new_discretionary * 100) / 100,
-          dec_10_surplus_pool_dkk: 0  // Reset pool after annual distribution
+          dec_10_surplus_pool_dkk: 0
         });
 
         total_distributed += payout_amount;
@@ -92,7 +81,7 @@ Deno.serve(async (req) => {
           pool_after_reset: 0
         });
       } else {
-        // ── Daily Accrual (normal day) ──
+        // ── Daily Accrual ──
         const new_surplus = current_surplus + DAILY_SURPLUS;
 
         await serviceRole.entities.SommerUsers.update(citizen.id, {
@@ -128,7 +117,7 @@ Deno.serve(async (req) => {
             total: Math.round(ESTIMATED_DAILY_OPERATING_COST * 100) / 100
           },
           results,
-          message: `🎉 December 10th dividend distributed to ${updated_count} citizens. Total payout: ${Math.round(total_distributed * 100) / 100} DKK. All pools reset to zero.`
+          message: `December 10th dividend distributed to ${updated_count} citizens. Total payout: ${Math.round(total_distributed * 100) / 100} DKK. All pools reset to zero.`
         }
       : {
           date: today.toISOString(),

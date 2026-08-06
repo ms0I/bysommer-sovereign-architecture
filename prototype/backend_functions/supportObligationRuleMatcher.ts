@@ -26,7 +26,7 @@ const MOCK_LOCATIONS = {
 };
 
 // ── Reverse Geocode → Danish Kommune ─────────────────────────────────
-// In production: call DAWA API (https://dawa.aws.dk/kommuner)
+// In production: call DAWA API (Deno.env.get("DAWA_API_URL") || "https://dawa.aws.dk/kommuner")
 const KOMMUNE_LOOKUP = [
   { code: 'AARHUS',     name: 'Aarhus',      latRange: [56.0, 56.4],  lngRange: [9.8, 10.6] },
   { code: 'KOBENHAVN',  name: 'København',   latRange: [55.5, 55.8],  lngRange: [12.4, 12.8] },
@@ -48,7 +48,7 @@ function reverseGeocodeToKommune(lat, lng) {
 async function fetchCitizenLocation(userId) {
   const loc = MOCK_LOCATIONS[userId];
   if (loc) return loc;
-  return { lat: 55.6761, lng: 12.5683 }; // default: København
+  return { lat: Number(Deno.env.get("DEFAULT_CITIZEN_LAT") || 55.6761), lng: Number(Deno.env.get("DEFAULT_CITIZEN_LNG") || 12.5683) }; // default: København (from env)
 }
 
 Deno.serve(async (req) => {

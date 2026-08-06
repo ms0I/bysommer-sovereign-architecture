@@ -17,7 +17,7 @@
 #### Independent Claims
 
 **1. A computer-implemented biosecurity and execution circuit-breaker system, comprising:**
-- a biometric ingestion interface configured to continuously receive anonymized physiological state vectors associated with an opaque user identifier (`user_ref`);
+- a biometric ingestion interface configured to continuously receive pseudonymized physiological state vectors associated with an opaque user identifier (`user_ref`);
 - an active inference computing module comprising at least one hardware processor configured to:
   - calculate a variational free-energy divergence (𝓕Δ) between an expected homeostatic state model and an observed physiological state vector;
   - compare said variational free-energy divergence (𝓕Δ) against a predefined safety threshold; and
@@ -46,7 +46,7 @@
 
 #### Dependent Claims (Biosecurity & Active Inference)
 
-**4. The system of Claim 1,** wherein said anonymized physiological state vectors comprise heart rate variability (HRV in ms), core body temperature (T in °C), respiratory rate, and blood oxygen saturation (SpO₂ percentage).
+**4. The system of Claim 1,** wherein said pseudonymized physiological state vectors comprise heart rate variability (HRV in ms), core body temperature (T in °C), respiratory rate, and blood oxygen saturation (SpO₂ percentage).
 
 **5. The system of Claim 1,** wherein said predefined safety threshold comprises a variational free-energy divergence (𝓕Δ) greater than or equal to 3.0 or a thermal drift greater than or equal to 1.5°C above baseline homeostatic equilibrium.
 
@@ -116,6 +116,7 @@ Claim 3 (Independent — Surplus Ledger System)
 1. **Claim 1** recites structural components (biometric ingestion interface, active inference computing module, compliance execution engine) — system claim format for § 101 eligibility as a concrete technological improvement in biosecurity automation.
 
 2. **Claim 8 (NemRefusion bridge)** is a novel dependent claim introducing automated sick-leave declaration via ZK identity hash — no prior art found for this specific combination of biosecurity trigger + municipal reimbursement automation + employer privacy shield.
+   - **Statutory basis (Denmark):** The automated sick-leave declaration operates under the Danish Sickness Benefits Act (*Sygedagpengeloven*, LBK nr 1293 af 21/09/2021). Days 1–30 constitute the employer period (*Arbejdsgiverperioden*); from Day 31, the municipality (*kommune*) assumes financial responsibility. The binary `IS_INCAPACITATED` indicator enables this workflow without transmitting diagnostic codes, ensuring *Helbredsoplysningsloven* §1/§2 and GDPR Art. 9 compliance.
 
 3. **Claim 15 (Planetary Shield)** is dependent on Claim 1, not independent — this creates a single prosecution path where the circuit breaker system subsumes the biosecurity escalation, simplifying the prosecution history.
 

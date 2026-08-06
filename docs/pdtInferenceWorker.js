@@ -22,7 +22,8 @@ export async function handlePDTInference(req, res) {
     }
   }
 
-  const anomalyDetected = freeEnergy >= 3.0;
+  const ANOMALY_THRESHOLD = Number(process.env.F_DELTA_THRESHOLD || 3.0);
+  const anomalyDetected = freeEnergy >= ANOMALY_THRESHOLD;
 
   // Database State Update
   if (anomalyDetected) {

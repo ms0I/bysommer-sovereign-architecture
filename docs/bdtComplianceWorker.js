@@ -9,10 +9,10 @@
 export async function handleBDTTransaction(req, res) {
   const { transaction_id, buyer_id, business_id, items, is_cross_border, is_ioss_registered, current_maint_spend } = req.body;
 
-  const DANISH_VAT = 0.25;
-  const FLAT_DUTY_EUR = 3.0; // 2026 EU Customs Reform rate
-  const EUR_TO_DKK = 7.46;
-  const CAP_LIMIT_DKK = 250.0;
+  const DANISH_VAT = Number(process.env.DANISH_VAT_RATE || 0.25);
+  const FLAT_DUTY_EUR = Number(process.env.FLAT_CUSTOMS_DUTY_EUR || 3.0); // 2026 EU Customs Reform rate
+  const EUR_TO_DKK = Number(process.env.EUR_TO_DKK_RATE || 7.46);
+  const CAP_LIMIT_DKK = Number(process.env.MONTHLY_MAINTENANCE_CAP_DKK || 250.0);
 
   // 1. CE Check
   const uncertifiedItem = items.find(i => !i.ce_marked && i.country_of_origin !== 'EU');

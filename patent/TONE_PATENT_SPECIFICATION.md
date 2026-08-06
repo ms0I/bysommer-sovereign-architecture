@@ -52,7 +52,7 @@ The present invention, referred to herein as the TONE Architecture (Telemetry-Dr
 
 ### Subsystem 1: Biosecurity and Execution Circuit-Breaker (Claims 1, 4–8, 15)
 
-A computer-implemented system that continuously receives anonymized physiological state vectors (heart rate variability, core body temperature, respiratory rate, blood oxygen saturation) from a personal digital twin via zero-knowledge proof transmission. An active inference computing module calculates the variational free-energy divergence (𝓕Δ) between an expected homeostatic baseline and the observed physiological state. When 𝓕Δ exceeds a safety threshold (≥3.0 or thermal drift ≥1.5°C), the system emits an anomaly state signal. A compliance execution engine receiving this signal automatically freezes all queued autonomous financial pre-bookings associated with the user by setting their monthly spending cap to zero DKK. Unlocking requires either passive homeostatic recovery (𝓕Δ < 1.0) or active Human-in-the-Loop (HITL) Level 2 override.
+A computer-implemented system that continuously receives pseudonymized physiological state vectors (heart rate variability, core body temperature, respiratory rate, blood oxygen saturation) from a personal digital twin via zero-knowledge proof transmission. An active inference computing module calculates the variational free-energy divergence (𝓕Δ) between an expected homeostatic baseline and the observed physiological state. When 𝓕Δ exceeds a safety threshold (≥3.0 or thermal drift ≥1.5°C), the system emits an anomaly state signal. A compliance execution engine receiving this signal automatically freezes all queued autonomous financial pre-bookings associated with the user by setting their monthly spending cap to zero DKK. Unlocking requires either passive homeostatic recovery (𝓕Δ < 1.0) or active Human-in-the-Loop (HITL) Level 2 override.
 
 A biosecurity bridge module further transmits an authenticated digital sickness declaration to municipal reimbursement frameworks (e.g., NemRefund/NemRefusion in Denmark) using a zero-knowledge identity hash, enabling automated sick-leave processing without exposing biometric sensor data to employers.
 
@@ -197,6 +197,8 @@ The cryptographic zero-knowledge proof validator verifies the transaction princi
 4. If matched, the transaction principal is verified without the CPR number ever leaving the vault
 
 This architecture ensures that the compliance engine, the business digital twin, and any intermediary systems never have access to the citizen's real CPR number, satisfying GDPR Articles 5, 6, 9, and 25 (data minimization, lawfulness, special category data protection, and privacy by design).
+
+> **GDPR Recital 26 Note:** The `cpr_zk_hash` is classified as **pseudonymous personal data**, not anonymized data. A deterministic hash of a static national identifier (CPR number) remains personal data under GDPR Recital 26 and CJEU case law, as it can be linked back to the individual via a rainbow table or registry lookup. The zero-knowledge vault architecture (Art. 25 privacy by design + Art. 32 security of processing) ensures the hash cannot be reverse-computed to the CPR number without access to the vault's private key material. All downstream processing of `cpr_zk_hash` is governed by pseudonymization obligations, not anonymization exemptions.
 
 #### 3.3 Multi-Tier Rule Execution Matcher
 
