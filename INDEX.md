@@ -71,6 +71,7 @@ The user-facing / experiential layer built on top of the core substrate.
 
 - **CADA_Sovereignty_Execution_Roadmap.md** — CANONICAL execution plan. Four-phase transition from architecture to implementation under EU Cloud and AI Development Act (CADA). Phase 1: Workload inventory against 4 sovereignty assurance levels. Phase 2: Hardware-backed vaults (TPM, Secure Enclave, HSM). Phase 3: Automated compliance cascade pipeline. Phase 4: National procurement alignment. Includes CADA level mapping, proof types, procurement timeline alignment.
 - **DK_to_EU_Deployment_Roadmap.md** — Strategic deployment: Phase 0 (Foundation: DK patent filing + compliance mapping), Phase 1 (Denmark municipal pilot), Phase 2 (EU expansion: Horizon Europe funding, EU AI Act conformity, multi-state rollout). Includes critical path, risk register, and timeline.
+- **EIC_Accelerator_Application_Framework.md** — Full EIC Accelerator Challenge Application Framework: €2.5M grant + €15M equity, 4 Work Packages (Coordination, Technical Maturation TRL 4→8, Danish Pilot, EU Scale-Up), 24-month timeline, 7.8 FTE personnel plan, partner consortium structure, AI Act conformity mapping, economic impact projections (Year 5: ~€560M dividend pool), and risk register.
 
 ---
 
