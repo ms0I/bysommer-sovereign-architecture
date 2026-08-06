@@ -56,6 +56,16 @@ The user-facing / experiential layer built on top of the core substrate.
 
 ---
 
+## Patent Portfolio
+
+The formal TONE Architecture patent — claims, specification, and diagram descriptions.
+
+- **CLAIMS_DRAFT.md** — 15 Formal Patent Claims (3 independent, 12 dependent). Covers: active inference 𝓕Δ circuit breaker (Claims 1, 4–8), zero-knowledge CPR-matched jurisdictional compliance (Claims 2, 9–12), autonomous non-profit surplus ledger (Claims 3, 13–14), and Planetary Shield pathogen telemetry (Claim 15). Includes claim dependency map and notes for patent counsel on §101 eligibility.
+- **TONE_PATENT_SPECIFICATION.md** — Full Patent Disclosure & Test Baseline Documentation. Technical background, problem statement, detailed description of all 5 subsystems with enablement for each claim element, mathematical formulas (𝓕Δ, Δ_surplus), deployed prototype embodiment with validated test results (febrile anomaly cascade, location-aware compliance, daily surplus computation), industrial applicability across 7 domains, drawing references for FIG. 1–9.
+- **DIAGRAMS_DESCRIPTION.md** — Reference Descriptions for Figures 1 through 9. Detailed text descriptions for USPTO formal drawings: system architecture (FIG. 1), active inference telemetry flow (FIG. 2), circuit breaker state machine (FIG. 3), NemRefusion biosecurity bridge (FIG. 4), jurisdictional compliance flow (FIG. 5), ZK identity validation (FIG. 6), surplus ledger timeline (FIG. 7), Planetary Shield escalation (FIG. 8), s.net decision ledger (FIG. 9). Includes USPTO drawing standards reference.
+
+---
+
 ## How the whole system fits together
 
 ```

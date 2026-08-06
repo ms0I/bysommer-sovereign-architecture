@@ -104,6 +104,14 @@ multi-state rollout (Estonia, Germany, Netherlands)
 |----------|-------------|
 | Technical & Intellectual Portfolio Map | Master visual map of all projects and innovations. |
 
+### Prototype & Backend Functions
+
+| Component | Description |
+|-----------|-------------|
+| **TONE Pipeline (Python)** | Two versions of the TONE protocol interpreter implementation. |
+| **Backend Functions (TypeScript/Deno)** | Location-aware compliance engine (`supportObligationRuleMatcher`) and daily surplus computation (`computeDailySurplus`) deployed on Base44. |
+| **SOMMER Flagship Spec** | The deployment specification for the full sovereign compute stack. |
+
 ### 06 — Deployment Roadmap
 | Document | Description |
 |----------|-------------|
@@ -129,10 +137,23 @@ multi-state rollout (Estonia, Germany, Netherlands)
 - **eIDAS 2** (European Digital Identity, EUDI Wallet interoperability)
 - **Danish National Law** (Databeskyttelsesloven, Bogføringsloven, MitID)
 
-## Patent Status
+## 📜 Intellectual Property & Patent Portfolio
 
-- **TONE Protocol** — Draft filed for DK national patent (priority date secured). 15 claims (independent, dependent, system, computer-readable medium). EP filing within 12-month priority window.
-- **Additional patentable concepts identified** — Tone Density/modes, GEMS architecture, AURA Advisory Classes, incident hives, Living Compliance Tattoo. Under review for divisional/continuation filings.
+The TONE Architecture introduces novel mechanisms in biosecurity circuit-breaking, zero-knowledge jurisdictional matching, and non-profit surplus ledgers.
+
+- **[`patent/CLAIMS_DRAFT.md`](patent/CLAIMS_DRAFT.md)**: Formal patent claims (3 independent, 12 dependent) covering active inference thresholds, ZK-CPR spatial rule matching, and the December 10th dividend protocol.
+- **[`patent/TONE_PATENT_SPECIFICATION.md`](patent/TONE_PATENT_SPECIFICATION.md)**: Complete technical disclosure, enablement, industrial applicability, and test results from the deployed prototype embodiment.
+- **[`patent/DIAGRAMS_DESCRIPTION.md`](patent/DIAGRAMS_DESCRIPTION.md)**: Detailed figure reference manual for formal USPTO visual drawings (FIG. 1–9).
+
+> **Key Patent Innovation:** Claim 8 formalizes the *NemRefusion ZK-Bridge* — an automated sick-leave declaration payload triggered by biological anomaly detection that logs compliance with municipal frameworks without exposing raw biometric telemetry to employers.
+
+### Additional Patentable Concepts
+
+- Tone Density/modes (SUPPORT vs. EXPAND), GEMS architecture, AURA Advisory Classes I–IV, multi-agent incident hives, Living Compliance Tattoo + Grif Shield. Under review for divisional/continuation filings.
+
+### Patent Filing Status
+
+- **TONE Architecture** — Formal claims draft complete (Claims 1–15). DK national patent priority filing targeted, with EP filing within 12-month priority window. PCT route recommended for broadest coverage.
 
 ## Founder
 
