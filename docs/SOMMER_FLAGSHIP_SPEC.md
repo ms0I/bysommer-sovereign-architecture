@@ -79,6 +79,30 @@ The SOMMER Sovereign Ecosystem bridges human biological intent, automated physic
 - `who_approved` (Boolean)
 - `affected_geographies` (Array of Strings)
 
+### Table: `glyph_archive`
+- `id` (UUID, Primary Key)
+- `user_ref` (String, Pseudonymous)
+- `glyph_name` (String)
+- `action_type` (Enum: `amplify`, `settle`, `transform`, `archive`)
+- `ocean_layer` (Enum: `blue`, `red`, `sommer`)
+- `forecast_confidence` (Float, 0.0–1.0)
+- `forecast_trajectory` (Enum: `amplifying`, `stabilizing`, `fading`, `mutating`)
+- `voice_tone_mode` (Enum: `hopeful`, `cautionary`, `legacy`, `neutral`)
+- `ssml_script` (Text, SSML voice narration script)
+- `is_public` (Boolean, Default: false)
+- `snet_log_ref` (String)
+
+### Table: `ripple_forecast`
+- `id` (UUID, Primary Key)
+- `user_ref` (String, Pseudonymous)
+- `trigger_decision_id` (String)
+- `ocean_scores` (JSON: blue_score, red_score, sommer_score)
+- `hierarchy_scores` (JSON: symbolic, behavioral, systemic, cultural)
+- `composite_resonance` (Float, Weighted aggregate)
+- `confidence_score` (Float, 0.0–1.0)
+- `trajectory` (Enum: `amplifying`, `stabilizing`, `fading`, `mutating`)
+- `tone_mode_selected` (Enum: `hopeful`, `cautionary`, `legacy`, `neutral`)
+- `timestamp` (DateTime)
 ---
 
 ## 4. Operational Principles
