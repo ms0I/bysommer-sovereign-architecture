@@ -471,6 +471,35 @@ L2 (PDT+) ←─── TONE contracts (household scope) ───→ L1 (PDT)
 └─────────────────────────────────────────────────────────┘
 ```
 
+### Phased physical separation strategy
+
+**Principle:** Protocol sovereignty from day one. Physical separation when scale demands it.
+
+The sovereignty that matters to regulators, auditors, and citizens lives in the **TONE contract protocol** — not in container topology. Each layer has its own signing key, its own log, its own logical boundary, and its own veto power regardless of whether it runs in a separate container or shares a runtime with another layer.
+
+**Phase 1 — DK Pilot (co-located):**
+- All 7 layers deployed on DK infrastructure, some sharing a runtime:
+  - L-PDT: edge device (separate — always)
+  - L-AURORA: DK cloud container (separate — governance isolation required)
+  - L-SYS: DK cloud container (separate — execution isolation required)
+  - L-SNET: DK cloud, isolated storage (separate — append-only, physically isolated)
+  - L-ETH + L-LEG: shared runtime, separate logical boundaries, separate keys, separate logs
+- TONE contracts enforced between all layers regardless of co-location
+- Each layer signs its own outputs — co-location does not mean shared trust
+- Clean separation path: when EU expansion demands it, L-ETH and L-LEG split into independent containers without protocol changes
+
+**Phase 2 — EU Expansion (fully separated):**
+- All 7 layers as independent containers with independent storage
+- L-ETH and L-LEG split into separate services
+- Each layer on its own scaling and monitoring pipeline
+- Cross-border layers (L7 National) may run in different countries' infrastructure
+- Protocol remains identical — only deployment topology changes
+
+**Why this works:**
+- A regulator auditing the DK pilot sees: separate keys, separate logs, separate veto power, protocol-enforced boundaries. The architecture is sovereign by protocol, not by proximity.
+- A developer building the DK pilot sees: 4-5 containers instead of 7, manageable complexity, same TONE contracts.
+- When EU expansion requires full physical separation (e.g., L-LEG must run on national infrastructure per member state law), the split is a deployment change, not an architectural redesign.
+
 ### Per-layer deployment requirements
 
 | Layer | Runtime | Storage | Keys | Network |
