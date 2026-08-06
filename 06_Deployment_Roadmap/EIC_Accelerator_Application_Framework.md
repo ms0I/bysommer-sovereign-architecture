@@ -3,7 +3,7 @@
 **Document Identifier:** EIC_ACCELERATOR_APPLICATION_FRAMEWORK.md
 **Date Prepared:** 06 August 2026
 **Prepared By:** Solas (Archivist) under direction of Michael Sommer
-**Status:** Draft for review — pending EIC 2025-2027 Work Programme call confirmation
+**Status:** Draft for review — EIC Accelerator 3-step GO/NO-GO process (Step 1: Short Proposal → Step 2: Full Proposal → Step 3: Jury Interview)
 **Repository:** [MSDK0I/bysommer-sovereign-architecture](https://github.com/MSDK0I/bysommer-sovereign-architecture)
 
 ---
@@ -12,7 +12,7 @@
 
 By Sommer Sovereign Architecture proposes to deploy the **TONE Architecture** — a privacy-preserving, telemetry-driven active inference and sovereign compliance system — as EU civic infrastructure under the European Innovation Council (EIC) Accelerator programme. The system reconciles individual digital sovereignty with real-time governmental and supranational compliance through zero-knowledge cryptographic proofs, variational free-energy anomaly detection, and an autonomous non-profit surplus ledger that returns operational efficiency dividends to citizens.
 
-**Funding Request:** €2.5M grant (TRL 4→8 maturation) + €15M equity (EU market scale-up)
+**Funding Request:** €2.5M grant (TRL 5→8 maturation, 70% co-funding rate) + €15M equity (TRL 8→9+ EU market scale-up)
 **Duration:** 24 months
 **Applicant:** By Sommer (Copenhagen, Denmark) — Danish SME
 **Attorney Docket:** TONE-2026-PCT-01 (DKPTO priority filing August 2026)
@@ -56,6 +56,70 @@ The Planetary Shield telemetry engine (Claim 15) contributes to the European Hea
 
 ---
 
+
+## 1.6 EIC Accelerator 3-Step Evaluation Process
+
+The EIC Accelerator uses a progressive 3-step GO/NO-GO evaluation — not numerical scoring:
+
+```
+[ Step 1: Short Proposal ] ──( 3/4 GOs )──> [ Step 2: Full Proposal ] ──( 3/3 Unanimous GOs )──> [ Step 3: Jury Interview ] ──( Consensus GO )──> Funding Award
+```
+
+| Stage | Evaluators | Pass Threshold | Format |
+|-------|-----------|----------------|--------|
+| **Step 1: Short Proposal** | 4 Remote Expert Evaluators | ≥3/4 GOs | Online questionnaire + pitch deck (10-12 slides) + 3-minute video pitch |
+| **Step 2: Full Proposal** | 3 Remote Expert Evaluators | Unanimous 3/3 GOs | Part B narrative (Excellence, Impact, Implementation) + 6 mandatory annexes |
+| **Step 3: Jury Interview** | 5-6 EIC Jury Members | Consensus GO | Face-to-face presentation + Q&A |
+
+**Three Evaluation Criteria (all stages):**
+1. **Excellence:** Breakthrough nature, market-creating potential, timing, technological feasibility, IP strength
+2. **Impact:** Scale-up potential, commercialization strategy, financial sustainability, broader societal/economic impact
+3. **Level of Risk, Implementation & Need for Union Support:** Work plan quality, team competence, risk management, non-bankability justification
+
+### Mandatory Annexes (Step 2)
+
+| Annex | Content | Status |
+|-------|---------|--------|
+| Annex 1 | Financial Information & Pitch Deck (P&L, cash flow, cap table) | ☐ |
+| Annex 2 | Freedom to Operate (FTO) search report & IP roadmap | ☐ (patent attorney) |
+| Annex 3 | CVs of key team members and advisors | ☐ |
+| Annex 4 | Letters of Intent (clients, partners, municipal host) | ☐ |
+| Annex 5 | Ownership & Control Declaration (FDI assessment) | ☐ |
+| Annex 6 | Ethics & Security Self-Assessment (including AI Act) | ☐ |
+
+### Non-Bankability Justification
+
+The EIC Accelerator requires demonstration that the innovation cannot be funded by private investors or banks at the current TRL without EIC risk-sharing. By Sommer's non-bankability argument:
+
+1. **High-risk deep tech:** The TONE Architecture combines three novel technology domains (active inference, ZK compliance, autonomous surplus ledger) — each with independent technical risk, creating a compound risk profile that exceeds private VC risk appetite at TRL 5.
+2. **Regulatory uncertainty:** EU AI Act high-risk conformity assessment is a novel regulatory process with no established precedent for civic infrastructure AI — this regulatory risk cannot be underwritten by commercial lenders.
+3. **Non-profit economic model:** The surplus ledger distributes operational efficiency to citizens rather than extracting profit for shareholders — this fundamentally limits private equity return potential, making the project structurally non-bankable despite high social value.
+4. **Public infrastructure classification:** As civic infrastructure serving municipal governments, the system requires government procurement cycles and public sector partnerships that private capital cannot accelerate.
+
+---
+
+## 1.7 Ethics Self-Assessment & AI Act Compliance Roadmap
+
+As a high-risk AI system under Annex III of the EU AI Act, the proposal must include an Ethics Self-Assessment (Annex 6) addressing the EU Ethics Guidelines for Trustworthy AI:
+
+| Trustworthy AI Requirement | TONE Architecture Implementation |
+|----------------------------|--------------------------------|
+| Human Agency & Oversight | HITL Level 2 override matrix; all automated decisions subject to human review (GDPR Art. 22) |
+| Technical Robustness & Safety | GEMS deterministic oracle prevents black-card execution paths; Misinterpretation Firewall with configurable confidence thresholds |
+| Privacy & Data Governance | Zero-Knowledge Vault; pseudonymized physiological vectors (cpr_zk_hash, GDPR Recital 26); data minimization by design |
+| Transparency & Explainability | SommerCoPilot advisory-only framework; explainability artifacts for all automated compliance decisions |
+| Diversity, Non-Discrimination & Fairness | Bias testing protocol for 𝓕Δ thresholds across demographic groups; independent academic evaluation |
+| Societal & Environmental Wellbeing | Non-profit surplus dividends to citizens; Planetary Shield epidemiological early warning |
+| Accountability | s.net immutable audit ledger; append-only, cryptographically signed, Bogføringsloven 5-year retention |
+
+**AI Act Conformity Assessment Timeline:**
+- M1-M6: Risk management system (Art. 9) documentation
+- M6-M12: Data governance (Art. 10) and technical documentation (Art. 11) preparation
+- M12-M18: Record-keeping (Art. 12) and transparency (Art. 13) validation
+- M18-M24: Notified body assessment and CE marking (Art. 15 conformity)
+
+---
+
 ## 2. Innovation Excellence
 
 ### 2.1 Core Technological Innovation
@@ -84,12 +148,12 @@ The TONE Architecture introduces three breakthrough innovations, each protected 
 
 | Component | Current TRL | Target TRL | Evidence |
 |-----------|------------|------------|----------|
-| Active Inference Engine (𝓕Δ computation) | TRL 4 | TRL 8 | Deployed prototype verified: febrile state injection → 𝓕Δ = 3.10 → automatic spending freeze |
-| Zero-Knowledge Compliance Matcher | TRL 4 | TRL 8 | Deployed prototype verified: cross-border dropshipping → IOSS/VAT/CE validation → VALIDATED/BLOCKED states |
-| Autonomous Surplus Ledger | TRL 4 | TRL 8 | Deployed prototype verified: daily Δsurplus computation → pool accrual → Dec 10 payout detection |
+| Active Inference Engine (𝓕Δ computation) | TRL 5 | TRL 8 | Deployed prototype verified: febrile state injection → 𝓕Δ = 3.10 → automatic spending freeze |
+| Zero-Knowledge Compliance Matcher | TRL 5 | TRL 8 | Deployed prototype verified: cross-border dropshipping → IOSS/VAT/CE validation → VALIDATED/BLOCKED states |
+| Autonomous Surplus Ledger | TRL 5 | TRL 8 | Deployed prototype verified: daily Δsurplus computation → pool accrual → Dec 10 payout detection |
 | NemRefusion Biosecurity Bridge | TRL 3 | TRL 7 | Architecture defined, payload specified (IS_INCAPACITATED, cpr_zk_hash), awaiting municipal API integration |
 | Planetary Shield Telemetry | TRL 3 | TRL 7 | Architecture defined, R₀ escalation protocol specified, awaiting WHO/ECDC data feed integration |
-| SommerCoPilot (L-OP) | TRL 4 | TRL 8 | Deployed: Bayesian confidence scoring, GDPR Art. 22 HITL, Nordic Calm Voice framework |
+| SommerCoPilot (L-OP) | TRL 5 | TRL 8 | Deployed: Bayesian confidence scoring, GDPR Art. 22 HITL, Nordic Calm Voice framework |
 
 ### 2.3 Patent Portfolio
 
@@ -125,7 +189,7 @@ WP1 — Project Coordination & Innovation Management (M1–M24)
   ├─ T1.3: Ethics & AI Act conformity monitoring
   └─ T1.4: Open innovation & IP management
 
-WP2 — Technical Maturation: TRL 4 → TRL 8 (M1–M18)
+WP2 — Technical Maturation: TRL 5 → TRL 8 (M1–M18)
   ├─ T2.1: Active Inference Engine hardening (𝓕Δ threshold calibration)
   ├─ T2.2: Zero-Knowledge Compliance Matcher scaling (EU multi-jurisdiction)
   ├─ T2.3: Surplus Ledger production hardening & audit certification
@@ -188,7 +252,7 @@ WP4 — EU Scale-Up & Market Creation (M12–M24)
 
 ---
 
-### Work Package 2: Technical Maturation (TRL 4 → TRL 8)
+### Work Package 2: Technical Maturation (TRL 5 → TRL 8)
 
 **Lead:** By Sommer
 **Duration:** M1–M18
@@ -351,7 +415,7 @@ WP4 — EU Scale-Up & Market Creation (M12–M24)
 ## 4. TRL Maturation Roadmap
 
 ```
-         TRL 4                TRL 5              TRL 6              TRL 7              TRL 8
+         TRL 5                TRL 5-6            TRL 6              TRL 7              TRL 8
          (Current)           (M6)               (M12)              (M18)              (M24)
          │                   │                  │                  │                  │
          ▼                   ▼                  ▼                  ▼                  ▼
@@ -494,20 +558,46 @@ WP4 — EU Scale-Up & Market Creation (M12–M24)
 
 ## 10. Application Submission Checklist
 
-- [ ] Confirm EIC Accelerator call identifier and deadline (pending Work Programme research)
-- [ ] Submit proposal via EU Funding & Tenders Portal
-- [ ] Attach Letters of Intent (municipal partner, academic partner)
-- [ ] Attach Digitaliseringsstyrelsen letter of support
-- [ ] Confirm SME status documentation
-- [ ] Verify financial capacity (eligible costs calculation)
+### Step 1: Short Proposal
+- [ ] Complete online questionnaire (breakthrough nature, market opportunity, team, risk)
+- [ ] Prepare pitch deck (10-12 slides PDF: business model, innovation, team, financials)
+- [ ] Record 3-minute video pitch (founders pitching vision and technology)
+- [ ] Confirm SME status documentation (<250 employees, ≤€50M turnover or ≤€43M balance sheet)
+- [ ] Confirm Danish/EU establishment eligibility
+- [ ] Submit via EU Funding & Tenders Portal
+- [ ] Target: ≥3/4 GOs from remote expert evaluators
+
+### Step 2: Full Proposal (if invited from Step 1)
+- [ ] Draft Part B narrative:
+  - Section 1: Excellence (breakthrough innovation, TRL 5→8 roadmap, USP, IP, "why now")
+  - Section 2: Impact (TAM/SAM/SOM, GTM strategy, broader impact, competitive landscape)
+  - Section 3: Level of Risk, Implementation & Need for Union Support (WPs, team, risk matrix, non-bankability)
+- [ ] Annex 1: Financial Information & Pitch Deck (P&L, cash flow, cap table)
+- [ ] Annex 2: Freedom to Operate (FTO) search report (patent attorney)
+- [ ] Annex 3: CVs of key team members and advisors
+- [ ] Annex 4: Letters of Intent (municipal pilot partner, academic evaluator, Digitaliseringsstyrelsen)
+- [ ] Annex 5: Ownership & Control Declaration (FDI assessment)
+- [ ] Annex 6: Ethics & Security Self-Assessment (AI Act high-risk classification, Trustworthy AI 7 requirements)
 - [ ] Confirm DKPTO patent filing receipt
-- [ ] Prepare pitch deck for EIC jury interview (if invited to remote interview stage)
-- [ ] Prepare business plan for equity component (if invited to investment stage)
+- [ ] Verify financial capacity (eligible costs calculation at 70% co-funding rate)
+- [ ] Target: Unanimous 3/3 GOs from remote expert evaluators
+
+### Step 3: Jury Interview (if invited from Step 2)
+- [ ] Prepare pitch presentation for EIC jury panel (5-6 members)
+- [ ] Prepare Q&A defense on technical, commercial, and regulatory dimensions
+- [ ] Demonstrate live prototype (𝓕Δ circuit breaker, ZK compliance, surplus ledger)
+- [ ] Present commercial scale-up plan for equity component (€15M)
+- [ ] Target: Consensus GO from jury panel
+
+### Post-Award
+- [ ] Sign Grant Agreement (grant component: €2.5M, 70% co-funding)
+- [ ] Complete Investment Agreement (equity component: €15M, EIC Fund)
+- [ ] Execute Work Package 1 (Project Coordination) within 30 days
 
 ---
 
 ## Document Version
 
-- **Status:** Draft — pending EIC Work Programme 2025-2027 call confirmation
+- **Status:** Draft — updated with EIC Accelerator 3-step GO/NO-GO process, TRL 5→8 grant scope, 70% co-funding, ethics self-assessment, and non-bankability justification
 - **Next update:** Upon sub-agent research completion (EIC call identifiers, deadlines, scoring criteria)
 - **Repository:** [MSDK0I/bysommer-sovereign-architecture](https://github.com/MSDK0I/bysommer-sovereign-architecture)
