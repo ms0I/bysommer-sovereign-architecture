@@ -3,7 +3,18 @@
 **Inventor:** Michael Sommer
 **Date of Original Draft:** 06 February 2026
 **Date of Last Edit:** 14 May 2026
-**Status:** Draft for Patent Attorney Review
+**Status:** SUPERSEDED — See /patent/ for canonical version
+
+> **⚠️ NOTICE: SUPERSEDED DOCUMENT**  
+> This document contains an earlier iteration of the TONE patent claims (DK → EP strategy).  
+> The canonical, production-enabling patent portfolio is formally maintained under [`/patent/`](../patent/):
+> - **Claims (1–15):** [`/patent/CLAIMS_DRAFT.md`](../patent/CLAIMS_DRAFT.md)
+> - **Full Specification:** [`/patent/TONE_PATENT_SPECIFICATION.md`](../patent/TONE_PATENT_SPECIFICATION.md)
+> - **Figure Manual (FIG 1–9):** [`/patent/DIAGRAMS_DESCRIPTION.md`](../patent/DIAGRAMS_DESCRIPTION.md)
+>
+> This file is retained for historical reference only. All filing strategy content has been migrated to the canonical specification under the "International Filing Strategy & Priority Claim" section.
+
+---
 
 > ⚠️ **NOTICE:** This document is a technical draft prepared by the inventor. It is not a filed patent application and does not constitute legal advice. Before any filing, this document must be reviewed and refined by a qualified patent attorney in the relevant jurisdiction(s). Claim language, prior art analysis, and prosecution strategy must be professionally assessed.
 

@@ -358,6 +358,62 @@ The TONE Architecture has industrial applicability in:
 
 ---
 
+## INTERNATIONAL FILING STRATEGY & PRIORITY CLAIM
+
+The deployment strategy is DK pilot → EU expansion. The patent filing strategy mirrors this phasing.
+
+### Phase 1 — Denmark (DK) National Filing
+
+- File a national DK patent application first via the Danish Patent and Trademark Office (DKPTO)
+- DK national applications can be filed in Danish or English
+- This secures the priority date while the DK pilot is operational
+- The 12-month priority window is used to assess pilot results before committing to broader filings
+- A DK national filing is fast and inexpensive (~3,000–5,000 DKK official fees) and gives immediate priority protection
+
+### Phase 2 — European (EP) Filing Within 12 Months of DK Priority
+
+- File a European patent application claiming priority from the DK national filing
+- Via the European Patent Office (EPO) under the European Patent Convention (EPC)
+- This covers all EPC contracting states (38+ countries including all EU member states)
+- Claims must comply with the EPC's requirements for technical character (the "technical effect" doctrine — T 154/04, G 1/19)
+- Governance/policy aspects must be framed to satisfy EPO exclusions (Art. 52(2)(c) EPC — "methods for doing business" / "programs for computers")
+- Foreground the technical implementation: cryptographic identity proofs (ZK vault, cpr_zk_hash), free-energy divergence computation, circuit breaker mechanisms, immutable audit trail logging — these produce *further technical effects* beyond the normal interaction of software with hardware
+
+### Alternative — PCT Route
+
+- Instead of separate DK + EP filings, consider a PCT international application
+- File within 12 months of the earliest priority date
+- National phase entries: DK (Receiving Office), EP (EPO), and optionally US (USPTO) if US protection becomes relevant
+- PCT gives flexibility to defer national-phase decisions by up to 30/31 months
+- For a DK-first pilot, the direct DK + EP route may be simpler and faster, but PCT is recommended for broadest coverage if US market entry is anticipated
+
+### Critical Pre-Filing Actions
+
+1. **Prior art search** — Conduct a thorough prior art search covering: active inference biometric systems, zero-knowledge identity matching in compliance, autonomous circuit breakers for financial systems, non-profit surplus distribution mechanisms, and biosecurity pathogen telemetry architectures. Focus on EP, DK, and US patent databases.
+
+2. **EPO technical character** — Under EPO practice, ensure each claim produces a *further technical effect*. The zero-knowledge identity mediation (cryptographic proofs), free-energy divergence computation (𝓕Δ), circuit breaker threshold gating, and append-only decision ledger with cryptographic chaining should be foregrounded as technical features. Pure governance/policy rules alone may be excluded under Art. 52(2) EPC.
+
+3. **US § 101 eligibility** — Claims 1 and 2 recite specific structural components (biometric ingestion interface, active inference computing module, compliance execution engine, spatial receiver, municipal geofencing engine, ZK proof validator, rule execution matcher) — these should survive Alice/Mayo step two as concrete technological improvements. Claim 3 (surplus ledger) may face greater scrutiny — emphasize the atomic increment, epoch-triggered distribution, and circuit breaker integration as concrete technical implementation.
+
+4. **Novelty grace period warning** — Denmark/EPO does NOT have a general novelty grace period (unlike US 35 U.S.C. § 102(b)(1)). Any public disclosure of the invention before the priority filing date could destroy novelty. If the bysommer.net website or any published material describes TONE in enabling detail, this may constitute prior disclosure. **Consult patent attorney urgently on this point.**
+
+5. **Drawing formalization** — The 9 figure descriptions in `DIAGRAMS_DESCRIPTION.md` should be formalized into patent-style drawings with reference numerals (e.g., 100 = Active Inference Engine, 110 = Circuit Breaker, 120 = Compliance Engine, 130 = Surplus Ledger, 140 = Planetary Shield, 150 = s.net Ledger).
+
+6. **Danish patent attorney** — Engage a DK-registered patent attorney (e.g., via Plougmann Vingtoft, Zacco, or Patrade) who can file nationally and handle the EP phase. They will also advise on whether Danish or English language is best for the initial filing.
+
+### Filing Timeline
+
+| Milestone | Target Date | Action |
+|-----------|-------------|--------|
+| Priority filing (DK) | Earliest feasible | File DK national application with Claims 1–15 |
+| Priority window | 12 months from DK filing | Assess pilot results, refine claims |
+| EP filing | Within 12 months of DK priority | File EP application claiming DK priority |
+| PCT route (if elected) | Within 12 months of priority | File PCT application, national phases at 30/31 months |
+| US filing (if applicable) | Within 12 months of priority | File US application (direct or via PCT national phase) |
+| Divisional filings | As needed | File divisionals for GEMS, AURA Advisory Classes, Tone Density modes, incident hives, Living Compliance Tattoo |
+
+---
+
 ## CLAIMS
 
 See `CLAIMS_DRAFT.md` for the full text of Claims 1–15.
