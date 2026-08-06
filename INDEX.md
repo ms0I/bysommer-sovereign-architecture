@@ -1,164 +1,84 @@
-# By Sommer / AURA Archive — Master Index
+# By Sommer / AURA Archive — Index
 
-Organized on 2026-08-06. Updated 2026-08-06 (Pass 2: full file mapping).
-
-55 content files across 9 directories + 4 audit reports + environment config.
+Organized on 2026-08-06. 14 source files uploaded by Michael Sommer, deduplicated to 11 unique documents + 1 portfolio map. Extended with structured Markdown specifications, patent portfolio, test suite, deployment roadmap, and EIC/funding deliverables.
 
 ---
 
-## Repository Root
+## 1. Statutory & Regulatory Frameworks
 
-- **00_MASTER_Unified_Framework.md** — The Sommer Sovereign Intelligence Architecture: Unified Compliance & Governance Framework. The constitutional AI civilization stack. Synthesizes all components into one framework. Introduces: Tone Headers (Actor_ID, Layer, Density, Direction, Intent, Scope, Constraints), Tone Density (Dense→SUPPORT / Light→EXPAND), GEMS black-card prevention, AURA Advisory Classes I–IV, multi-agent incident hives (50–100+ twins), HITL Democratic Validation, Living Compliance Tattoo + Grif Shield. Full architecture map and patent implications.
-- **README.md** — Repository overview, architecture chain, deployment status, and contribution guidelines.
-- **INDEX.md** — This file. Master directory tree and file inventory.
-- **.env.example** — Production environment configuration template (20+ parameters: API keys, economic constants, thresholds, endpoints).
-- **.gitignore** — Git ignore rules.
+- **docs/SOVEREIGN_FALLBACK_PROTOCOL.md** — Fail-to-Sovereign-State (FSS) 3-tier fallback matrix: Tier 1 Edge Circuit Lock (𝓕Δ ≥ 3.0 hardware breaker), Tier 2 ZK State Lock (offline cold queue proof generation), Tier 3 Accounting Backup (local append-only ledger under Bogføringsloven §6). Cross-tier interaction matrix for 6 incident types. Zero data exposure in all failure modes.
+- **docs/MUNICIPAL_SANDBOX_ENGAGEMENT.md** — Regulatory intake brief for Digitaliseringsstyrelsen/Datatilsynet (AI Regulatory Sandbox) & Aarhus Kommune 10K pilot proposal. 4 compliance domains (GDPR Art. 9, Recital 26, AI Act Title IV, Bogføringsloven). 3 sandbox outcomes. 3-phase rollout (500→2,000→10,000). 8 success metrics. 77-test suite as compliance evidence.
 
----
+## 2. EIC Accelerator Funding & Grant Deliverables
 
-## 01_Core_Architecture_Protocols
+- **patent/out/EIC_STEP1_PACKAGE.md** — EIC Step 1 Short Application: 10-slide pitch deck content (Title/Vision, Problem, Innovation, IP/Statutory, TRL/Roadmap, AI Act Compliance, Business Model, Team, Funding Request, Scale-Up) + 3-minute video pitch script for Michael Sommer. Targeting GenAI4EU call.
+- **docs/EUopSTART_APPLICATION.md** — Danish Ministry pre-financing grant application (DKK 75K–100K) for EIC Step 2 proposal preparation. Budget: External consultancy (DKK 50K), Legal FTO (DKK 30K), Financial audit (DKK 20K). Covers 6 mandatory EIC annexes. Timeline to 4 November 2026 cut-off.
+- **06_Deployment_Roadmap/EIC_Accelerator_Application_Framework.md** — Full EIC Accelerator Challenge Application Framework (TONE-SOVEREIGN): GenAI4EU call, €2.5M grant + €15M equity. 3-step GO/NO-GO process. 4 Work Packages. TRL 5/6→8. 5 funded precedent projects. Danish EIC precedents. AI Act Ethics Self-Assessment Matrix. Primary target: 4 November 2026 cut-off.
+- **06_Deployment_Roadmap/DK_Municipal_Pilot_Strategy.md** — Danish Municipal Pilot Strategy for Aarhus/Copenhagen: 10,000 citizen onboarding (3-tier), NemRefusion integration plan (Sygedagpengeloven LBK nr 1293, Helbredsoplysningsloven IS_INCAPACITATED binary), ULEZ spatial rule testing (4 scenarios via DAWA API), consent management (GDPR Art. 7), 12 success metrics, Dec 10 payout.
+- **06_Deployment_Roadmap/CADA_Sovereignty_Execution_Roadmap.md** — Four-phase EU Cloud and AI Development Act execution plan: workload inventory, hardware-backed vaults, automated compliance cascade, national procurement alignment.
+- **06_Deployment_Roadmap/DK_to_EU_Deployment_Roadmap.md** — Strategic deployment: Phase 0 (DK patent + compliance), Phase 1 (Denmark municipal pilot), Phase 2 (EU expansion). Critical path, risk register, timeline.
 
-Foundational, constitutional-layer documents — the "why" and the core substrate.
+## 3. Mathematical & Technical Specifications
 
-- **TONE_Interpreter_Semantic_Mediation_Architecture.pdf** — patent-style spec (claims, flow diagrams, compliance appendix) for TONE: Operator → PDT (translator) → AURORA (governance) → System (execution) → s.net (accountability). Original source document.
-- **TONE_Patent_Draft_Filing_Structured.md** — ⚠️ SUPERSEDED. Earlier iteration of TONE patent claims. Canonical version maintained under `/patent/`.
-- **BySommer_Constitutional_Foundation.pdf** — the mission statement: "constitutional thinking not technological thinking," Digital Twin + AURA as Semantic Mediator, founded by Michael Sommer.
-- **Sovereign_AI_Governance_Framework.pdf** — condensed ~2000-char "sovereignty block" for grant/evaluator use (sovereign vs. external pipeline diagram, DG-CNECT tone).
-- **Research_Sommer_Sovereign_Digital_Systems_8Layer.pdf** — market/demand analysis for the 8-layer fractal model (L1 PDT → L8 Spatial Autonomous Twin) across Denmark / EU / Global scales, stakeholder matrix, threat vectors.
-- **Sovereign_Layer_Architecture_Specification.md** — full operational spec: each layer as its own sovereign state (own data, governance, audit trail, keys, failure isolation). Two-axis architecture (TONE pipeline × L1→L8 fractal compute stack), per-layer sovereignty guarantees, TONE contract protocol, phased physical separation strategy (DK co-located → EU fully separated), DK pilot deployment topology, accelerated EU timeline (18 months).
-- **Symmetrical_Governmental_Support_Protocol.md** — the BDT ⇄ NAS/EUS protocol: objective rule-symmetry between citizens/entrepreneurs and authorities. Three twin types (PDT/PDT+/BDT) with Rule Compass (geographic → union → national filtering). Dropshipping use case: OSS/IOSS monthly settlement, CE marking, cross-border VAT. Cross-sector harmonization. NAS/EUS interface spec (Virk, SKAT, EUS IOSS). Proactive guidance with 5 warning tiers.
-- **Cluster_Link_System_Specification.md** — CANONICAL mesh networking spec for Cluster Link System (CLS): inter-twin communication protocol, peer discovery, consensus rounds, conflict resolution across the 8-layer sovereign mesh. Includes simulation reference (`prototype/cls_mesh_simulator.py` — planned).
+- **tests/test_tone_engine.py** — 77 test cases across 10 test classes validating all 15 patent claims (TONE-2026-PCT-01). 𝓕Δ ≥ 3.0 circuit breaker (Gaussian KL-divergence), cpr_zk_hash verification (GDPR Recital 26), Dec 10 payout epoch (Δ_surplus = 2.30 DKK/day), R₀ > 1.0 Planetary Shield, NemRefusion integration, three-tier compliance, Bayesian confidence score, GDPR Art. 22, Bogføringsloven retention, end-to-end febrile cascade, claim traceability.
+- **patent/TONE_PATENT_SPECIFICATION.md** — Full Patent Disclosure & Test Baseline Documentation (Priority Docket TONE-2026-PCT-01). Technical background, 5 subsystems, mathematical formulas (𝓕Δ, Δ_surplus), deployed prototype embodiment with validated test results, industrial applicability, drawing references FIG. 1–9.
+- **patent/CLAIMS_DRAFT.md** — 15 Formal Patent Claims (3 independent, 12 dependent). Covers: active inference 𝓕Δ circuit breaker (Claims 1, 4–8), zero-knowledge CPR-matched jurisdictional compliance (Claims 2, 9–12), autonomous non-profit surplus ledger (Claims 3, 13–14), Planetary Shield pathogen telemetry (Claim 15). Claim dependency map and §101 eligibility notes.
+- **patent/DIAGRAMS_DESCRIPTION.md** — Reference Descriptions for Figures 1–9. USPTO formal drawing standards: system architecture, active inference telemetry flow, circuit breaker state machine, NemRefusion biosecurity bridge, jurisdictional compliance flow, ZK identity validation, surplus ledger timeline, Planetary Shield escalation, s.net decision ledger.
 
----
+## 4. Core Architecture & Protocols
 
-## 02_Interactive_Governance_Systems
+- **00_MASTER_Unified_Framework.md** — The Sommer Sovereign Intelligence Architecture: Unified Compliance & Governance Framework. The constitutional AI civilization stack. Synthesizes all components. Introduces Tone Headers, Tone Density, GEMS black-card prevention, AURA Advisory Classes I–IV, HITL Democratic Validation, Living Compliance Tattoo + Grif Shield.
+- **01_Core_Architecture_Protocols/TONE_Patent_Draft_Filing_Structured.md** — CANONICAL patent draft: Claims 1–15. DK→EP filing strategy. Flow diagrams. Compliance appendix. Patent filing notes with DK-first strategy and EPO Art. 52 guidance.
+- **01_Core_Architecture_Protocols/TONE_Interpreter_Semantic_Mediation_Architecture.pdf** — Original patent-style spec for TONE: Operator → PDT → AURORA → System → s.net pipeline.
+- **01_Core_Architecture_Protocols/BySommer_Constitutional_Foundation.pdf** — The mission statement: "constitutional thinking not technological thinking."
+- **01_Core_Architecture_Protocols/Sovereign_AI_Governance_Framework.pdf** — Condensed sovereignty block for grant/evaluator use.
+- **01_Core_Architecture_Protocols/Research_Sommer_Sovereign_Digital_Systems_8Layer.pdf** — Market/demand analysis for the 8-layer fractal model.
+- **01_Core_Architecture_Protocols/Sovereign_Layer_Architecture_Specification.md** — Full operational spec: each layer as its own sovereign state. Two-axis architecture, per-layer sovereignty guarantees, phased physical separation strategy.
+- **01_Core_Architecture_Protocols/Symmetrical_Governmental_Support_Protocol.md** — The BDT ⇄ NAS/EUS protocol: objective rule-symmetry. Three twin types with Rule Compass. Dropshipping use case. NAS/EUS interface spec.
 
-The user-facing / experiential layer built on top of the core substrate.
+## 5. Interactive Governance Systems
 
-- **SommerCoPilot_Blueprint_Consolidated.md** — CANONICAL master version. Execution-ready. Merges Ripple Engine + Resonance Forecast into unified blueprint. Three ocean layers (Blue/Red/Sommer), Hierarchy of Effects model, four tone modes, full user journey (9 steps), TONE contract integration (advisory only — Light Tone/EXPAND mode). Pass 4 additions: EU AI Act Art. 5 prohibited practices + Recital 132, GDPR Art. 22 HITL architecture with right to explanation, Art. 7 on-device keyword spotting + voice consent schema, Art. 28 Azure DPA with zero-retention + EU Data Boundary, 4 entity schemas (SommerCopilotForecasts, SommerCopilotGlyphs, GlyphArchive, RippleForecast) with TypeScript interfaces, tri-factor confidence algorithm (𝓕Δ + N + σ²), 9-row data retention matrix, L-OP layer standardization.
-- **Nordic_Calm_Voice_Framework_Specification.md** — CANONICAL voice spec. Execution-ready. Dual role: Voice of Future Self (SommerCoPilot) + Voice of By Sommer (public surfaces). 7 features. Compliance integration: WCAG 2.1 AA (with testing protocol), GDPR Art. 7 (consent for voice playback), Art. 9 (no biometric processing — synthesized TTS output only), Art. 28 (Azure TTS as third-party processor with EU data boundary), Art. 12, AI Act Art. 13/50. Multilingual expansion (DK/DE/FR). Pass 3: data retention for voice assets, WCAG verification protocol, Azure DPA documentation.
-- **Sovereign_Mobility_VDT_Specification.md** — CANONICAL mobility spec. Protocol for Sovereign Mobility & Vehicle Digital Twin (VDT). Part 1: Smart Freight & Corridor Protocol (Green Lane Mechanism, 10-min/15km geofence trigger, PDT/BDT/Smart Tachograph integration). Part 2: Vehicle Digital Twin Personal Mobility Extension (Predictive Micro-Positioning, Autonomous Valet). Part 3: Autonomous Liability & Insurance Framework (0/100 liability handshake, DSSAD logging, ZKP privacy shield).
-- **Resonance_Forecast_UI.pdf** — original 3-page Resonance Forecast spec. Retained for reference.
-- **SommerCoPilot_Blueprint_RippleEngine.pdf** — original 3-page blueprint. Retained for reference.
-- **Voice_NordicCalm_Integration_Framework.pdf** — original 3-page voice framework. Retained for reference.
+- **02_Interactive_Governance_Systems/SommerCoPilot_Blueprint_Consolidated.md** — CANONICAL master version. Merges Ripple Engine + Resonance Forecast. Three ocean layers, four tone modes, full user journey, TONE contract integration, ritual integration, implementation phases, glyph archive.
+- **02_Interactive_Governance_Systems/Nordic_Calm_Voice_Framework_Specification.md** — CANONICAL voice spec. Dual role: Voice of Future Self + Voice of By Sommer. 7 features. WCAG 2.1 AA, GDPR Art. 12, AI Act Art. 13/50. Multilingual expansion.
+- **02_Interactive_Governance_Systems/Sovereign_Mobility_VDT_Specification.md** — CANONICAL mobility spec. Smart Freight & Corridor Protocol, Vehicle Digital Twin extension, Autonomous Liability & Insurance Framework.
+- **02_Interactive_Governance_Systems/Resonance_Forecast_UI.pdf** — Original 3-page Resonance Forecast spec. Retained for reference.
+- **02_Interactive_Governance_Systems/SommerCoPilot_Blueprint_RippleEngine.pdf** — Original 3-page blueprint. Retained for reference.
+- **02_Interactive_Governance_Systems/Voice_NordicCalm_Integration_Framework.pdf** — Original 3-page voice framework. Retained for reference.
 
----
+## 6. Compliance & Legal
 
-## 03_Compliance_Legal
+- **03_Compliance_Legal/By_Sommer_Compliance_Book_Consolidated.md** — CANONICAL master version. Full EU AI Act article-by-article mapping (Art. 1–99), GDPR architectural alignment, NIS2 mapping, eIDAS 2 alignment, Danish national law, decision log contamination prevention, deployment-phase compliance checklist.
+- **03_Compliance_Legal/L-LEG_Living_Legal_Operating_System.md** — Defines the Compliance Book as a living, location-aware legal OS: jurisdiction detection, rule set loader, conflict resolution (stricter-rule-wins), GEMS oracle, append-only rule registry.
+- **03_Compliance_Legal/BySommer_Compliance_Architecture.pdf** — Original GDPR / EU AI Act / NIS2 alignment overview. Retained for reference.
+- **03_Compliance_Legal/By_Sommer_Compliance_Book.pdf** — Original compliance book (8 sections + Decision Logging Framework). Retained for reference.
 
-- **By_Sommer_Compliance_Book_Consolidated.md** — CANONICAL master version. Merges both compliance docs + adds full EU AI Act article-by-article mapping (Art. 1–99, corrected: Art. 16=providers, Art. 26=deployers), GDPR architectural alignment, NIS2 mapping (24h/72h/1-month), eIDAS 2 alignment, Danish national law, addendum protocol for decision log contamination prevention, deployment-phase compliance checklist (Phase 0–2).
-- **L-LEG_Living_Legal_Operating_System.md** — Defines the Compliance Book as a living, location-aware legal OS: jurisdiction detection engine, rule set loader (EU/DK/US-CA/baseline), conflict resolution (stricter-rule-wins), GEMS deterministic oracle, living update pipeline (append-only rule registry), multi-jurisdiction scenario (DK citizen traveling to CA), human-readable + machine-readable sync architecture.
-- **IP_Anti_Counterfeiting_Protocol.md** — EUIPO-aligned anti-counterfeiting protocol: Digital Product Passport (DPP) integration, ZK-verified supply chain provenance, CE marking enforcement, marketplace takedown automation, BDT-driven IP rights assertion.
-- **BySommer_Compliance_Architecture.pdf** — original GDPR / EU AI Act / NIS2 alignment overview. Retained for reference.
-- **By_Sommer_Compliance_Book.pdf** — original compliance book (8 sections + Decision Logging Framework). Retained for reference.
+## 7. Digital Twin Framework
 
----
+- **04_Digital_Twin_Framework/Digital_Twin_Functional_Framework_Specification.md** — CANONICAL structured version. Maps all 10 basic functions + 6 consent-based interventions to TONE pipeline, sovereign layer architecture, and sovereignty guarantees. Acute-risk escalation protocol, superego support boundaries, workplace anti-discrimination.
+- **04_Digital_Twin_Framework/Digital_Twin_Functional_Framework.pdf** — Original 5-page framework. Retained for reference.
 
-## 04_Digital_Twin_Framework
+## 8. Strategy Portfolio
 
-- **Digital_Twin_Functional_Framework_Specification.md** — CANONICAL structured version. Maps all 10 basic functions + 6 consent-based interventions to TONE pipeline (Tone Density, SUPPORT/EXPAND modes), sovereign layer architecture (L-PDT, L-ETH, L-LEG), and the sovereignty guarantees table. Includes acute-risk escalation protocol, superego support boundaries, and workplace anti-discrimination via L-ETH.
-- **Digital_Twin_Functional_Framework.pdf** — original 5-page framework. Retained for reference.
+- **05_Strategy_Portfolio/Technical_Intellectual_Portfolio_Map.png** — The master visual map tying every project together.
 
----
+## 9. Prototype & Backend
 
-## 05_Strategy_Portfolio
+- **prototype/tone_pipeline_v2.py** — TONE Pipeline Prototype v2: 10-field Tone Header, Intent Gravity formula, Deterministic Authority Levels 0-4, PDT 5 sub-agents, Misinterpretation Firewall.
+- **prototype/tone_pipeline.py** — Original TONE pipeline prototype.
+- **prototype/backend_functions/computeDailySurplus.ts** — Deployed Base44 backend function: December 10th surplus computation engine (daily accrual + annual payout). Uses process.env fallbacks (Item 12).
+- **prototype/backend_functions/supportObligationRuleMatcher.ts** — Deployed Base44 backend function: Three-tier jurisdictional compliance engine (EU → National DK → Municipal). Location-aware via DAWA reverse geocoding.
+- **docs/active_inference_engine.py** — Active Inference Engine: 3D Spherical Active Inference & SNN Event-Gating Core. Gaussian KL-divergence free energy computation with physiological priors.
+- **docs/bdtComplianceWorker.js** — BDT compliance worker.
+- **docs/pdtInferenceWorker.js** — PDT inference worker.
+- **docs/planetaryShieldWorker.js** — Planetary Shield worker.
+- **docs/dec10LedgerWorker.js** — December 10th ledger worker.
 
-- **Technical_Intellectual_Portfolio_Map.png** — the master visual map tying every project together (Invocation Protocol, AURA OS, Tone Protocol, Ripple Engine, Voice of Future Self, Sovereign AI Governance, plus Edge Gateway / AGI Reasoning / Life-Key Protocol as specialized innovations).
+## 10. Patent Filing Artifacts
 
----
-
-## 06_Deployment_Roadmap
-
-- **CADA_Sovereignty_Execution_Roadmap.md** — CANONICAL execution plan. Four-phase transition from architecture to implementation under EU Cloud and AI Development Act (CADA). Phase 1: Workload inventory against 4 sovereignty assurance levels. Phase 2: Hardware-backed vaults (TPM, Secure Enclave, HSM). Phase 3: Automated compliance cascade pipeline. Phase 4: National procurement alignment. Includes CADA level mapping, proof types, procurement timeline alignment.
-- **DK_to_EU_Deployment_Roadmap.md** — Strategic deployment: Phase 0 (Foundation: DK patent filing + compliance mapping), Phase 1 (Denmark municipal pilot), Phase 2 (EU expansion: Horizon Europe funding, EU AI Act conformity, multi-state rollout). Includes critical path, risk register, and timeline.
-- **EIC_Accelerator_Application_Framework.md** — Full EIC Accelerator Challenge Application Framework (TONE-SOVEREIGN): Targeting GenAI4EU call (HORIZON-EIC-2025-ACCELERATOR-02-CHALLENGES-03), €2.5M grant (70% co-funding) + €15M EIC Fund equity. 3-step GO/NO-GO evaluation process (Step 1: Short Proposal → Step 2: Full Proposal → Step 3: Jury Interview). 4 Work Packages (Active Inference Edge Hardware, ZK Spatial Rule Engine, Surplus Dividend Ledger, Municipal Pilot). TRL 5/6→8 maturation. AI Act Ethics Self-Assessment Matrix. 5 funded precedent projects benchmarked (NeuralTrust funded under same call). Danish EIC precedents (Skypuzzler, Hyme Energy). EUopSTART pre-financing. Primary target: 4 November 2026 cut-off.
-- **DK_Municipal_Pilot_Strategy.md** — Danish Municipal Pilot Strategy for Aarhus/Copenhagen deployment: 10,000 citizen onboarding (3-tier: 500→2,000→10,000), NemRefusion API integration plan (Sygedagpengeloven LBK nr 1293 compliance, Helbredsoplysningsloven IS_INCAPACITATED binary payload), ULEZ spatial rule testing (4 scenarios via DAWA API), consent management architecture (GDPR Art. 7), 12 success metrics, independent academic evaluation, December 10th surplus dividend payout, and pilot timeline (M6-M20).
-
----
-
-## Patent Portfolio (`patent/`)
-
-The formal TONE Architecture patent — claims, specification, and diagram descriptions.
-
-- **CLAIMS_DRAFT.md** — 15 Formal Patent Claims (3 independent, 12 dependent). Covers: active inference 𝓕Δ circuit breaker (Claims 1, 4–8), zero-knowledge CPR-matched jurisdictional compliance (Claims 2, 9–12), autonomous non-profit surplus ledger (Claims 3, 13–14), and Planetary Shield pathogen telemetry (Claim 15). Includes claim dependency map, Sygedagpengeloven statutory basis notes, and §101 eligibility guidance.
-- **TONE_PATENT_SPECIFICATION.md** — Full Patent Disclosure & Test Baseline Documentation. Technical background, problem statement, detailed description of all 5 subsystems with enablement for each claim element, mathematical formulas (𝓕Δ, Δ_surplus), deployed prototype embodiment with validated test results, industrial applicability across 7 domains, drawing references for FIG. 1–9. Includes GDPR Recital 26 pseudonymization classification for `cpr_zk_hash` and Helbredsoplysningsloven compliance for NemRefusion bridge.
-- **DIAGRAMS_DESCRIPTION.md** — Reference Descriptions for Figures 1 through 9. Detailed text descriptions for USPTO formal drawings. Includes USPTO drawing standards reference. All SVG links verified.
-- **generate_diagrams.py** — Python script for generating patent SVG diagrams (FIG. 1–9) using matplotlib. Outputs to `patent/diagrams/`.
-
-### Patent Diagrams (`patent/diagrams/`)
-
-- **FIG_1_System_Architecture.svg** — System architecture overview (all 5 subsystems)
-- **FIG_2_Active_Inference_Circuit_Breaker.svg** — 𝓕Δ threshold breach and circuit breaker state machine
-- **FIG_3_Spatial_Rule_Matcher.svg** — Three-tier jurisdictional filtering flow
-- **FIG_4_Surplus_Accrual_Timeline.svg** — Daily surplus accrual and Dec 10 annual payout
-- **FIG_5_Biosecurity_Escalation_Cascade.svg** — Anomaly → PDT block → NemRefusion → Planetary Shield
-- **FIG_6_ZK_CPR_NemRefusion_Bridge.svg** — Zero-knowledge identity validation and NemRefusion bridge (IS_INCAPACITATED payload)
-- **FIG_7_CE_Compliance_Interception_Gate.svg** — CE marking enforcement and BDT interception
-- **FIG_8_Planetary_Shield_Council_Interoperability.svg** — WHO telemetry and planetary shield escalation
-- **FIG_9_HITL_Level_2_Override_Workflow.svg** — Human-in-the-loop override and unlock flow
+- **patent/generate_diagrams.py** — SVG diagram generator for FIG. 1–9 (USPTO format).
+- **patent/generate_transmittal.py** — Patent transmittal letter generator.
 
 ---
-
-## Extended Specifications (`docs/`)
-
-Operational specifications and reference worker implementations for deployed components.
-
-- **SOMMER_FLAGSHIP_SPEC.md** — Flagship deployment specification: entity schemas, backend functions, scheduled workflows, dashboard views, and test scenarios for the complete Base44 deployment.
-- **DECEMBER_10_LEDGER_SPEC.md** — Dividend pool specification: daily surplus accrual formula, December 10th annual payout trigger, economic parameters (non-profit baseline, itemized operating cost).
-- **PLANETARY_SHIELD_SPEC.md** — Biosafety protocol specification: WHO telemetry ingestion, R₀ threshold escalation, PDT anomaly rate monitoring, wastewater viral load, action map (micro-quarantines, synth-bio redirects, BDT transit rule updates).
-- **SUPPORT_PROTOCOL_SPEC.md** — Support obligation specification: three-tier rule matching (EU → National → Municipal), maintenance cap enforcement, environmental zone checks, noise ordinance compliance, water quality monitoring.
-
-### Reference Worker Implementations (`docs/`)
-
-JavaScript/Python worker scripts for edge and serverless deployment. These are reference implementations — the production Deno backend functions are in `prototype/backend_functions/`.
-
-- **active_inference_engine.py** — Python active inference engine: calculates 𝓕Δ free-energy divergence from physiological telemetry, triggers anomaly at 𝓕Δ ≥ 3.0, implements SNN temporal integration prototype.
-- **pdtInferenceWorker.js** — JS edge worker: PDT active inference matcher. Receives telemetry, computes 𝓕Δ, flags anomalies, writes to `PdtActiveInferenceStates` entity. Uses `process.env.F_DELTA_THRESHOLD` (default 3.0).
-- **bdtComplianceWorker.js** — JS edge worker: BDT+ symmetrical rule matcher. CE marking checks, VAT calculation (DK 25%), IOSS validation, customs duty computation. Uses `process.env` for all economic parameters.
-- **dec10LedgerWorker.js** — JS cron worker: December 10th surplus dividend pool accrual. Daily accumulation + annual Dec 10 payout. Uses `process.env` for economic parameters. Wraps DB ops in `base44.asServiceRole`.
-- **planetaryShieldWorker.js** — JS webhook worker: Planetary Safeguard handler. Receives WHO telemetry, computes alert status (GREEN/REGIONAL_WARNING/GLOBAL_DECREE), triggers action map. Uses `process.env.WHO_WEBHOOK_SECRET`.
-
----
-
-## Prototype Implementations (`prototype/`)
-
-Core TONE interpreter prototypes and production backend functions.
-
-- **tone_pipeline.py** — Core TONE interpreter v1: parses TONE contracts, executes pipeline stages (L-PDT → L-AURORA → L-LEG → L-SYS → L-SNET → L-ETH), tone density evaluation.
-- **tone_pipeline_v2.py** — Core TONE interpreter v2: enhanced with GEMS deterministic oracle integration, multi-agent incident hive support, advisory class escalation.
-
-### Backend Functions (`prototype/backend_functions/`)
-
-Production Deno backend functions deployed on Base44. All functions use `Deno.env.get()` for configurable parameters with safe fallback defaults.
-
-- **README.md** — Backend function documentation: entity schemas (SommerUsers, SupportObligationRules, BdtTransactions, PdtActiveInferenceStates, PlanetaryCouncilTelemetry), deployment endpoints, scheduled triggers.
-- **computeDailySurplus.ts** — Daily surplus computation engine. Itemized cost formula, December 10th annual payout trigger (`DEC10_PAYOUT_EPOCH` env), `base44.asServiceRole` for RLS-safe cron access, all parameters via `Deno.env.get()`.
-- **supportObligationRuleMatcher.ts** — Location-aware compliance engine. Three-tier jurisdictional filtering (Geographic → Union → National), reverse geocoding via DAWA API (`DAWA_API_URL` env), stricter-rule-wins conflict resolution, s.net audit logging. Default coordinates via `Deno.env.get()`.
-
----
-
-## Audit Reports
-
-Deployment readiness audit reports — multi-agent systematic verification of technical parity, legal alignment, cross-document references, and environment configuration.
-
-- **AUDIT_1_Technical_Parity.md** (78KB) — Backend function vs. specification parity analysis. Identifies API mismatches, missing implementations (SommerCoPilot engine), entity field discrepancies, and missing municipal rule documentation.
-- **AUDIT_2_Legal_Alignment.md** (23KB) — Regulatory citation accuracy audit. Identifies GDPR Art. 9 violation (SICKNESS_FEBRILE diagnostic codes), incorrect IOSS frequency, AI Act Art. 16/26 mapping error, NIS2/AI Act timeline conflation, missing statutory citations (Sygedagpengeloven, €10,000 EU OSS threshold).
-- **AUDIT_3_Reference_Integrity.md** (13KB) — Cross-document reference audit. Verifies 22 markdown links, 121 inline path references, directory map consistency (29 orphan files identified, 0 phantoms), SVG diagram links (9/9 valid), superseded document banners.
-- **AUDIT_4_Deployment_Config.md** (20KB) — Environment & deployment configuration audit. Scores 1.8/5.0 overall. Identifies zero `process.env` usage, entity name mismatches, missing RLS documentation, missing API mock stubs, no CI/CD pipeline, incomplete Flagship Spec.
-
----
-
-
-## Documentation
-
-- **MUNICIPAL_SANDBOX_ENGAGEMENT.md** — Municipal Sandbox Engagement Package for Digitaliseringsstyrelsen/Datatilsynet (AI Regulatory Sandbox intake brief) and Aarhus Kommune (10,000-citizen pilot proposal). Documents GDPR Art. 9/Helbredsoplysningsloven insulation, Recital 26 pseudonymous hashing, EU AI Act Title IV transparency, Bogføringsloven retention. 3 desired sandbox outcomes. 3-phase pilot rollout (500 → 2,000 → 10,000). 8 success metrics with targets. Cross-references 77-test integration suite as compliance evidence.
-- **SOVEREIGN_FALLBACK_PROTOCOL.md** — Fail-to-Sovereign-State (FSS) Protocol: 3-tier incident response matrix (Tier 1: Edge Circuit Lock — 𝓕Δ ≥ 3.0 hardware circuit breaker; Tier 2: ZK State Lock — offline cold queue proof generation; Tier 3: Accounting Backup — local deterministic append-only ledger under Bogføringsloven §6). Cross-tier interaction matrix for 6 incident types. 7 FSS environment parameters. Founder accountability stable anchor. Zero data exposure in all failure modes.
-
-## Tests
-
-Integration test suite validating the mathematical and legal constraints of the TONE Engine against the deployed prototype.
-
-- **tests/test_tone_engine.py** — 77 test cases across 10 test classes validating all 15 patent claims (TONE-2026-PCT-01). Covers: active inference circuit breaker (𝓕Δ ≥ 3.0, Gaussian KL-divergence matching `docs/active_inference_engine.py`), zero-knowledge CPR hash (GDPR Recital 26 pseudonymization), surplus ledger (Δ_surplus = 2.30 DKK/day, Dec 10 payout epoch), Planetary Shield (R₀ > 1.0 escalation), NemRefusion integration (Sygedagpengeloven LBK nr 1293 Day 1-30/31+ split, Helbredsoplysningsloven diagnostic data insulation), three-tier compliance engine (EU/National/Municipal), Bayesian confidence score (C formula), GDPR Art. 22 HITL, Bogføringsloven 5-year retention, environment configuration (process.env fallbacks), end-to-end febrile anomaly cascade, and patent claim traceability matrix.
 
 ## How the whole system fits together
 
@@ -167,25 +87,57 @@ Integration test suite validating the mathematical and legal constraints of the 
 │              THE SOMMER SOVEREIGN INTELLIGENCE                    │
 │             ARCHITECTURE (UNIFIED FRAMEWORK)                      │
 │                                                                  │
-│  CONSTITUTIONAL LAYER: BySommer_Constitutional_Foundation        │
-│  ┌─────────────────────────────────────────────────────────┐     │
-│  │ TONE PROTOCOL (Semantic Mediation)                      │     │
-│  │  Operator → PDT → AURORA → System → s.net → L-ETH       │     │
-│  └─────────────────────────────────────────────────────────┘     │
+│  CITIZEN (PDT)                                                   │
+│  ┌──────────────────────────────────────────────────────┐       │
+│  │ Edge Device: HRV, Temp, SpO₂ → Local 𝓕Δ computation │       │
+│  │ 𝓕Δ < 3.0: NORMAL (transactions flow)                  │       │
+│  │ 𝓕Δ ≥ 3.0: CIRCUIT BREAKER (transactions frozen)       │       │
+│  │ 𝓕Δ < 1.0: PASSIVE RECOVERY (unlock)                   │       │
+│  └──────────────────────────────────────────────────────┘       │
+│                           │                                       │
+│                     ZK Proof Only                                │
+│                     (no raw data)                                 │
+│                           ▼                                       │
+│  COMPLIANCE ENGINE (TONE Protocol)                              │
+│  ┌──────────────────────────────────────────────────────┐       │
+│  │ cpr_zk_hash (GDPR Recital 26 — pseudonymous)          │       │
+│  │ Three-Tier Rule Matching:                              │       │
+│  │   EU (IOSS/CE) → National (VAT) → Municipal (ULEZ)    │       │
+│  │ Stricter-rule-wins conflict resolution                 │       │
+│  │ Result: VALIDATED / BLOCKED / PENDING                   │       │
+│  └──────────────────────────────────────────────────────┘       │
+│                           │                                       │
+│                           ▼                                       │
+│  SURPLUS LEDGER (Non-Profit)                                    │
+│  ┌──────────────────────────────────────────────────────┐       │
+│  │ Δ_surplus = (225.00 / 30) − 5.20 = 2.30 DKK/day       │       │
+│  │ Annual: 839.50 DKK/citizen/year                       │       │
+│  │ Payout: December 10th (atomic, non-custodial)         │       │
+│  └──────────────────────────────────────────────────────┘       │
+│                           │                                       │
+│                           ▼                                       │
+│  s.net — IMMUTABLE AUDIT LEDGER                                 │
+│  ┌──────────────────────────────────────────────────────┐       │
+│  │ Every decision logged: provenance, rule version,       │       │
+│  │ actor ID, confidence score, timestamp                   │       │
+│  │ 5-year retention (Bogføringsloven §6)                  │       │
+│  └──────────────────────────────────────────────────────┘       │
 │                                                                  │
-│  GOVERNANCE: AURORA (GEMS Oracle, Advisory Classes I–IV)         │
-│  COMPLIANCE: Compliance Book → L-LEG (Living Legal OS)          │
-│  DIGITAL TWINS: PDT (L1) → PDT+ (L2) → BDT (L4) → VDT (Mobility) │
-│  BIOSECURITY: Active Inference (𝓕Δ≥3.0) → NemRefusion → Shield  │
-│  ECONOMICS: Dec 10 Surplus Ledger (2.30 DKK/day → annual payout) │
-│  SOVEREIGNTY: 8-Layer Fractal Stack (L1–L8) + CADA Roadmap      │
-│  USER LAYER: SommerCoPilot + Nordic Calm Voice + VDT Mobility   │
+│  LEGAL ANCHORS                                                  │
+│  ┌──────────────────┬──────────────────┬─────────────────┐      │
+│  │ GDPR Art. 9      │ Helbredsplys.    │ Sygedagpenge.    │      │
+│  │ (health data ZK  │ §1/§2 (binary    │ LBK nr 1293      │      │
+│  │  insulation)     │  IS_INCAPACITATED)│ §4 (Day 1-30)   │      │
+│  │                  │                  │ §5 (Day 31+)     │      │
+│  └──────────────────┴──────────────────┴─────────────────┘      │
 │                                                                  │
-│  PATENT: Claims 1–15 (Circuit Breaker, ZK Compliance, Ledger)   │
-│  DEPLOYMENT: DK Pilot → EU Expansion (Horizon Europe)            │
+│  PATENT: TONE-2026-PCT-01 (DKPTO priority, 15 claims)            │
+│  TEST SUITE: 77 tests (all passing)                              │
+│  FUNDING: EIC Accelerator €2.5M + €15M | EUopSTART DKK 75-100K  │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-*Index last updated: 06 August 2026 (Pass 2 — full file mapping, all orphans resolved)*
+*Last updated: 06 August 2026 — Commit `ede69cc`*
+*Repository: [MSDK0I/bysommer-sovereign-architecture](https://github.com/MSDK0I/bysommer-sovereign-architecture)*
