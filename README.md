@@ -1,88 +1,136 @@
-# By Sommer — Sovereign AI Governance Architecture
+# By Sommer — Sovereign Intelligence Architecture
 
-> Constitutional thinking, not technological thinking.
+> Constitutional thinking, not technological thinking. The law is the source code.
 
-By Sommer is a Copenhagen-based research initiative founded by Michael Sommer, building a **constitutional AI governance architecture** for sovereign digital infrastructure. This repository is the organized archive of the technical and intellectual portfolio.
+By Sommer is a Copenhagen-based research initiative founded by Michael Sommer, building a **constitutional AI governance architecture** for sovereign digital infrastructure. This repository is the organized archive of the technical and intellectual portfolio — a constitutional AI civilization stack that reconciles individual sovereignty with real-time governmental and supranational compliance.
 
 ## Architecture Overview
 
 ```
-Operator (human intent)
-   │
-   ▼
-PDT — Personal Digital Twin
-   (semantic translator, identity wallet, selective disclosure)
-   │
-   ▼
-TONE — structured intent
-   (intent + scope + confidence + provenance)
-   │
-   ▼
-AURORA / AURA — Governance Substrate
-   (validates against EU AI Act / GDPR / NIS2, Human-in-the-Loop escalation)
-   │
-   ▼
-System Layer — executes only validated, scoped actions
-   │
-   ▼
-s.net — Accountability & Audit Trail
-   (immutable decision log, 3rd-party audit pipeline)
-   │
-   ▼
-Ripple Engine / Resonance Forecast / Voice of Future Self
-   (experiential layer — narrates consequences via Nordic Calm TTS, lets user steer)
-   │
-   ▼
-Sovereign Compute Stack (L1 → L8)
-   Personal Twin → Household → Community → Municipal → National → EU → Global → Spatial
+┌─────────────────────────────────────────────────────────────────┐
+│              THE SOMMER SOVEREIGN INTELLIGENCE                    │
+│             ARCHITECTURE (UNIFIED FRAMEWORK)                      │
+│                                                                  │
+│  CONSTITUTIONAL LAYER                                            │
+│  • Objective Rule-Symmetry (law = source code)                   │
+│  • Core Ethical Constraints (inviolable, all jurisdictions)      │
+│  • Human Sovereignty (operator is ultimate authority)            │
+│                         │                                        │
+│  SEMANTIC MEDIATION LAYER                                        │
+│  • TONE Protocol (Tone Headers: Actor_ID, Layer, Density,        │
+│    Direction, Intent, Scope, Constraints)                        │
+│  • Dense Tone → SUPPORT mode / Light Tone → EXPAND mode          │
+│  • AURORA Governance Substrate (the "Mona Lisa frame")            │
+│  • GEMS Deterministic Oracle (black-card failures impossible)    │
+│                         │                                        │
+│  SOVEREIGN PIPELINE (7 layers, each its own sovereign state)      │
+│  L-OP → L-PDT → L-AURORA → L-ETH → L-LEG → L-SYS → L-SNET        │
+│  Communication: TONE contracts only — no shared state             │
+│                         │                                        │
+│  FRACTAL COMPUTE STACK (L1 → L8, identical governance logic)      │
+│  L1 PDT (personal) → L2 PDT+ (household) →                       │
+│  L3 CDT (community) → L4 BDT (business) →                        │
+│  L5 Ecosystem → L6 Municipal → L7 National → L8 Planetary        │
+│                         │                                        │
+│  JURISDICTIONAL COMPASS (L-LEG Living Legal OS)                   │
+│  Geographic → Union (EU) → National articles & exceptions          │
+│  Stricter-rule-wins · Living update pipeline (append-only)        │
+│                         │                                        │
+│  GOVERNMENT INTERFACE                                            │
+│  BDT ⇄ NAS (Virk, SKAT, MitID) · BDT ⇄ EUS (OSS/IOSS, Customs)   │
+│  Pre-validated data → authorities receive answers, not questions │
+│                         │                                        │
+│  ACCOUNTABILITY & LEGITIMACY                                      │
+│  s.net Immutable Decision Ledger · AURA Advisory Classes I–IV    │
+│  Multi-agent Incident Hives (50–100+ twins)                       │
+│  HITL Democratic Validation · Living Compliance Tattoo + Grif   │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+## Deployment Strategy: Denmark First → EU
+
+```
+Phase 0: Foundation (Months 1–2)     Phase 1: DK Pilot (Months 3–8)
+Patent filed, compliance mapped,     Municipal pilot (Copenhagen/Aarhus),
+prototypes built                     real citizens, real civic services
+         │                                   │
+         ▼                                   ▼
+Phase 2: EU Expansion (Months 6–18, overlapping)
+EP patent filed, Horizon Europe grant, EU AI Act conformity,
+multi-state rollout (Estonia, Germany, Netherlands)
 ```
 
 ## Repository Structure
 
+### 00 — Master Document
+| Document | Description |
+|----------|-------------|
+| **Master Unified Framework** | The Sommer Sovereign Intelligence Architecture capstone. Tone Headers, Tone Density (Dense/Light → SUPPORT/EXPAND), GEMS black-card prevention, AURA Advisory Classes I–IV, multi-agent incident hives, HITL Democratic Validation, Living Compliance Tattoo + Grif Shield. Full architecture map and patent implications. |
+
 ### 01 — Core Architecture & Protocols
 | Document | Description |
 |----------|-------------|
-| TONE Interpreter | Semantic mediation protocol — patent-style spec with claims 1–15 |
-| By Sommer Constitutional Foundation | Mission statement and core philosophy |
-| Sovereign AI Governance Framework | Condensed governance block for grant/evaluator use |
-| Research: Sommer Sovereign Digital Systems | 8-layer fractal model market analysis (L1→L8) |
+| TONE Patent Draft (Filing-Structured) | Semantic mediation architecture — Claims 1–15 (independent, dependent, system, computer-readable medium). DK→EP filing strategy. Flow diagrams. Compliance appendix. |
+| Sovereign Layer Architecture Spec | Each layer as its own sovereign state (own data, governance, keys, audit, veto). Two-axis architecture: TONE pipeline × L1→L8 fractal stack. Phased physical separation (DK co-located → EU fully separated). |
+| Symmetrical Governmental Support Protocol | BDT ⇄ NAS/EUS: objective rule-symmetry. Three-layer filter (Geographic → Union → National). Dropshipping use case (OSS/IOSS, CE marking). Cross-sector harmonization. Proactive guidance (5 warning tiers). |
+| TONE Interpreter (source PDF) | Original 9-page TONE specification from which the patent draft was derived. |
+| Research: 8-Layer Sovereign Digital Systems | Market/demand analysis for the fractal model (L1→L8) across DK / EU / Global scales. |
+| By Sommer Constitutional Foundation | Mission statement and core philosophy. |
+| Sovereign AI Governance Framework | Condensed governance block for grant/evaluator use. |
 
 ### 02 — Interactive Governance Systems
 | Document | Description |
 |----------|-------------|
-| Resonance Forecast UI | Ripple Engine UI spec — predicts resonance of actions across 4 layers |
-| SommerCoPilot Blueprint | Full build blueprint for Ripple Engine + Voice of Future Self |
-| Voice: Nordic Calm Integration | TTS voice framework for bysommer.net/imsor.com |
+| Resonance Forecast UI | Ripple Engine UI spec — predicts resonance of actions across 4 layers. |
+| SommerCoPilot Blueprint | Full build blueprint for Ripple Engine + Voice of Future Self. |
+| Voice: Nordic Calm Integration | TTS voice framework for bysommer.net/imsor.com. |
 
 ### 03 — Compliance & Legal
 | Document | Description |
 |----------|-------------|
-| By Sommer Compliance Architecture | GDPR / EU AI Act / NIS2 alignment overview |
-| By Sommer Compliance Book | Full compliance book (8 sections) + Decision Logging Framework |
+| L-LEG Living Legal Operating System | The Compliance Book as a living, location-aware legal OS. Jurisdiction detection engine, rule set loader (EU/DK/US-CA/baseline), stricter-rule-wins conflict resolution, GEMS oracle, living update pipeline (append-only). Human-readable + machine-readable sync. |
+| Consolidated Compliance Book | CANONICAL master version. EU AI Act Art. 1–99 article-by-article mapping. GDPR, NIS2, eIDAS 2, Danish national law. Decision Logging Framework + addendum protocol. Deployment compliance checklist. |
+| Compliance Architecture (source PDF) | Original studio-level compliance overview. Retained for reference. |
+| Compliance Book (source PDF) | Original 8-section compliance book. Retained for reference. |
 
 ### 04 — Digital Twin Framework
 | Document | Description |
 |----------|-------------|
-| Digital Twin Functional Framework | Identity wallet, selective disclosure, consent management, sensitive intervention protocols |
+| Digital Twin Functional Framework (source PDF) | Identity wallet, selective disclosure, consent management, emergency disclosure, behavioral interventions. |
 
 ### 05 — Strategy & Portfolio
 | Document | Description |
 |----------|-------------|
-| Technical & Intellectual Portfolio Map | Master visual map of all projects and innovations |
+| Technical & Intellectual Portfolio Map | Master visual map of all projects and innovations. |
+
+### 06 — Deployment Roadmap
+| Document | Description |
+|----------|-------------|
+| DK → EU Deployment Roadmap | 3-phase deployment: Foundation → DK Pilot → EU Expansion. Success metrics, stakeholder engagement, Horizon Europe funding, EU AI Act conformity pathway, risk register, patent strategy. |
 
 ## Key Principles
 
-- **Sovereignty by design** — User approval required for every action (HITL)
-- **Zero-Knowledge Privacy** — Raw data never leaves the user's domain
-- **Constitutional logic** — Compliance built into the system core, not bolted on
+- **Objective Rule-Symmetry** — Neither authority nor citizen is favored; the law is the source code
+- **Sovereignty by design** — Each layer is its own sovereign state; user approval required for every action
+- **Zero-Knowledge Privacy** — Raw data never leaves the user's domain; only cryptographic proofs are released
+- **Constitutional logic** — Compliance is structural, not procedural; built into the system core
+- **Support over sanction** — Violations intercepted before they occur; system optimizes possibilities
+- **Fractal scale-invariance** — Same governance logic from L1 (personal) to L8 (planetary)
+- **Living legal OS** — Location-aware, constantly updating, append-only rule registry
 - **We Rise Together** — Empowering the vulnerable through the strong
 
 ## Compliance Alignment
 
-- EU AI Act (High-Risk, High-Trust classification)
-- GDPR (Zero-Knowledge Vault, selective disclosure)
-- NIS2 (network and information security)
-- eIDAS (electronic identification)
+- **EU AI Act** (High-Risk, High-Trust classification — Art. 1–99 mapped to architecture)
+- **GDPR** (Zero-Knowledge Vault, selective disclosure, Art. 22 automated decision-making)
+- **NIS2** (incident reporting, cybersecurity, 24h/72h/15-day timelines)
+- **eIDAS 2** (European Digital Identity, EUDI Wallet interoperability)
+- **Danish National Law** (Databeskyttelsesloven, Bogføringsloven, MitID)
+
+## Patent Status
+
+- **TONE Protocol** — Draft filed for DK national patent (priority date secured). 15 claims (independent, dependent, system, computer-readable medium). EP filing within 12-month priority window.
+- **Additional patentable concepts identified** — Tone Density/modes, GEMS architecture, AURA Advisory Classes, incident hives, Living Compliance Tattoo. Under review for divisional/continuation filings.
 
 ## Founder
 
@@ -90,4 +138,4 @@ Sovereign Compute Stack (L1 → L8)
 
 ---
 
-*This archive is organized and maintained as part of the Archivist protocol. Documents are tagged and structured for eventual deployment to cloud infrastructure and collaborative platforms.*
+*This archive is organized and maintained as part of the Archivist protocol. The Compliance Book is a living document — the legal operating system the digital system runs on top of. Documents are tagged and structured for eventual deployment to cloud infrastructure and collaborative platforms.*
