@@ -18,7 +18,8 @@ The user-facing / experiential layer built on top of the core substrate.
 
 ## 03_Compliance_Legal
 - **BySommer_Compliance_Architecture.pdf** — GDPR / EU AI Act / NIS2 alignment overview for By Sommer as a Copenhagen studio (Horizon Europe eligibility framing).
-- **By_Sommer_Compliance_Book.pdf** — the fuller compliance book (numbered sections 1–8) including the Autonomous Agent Decision Logging Framework — this is the most complete/citable version.
+- **By_Sommer_Compliance_Book.pdf** — original compliance book (numbered sections 1–8) including the Autonomous Agent Decision Logging Framework. Retained for historical reference.
+- **By_Sommer_Compliance_Book_Consolidated.md** — CANONICAL master version. Merges both compliance docs + adds full EU AI Act article-by-article mapping (Art. 1–99), GDPR architectural alignment, NIS2 mapping, eIDAS 2 alignment, Danish national law, addendum protocol for decision log contamination prevention, and deployment-phase compliance checklist (Phase 0–2).
 
 ## 04_Digital_Twin_Framework
 - **Digital_Twin_Functional_Framework.pdf** — two chapters: (1) core Digital Twin functions (identity wallet, selective disclosure, consent manager, SOS/emergency disclosure, APIs) and (2) consent-based sensitive interventions (rehab, sleep coaching, therapy assistant, workplace, addiction treatment) with explicit safeguards.
