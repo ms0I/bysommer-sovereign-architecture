@@ -319,8 +319,9 @@ Addendum (linked, also immutable):
 | Art. 12 | Record-keeping (logging) | s.net (L-SNET) — append-only, immutable, timestamped, cryptographically signed audit trail. Logs include tone_id correlation across all layers. 5-year retention. |
 | Art. 13 | Transparency and provision of information to deployers | Operator Layer provides real-time clarification. TONE contract provenance chain is the transparency mechanism. Operators informed of system capabilities, limitations, and expected output. |
 | Art. 14 | Human oversight | L-ETH (Ethical Layer) with hard veto power. Human-Oversight Matrix (Low/Medium/High). HITL required for high-risk actions. Operator "kill switch" at every pipeline stage. **This is the strongest architectural alignment with the AI Act.** |
+| Art. 16 | Obligations of providers | By Sommer as provider: ensures system meets Art. 9–15 requirements, technical documentation (Art. 11), quality management (Art. 17), automatic logging. L-AURORA governance substrate enforces provider obligations by design. |
 | Art. 15 | Accuracy, robustness, cybersecurity | Misinterpretation Firewall (confidence thresholds, contextual heuristics). GEMS Deterministic Oracle (deterministic verification). Each layer has failure isolation (sovereign state). Per-layer failure does not cascade. |
-| Art. 16 | Obligations of deployers | By Sommer as deployer: uses system per instructions, monitors operation, suspends if risk identified. L-ETH automatic alerts flag risk-threshold breaches. |
+| Art. 26 | Obligations of deployers | By Sommer as deployer: uses system per instructions, monitors operation, suspends if risk identified. L-ETH automatic alerts flag risk-threshold breaches. |
 | Art. 17 | Representative | EU-based (Copenhagen) — representative requirement met by default. |
 | Art. 18 | Information to be submitted to authorities | s.net generates compliance reports on demand. L-LEG produces regulatory mapping and compliance proofs. Zero-Knowledge compliance — proofs without raw data disclosure. |
 | Art. 19 | CE marking and declaration of conformity | Required before EU-wide deployment. Conformity assessment pathway defined in §7.3 below. |
@@ -355,7 +356,7 @@ Addendum (linked, also immutable):
 | Article | Requirement | By Sommer Architecture Mapping |
 |---------|-------------|-------------------------------|
 | Art. 72 | Post-market monitoring by deployers | s.net continuous monitoring for drift, bias, safety incidents. L-AURORA drift mitigation flags semantic consistency issues. Periodic audits produce reports. |
-| Art. 73 | Reporting of serious incidents | NIS2 incident reporting + AI Act incident reporting. 24-hour early warning, 72-hour notification, 15-day final report for AI Act serious incidents. s.net can trigger automatic alerts. |
+| Art. 73 | Reporting of serious incidents | **AI Act:** serious incidents reported within 15 days (Art. 73). **NIS2 (separate directive):** 24-hour early warning, 72-hour notification, 1-month final report (Art. 23). s.net triggers automatic alerts for both reporting streams. Distinct timelines must not be conflated. |
 
 #### Chapter IX — Penalties
 
@@ -461,7 +462,7 @@ The system considers situational factors, vulnerabilities, and user preferences:
 - [ ] Register in EU database (Art. 49, Art. 71)
 - [ ] Cross-border DPIA for multi-state deployment
 - [ ] eIDAS 2 / EUDI Wallet interoperability certification
-- [ ] NIS2 incident reporting procedures operational (24h/72h/15-day timelines)
+- [ ] NIS2 incident reporting operational (24h/72h/1-month) AND AI Act Art. 73 serious incident reporting (15-day) — separate reporting streams, not conflated
 - [ ] Independent third-party compliance audit
 - [ ] Horizon Europe grant compliance verification
 

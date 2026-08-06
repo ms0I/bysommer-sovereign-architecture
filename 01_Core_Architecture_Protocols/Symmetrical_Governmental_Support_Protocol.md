@@ -145,7 +145,7 @@ The data flow is symmetrical for both PDT and BDT:
 | Input (User/Data) | Protocol Match Engine | Output to Authority (NAS/EUS) | Disclaimer / Obligation for User |
 |---|---|---|---|
 | Citizen moves to new municipality | Matches municipal and national rates | Automatic CPR update + housing benefit adjustment | "Benefit is reduced or stopped if square meter requirement/income is exceeded" |
-| Dropshop sells to customer in Germany (value < €150) | Matches EU IOSS rules + German VAT (19%) | Automatic IOSS registration for quarterly settlement | "Webshop must collect German VAT at checkout; otherwise company is personally liable" |
+| Dropshop sells to customer in Germany (value < €150) | Matches EU IOSS rules + German VAT (19%) | Automatic IOSS registration for monthly settlement | "Webshop must collect German VAT at checkout; otherwise company is personally liable" |
 | Citizen on cash benefits starts a dropshop | Cross-references income from BDT against benefit limits at NAS | Automatic benefit adjustment + business registration at Virk | "Business income offsets cash benefits per national rate; report monthly" |
 | Homeowner moves abroad | Matches exit tax rules + double taxation agreement | Notification to SKAT + destination country tax authority | "Danish exit tax may apply; property sale must be reported within 3 months" |
 
@@ -242,7 +242,7 @@ HARMONIZATION (automatic):
 AUTHORITY RECEIVES:
   ├─ NAS (Municipality): pre-validated benefit adjustment (no manual case handling)
   ├─ NAS (SKAT): pre-validated tax report with B-income registration
-  └─ EUS (IOSS): pre-validated quarterly VAT settlement
+  └─ EUS (IOSS): pre-validated monthly VAT settlement
 ```
 
 **The authorities only receive data that has already been validated against geography, union, and national special rules.** It is not just a relief; it is a complete future-proofing of the digital infrastructure.
@@ -380,7 +380,7 @@ The system does not merely enforce — it **guides**. Proactive warnings are del
 | **Predictive** | System forecasts a future compliance threshold (e.g., VAT registration approaching DKK 50,000 turnover) | Notification to user: "Your 12-month rolling turnover will reach the VAT registration limit in ~3 months. Prepare registration." | 90 days before threshold |
 | **Imminent** | Threshold is within 30 days | Strong notification: "Your turnover will reach DKK 50,000 within 30 days. VAT registration is legally required. BDT can auto-register you — approve?" | 30 days before |
 | **Threshold Reached** | Legal threshold crossed | Action required: "VAT registration limit reached. BDT has prepared the registration. Approve submission to Virk?" | At threshold |
-| **Violation Risk** | Action would cause non-compliance | Block + warn: "This sale would exceed your IOSS quarterly limit without settlement. Settle outstanding VAT first." | Before action |
+| **Violation Risk** | Action would cause non-compliance | Block + warn: "This sale would exceed your IOSS monthly limit without settlement. Settle outstanding VAT first." | Before action |
 | **Hard Block** | Action is illegal or would cause immediate legal violation | Block + escalate: "This product lacks CE marking required for EU import. Transaction blocked. Contact authorized testing service." | Immediate |
 
 ### 9.2 The "Good Advice" Principle

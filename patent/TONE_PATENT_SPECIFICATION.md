@@ -151,7 +151,7 @@ Upon anomaly detection, a biosecurity bridge module transmits an authenticated d
 
 1. The zero-knowledge identity hash (`cpr_zk_hash`) of the citizen
 2. An anomaly attestation (signed, timestamped, containing 𝓕Δ value and threshold breached)
-3. A declaration type code (e.g., `SICKNESS_FEBRILE`)
+3. A binary incapacity indicator (`IS_INCAPACITATED: true` — no diagnostic or clinical codes transmitted, per Helbredsoplysningsloven §1/§2 and GDPR Art. 9)
 
 The payload does NOT contain:
 - Raw biometric sensor data (HRV, temperature, SpO₂, respiratory rate)
@@ -159,6 +159,12 @@ The payload does NOT contain:
 - The citizen's employer identity
 
 This enables automated sick-leave processing through the municipal reimbursement system without exposing biometric sensor telemetry to the employer, protecting the citizen's medical privacy.
+
+**Statutory Framework (Denmark):** The automated sick-leave processing operates under the Danish Sickness Benefits Act (*Sygedagpengeloven*, LBK nr 1293 af 21/09/2021). Under this framework:
+- **Days 1–30 (Employer Period / *Arbejdsgiverperioden*):** The employer bears financial responsibility for sickness benefits. NemRefusion reimbursement is not available during this period (except under § 56 agreements for chronic illness).
+- **Day 31+ (Municipal Takeover):** The municipality (*kommune*) assumes financial responsibility. Employers continuing to pay salary file for reimbursement through NemRefusion.
+
+The binary `IS_INCAPACITATED` indicator triggers the declaration without transmitting any diagnostic classification that could reveal the nature of the illness, ensuring compliance with *Helbredsoplysningsloven* §1/§2 and GDPR Article 9 (special category data).
 
 ### 3. Location-Aware Zero-Knowledge Jurisdictional Compliance (Claim 2)
 

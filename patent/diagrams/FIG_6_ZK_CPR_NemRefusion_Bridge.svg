@@ -44,7 +44,7 @@
   <line x1="170" y1="290" x2="170" y2="315" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
   <rect x="60" y="320" width="220" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
   <text x="170.0" y="337.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Assemble Declaration</text>
-  <text x="170.0" y="357.0" text-anchor="middle" font-size="11" fill="#888888">Type: SICKNESS_FEBRILE</text>
+  <text x="170.0" y="357.0" text-anchor="middle" font-size="11" fill="#888888">Type: IS_INCAPACITATED</text>
   <g>
     <circle cx="262" cy="336" r="10" fill="#2563eb" stroke="none"/>
     <text x="262" y="340" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">606</text>

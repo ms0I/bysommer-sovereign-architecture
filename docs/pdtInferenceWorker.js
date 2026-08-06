@@ -22,13 +22,13 @@ export async function handlePDTInference(req, res) {
     }
   }
 
-  const anomalyDetected = freeEnergy > 4.5;
+  const anomalyDetected = freeEnergy >= 3.0;
 
   // Database State Update
   if (anomalyDetected) {
-    await base44.db.pdt_active_inference_states.create({
+    await base44.entities.PdtActiveInferenceStates.create({
       user_id: user_id,
-      baseline_telemetry: JSON.stringify(telemetry),
+      physiological_baseline: JSON.stringify(telemetry),
       active_inference_delta: freeEnergy,
       anomaly_flag: true
     });

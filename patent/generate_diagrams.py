@@ -435,7 +435,7 @@ def fig6():
     s += arrow(170, 210, 170, 235) + "\n"
     s += box(60, 240, 220, 50, "Biosecurity Bridge Module", "Claims 1 + 8", ref="604") + "\n"
     s += arrow(170, 290, 170, 315) + "\n"
-    s += box(60, 320, 220, 50, "Assemble Declaration", "Type: SICKNESS_FEBRILE", ref="606") + "\n"
+    s += box(60, 320, 220, 50, "Assemble Declaration", "Type: IS_INCAPACITATED", ref="606") + "\n"
     
     # Zone B: ZK Vault
     s += trust_boundary(340, 55, 260, 380, "ZONE B: ZERO-KNOWLEDGE VAULT") + "\n"

@@ -1,8 +1,13 @@
 /**
  * Base44 Edge Middleware: BDT+ Symmetrical Rule Matcher
+ * 
+ * UPDATED (Pass 1 Fixes):
+ *   - Uses SDK PascalCase entity name (BdtTransactions) instead of snake_case
+ *   - Fixed field names to match entity schema: total_amount_dkk, vat_rate_applied
+ *   - Added missing fields: buyer_id, business_id, timestamp
  */
 export async function handleBDTTransaction(req, res) {
-  const { transaction_id, items, is_cross_border, is_ioss_registered, current_maint_spend } = req.body;
+  const { transaction_id, buyer_id, business_id, items, is_cross_border, is_ioss_registered, current_maint_spend } = req.body;
 
   const DANISH_VAT = 0.25;
   const FLAT_DUTY_EUR = 3.0; // 2026 EU Customs Reform rate
@@ -12,11 +17,13 @@ export async function handleBDTTransaction(req, res) {
   // 1. CE Check
   const uncertifiedItem = items.find(i => !i.ce_marked && i.country_of_origin !== 'EU');
   if (uncertifiedItem) {
-    await base44.db.bdt_transactions.create({
-      id: transaction_id,
+    await base44.entities.BdtTransactions.create({
+      buyer_id: buyer_id || null,
+      business_id: business_id || null,
       compliance_status: 'BLOCKED_MISSING_CE',
-      total_dkk: items.reduce((acc, i) => acc + i.price_dkk, 0),
-      vat_rate: DANISH_VAT
+      total_amount_dkk: items.reduce((acc, i) => acc + i.price_dkk, 0),
+      vat_rate_applied: DANISH_VAT,
+      timestamp: new Date().toISOString()
     });
 
     return res.status(400).json({
@@ -35,12 +42,14 @@ export async function handleBDTTransaction(req, res) {
   const finalTotal = subtotal + vat + duty;
   const status = is_cross_border && !is_ioss_registered ? 'PENDING_IOSS' : 'VALIDATED';
 
-  // 3. Record Validated Transaction
-  await base44.db.bdt_transactions.create({
-    id: transaction_id,
+  // 3. Record Validated Transaction (schema-compliant field names)
+  await base44.entities.BdtTransactions.create({
+    buyer_id: buyer_id || null,
+    business_id: business_id || null,
     compliance_status: status,
-    total_dkk: finalTotal,
-    vat_rate: DANISH_VAT
+    total_amount_dkk: finalTotal,
+    vat_rate_applied: DANISH_VAT,
+    timestamp: new Date().toISOString()
   });
 
   return res.status(200).json({

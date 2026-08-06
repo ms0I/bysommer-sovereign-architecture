@@ -134,7 +134,7 @@ The diagram is divided into three zones by vertical dashed lines:
 **Zone B (center): Zero-Knowledge Vault**
 - Shows the `cpr_zk_hash` being generated from the CPR number.
 - Shows the "Sickness Declaration Payload" being assembled:
-  - ✅ Included: `cpr_zk_hash`, anomaly attestation (signed, timestamped, 𝓕Δ value, threshold breached), declaration type code (`SICKNESS_FEBRILE`)
+  - ✅ Included: `cpr_zk_hash`, anomaly attestation (signed, timestamped, 𝓕Δ value, threshold breached), binary incapacity indicator (`IS_INCAPACITATED: true`)
   - ❌ NOT included (marked with red X): Raw HRV, raw temperature, raw SpO₂, raw respiratory rate, real CPR number, employer identity
 
 **Zone C (right): Municipal Reimbursement Framework (NemRefusion)**
