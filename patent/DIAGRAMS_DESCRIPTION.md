@@ -3,24 +3,26 @@
 **Invention:** TONE Architecture (Telemetry-Driven Active Inference & Sovereign Privacy Protocol)  
 **Applicant:** By Sommer  
 **Document:** Reference manual for patent figures (Flowcharts, System Architecture)  
-**STATUS:** Draft for Filing  
+**STATUS:** Visual Diagrams Generated — SVG Portfolio Complete  
 **DATE:** 2026-08-06  
 
 ---
 
 ## Drawing Index
 
-| Figure | Title | Type | Supports Claims |
-|--------|-------|------|-----------------|
-| FIG. 1 | System Architecture Overview | Block diagram | 1, 2, 3, 15 |
-| FIG. 2 | Active Inference Telemetry Flow | Data flow diagram | 1, 4 |
-| FIG. 3 | Circuit Breaker State Diagram | State machine | 1, 5, 6, 7 |
-| FIG. 4 | NemRefusion Biosecurity Bridge | Data flow with boundaries | 8 |
-| FIG. 5 | Jurisdictional Compliance Flow | Process flowchart | 2, 9, 10, 11 |
-| FIG. 6 | Zero-Knowledge Identity Validation | Data flow with trust boundary | 2, 12 |
-| FIG. 7 | Surplus Ledger State Diagram | State machine + timeline | 3, 13, 14 |
-| FIG. 8 | Planetary Shield Escalation | Sequence diagram | 15 |
-| FIG. 9 | s.net Decision Ledger Structure | Data structure diagram | All (enabling) |
+| Figure | Title | SVG File | Type | Supports Claims |
+|--------|-------|----------|------|-----------------|
+| FIG. 1 | System Architecture Overview | [`diagrams/FIG_1_System_Architecture.svg`](diagrams/FIG_1_System_Architecture.svg) | Block diagram | 1, 2, 3, 15 |
+| FIG. 2 | Active Inference Circuit Breaker | [`diagrams/FIG_2_Active_Inference_Circuit_Breaker.svg`](diagrams/FIG_2_Active_Inference_Circuit_Breaker.svg) | Flowchart | 1, 4, 5, 6, 7 |
+| FIG. 3 | Spatial Rule Matcher | [`diagrams/FIG_3_Spatial_Rule_Matcher.svg`](diagrams/FIG_3_Spatial_Rule_Matcher.svg) | Pipeline | 2, 9, 10, 11, 12 |
+| FIG. 4 | Surplus Accrual Timeline | [`diagrams/FIG_4_Surplus_Accrual_Timeline.svg`](diagrams/FIG_4_Surplus_Accrual_Timeline.svg) | State machine + timeline | 3, 13, 14 |
+| FIG. 5 | Biosecurity Escalation Cascade | [`diagrams/FIG_5_Biosecurity_Escalation_Cascade.svg`](diagrams/FIG_5_Biosecurity_Escalation_Cascade.svg) | 3-Layer stack | 1, 8, 15 |
+| FIG. 6 | ZK-CPR NemRefusion Bridge | [`diagrams/FIG_6_ZK_CPR_NemRefusion_Bridge.svg`](diagrams/FIG_6_ZK_CPR_NemRefusion_Bridge.svg) | Sequence diagram | 8 |
+| FIG. 7 | CE Compliance Interception Gate | [`diagrams/FIG_7_CE_Compliance_Interception_Gate.svg`](diagrams/FIG_7_CE_Compliance_Interception_Gate.svg) | Flowchart | 2, 9, 10, 11 |
+| FIG. 8 | Planetary Shield Council Interoperability | [`diagrams/FIG_8_Planetary_Shield_Council_Interoperability.svg`](diagrams/FIG_8_Planetary_Shield_Council_Interoperability.svg) | Network topology | 15 |
+| FIG. 9 | HITL Level 2 Override Workflow | [`diagrams/FIG_9_HITL_Level_2_Override_Workflow.svg`](diagrams/FIG_9_HITL_Level_2_Override_Workflow.svg) | Decision tree | 1, 7 |
+
+> **Note:** The SVG figures in this document have been renumbered and restructured from the original specification to align with the formal claims. The figure descriptions below correspond to the deployed SVG visual diagrams.
 
 ---
 

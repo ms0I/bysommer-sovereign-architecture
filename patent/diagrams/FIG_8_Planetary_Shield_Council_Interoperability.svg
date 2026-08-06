@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" width="960" height="720" font-family="Arial, Helvetica, sans-serif">
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#444444"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrow-dashed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#888888"/>
+    </marker>
+  </defs>
+    <text x="480" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">FIG. 8 — Planetary Shield Council Interoperability — Network Topology</text>
+  <text x="480" y="60" text-anchor="middle" font-size="13" font-weight="600" fill="#888888">Municipal Active Inference Nodes</text>
+  <rect x="120" y="90" width="120" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="180.0" y="107.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Node 1</text>
+  <text x="180.0" y="127.0" text-anchor="middle" font-size="11" fill="#888888">PDT FΔ sensor</text>
+  <g>
+    <circle cx="222" cy="106" r="10" fill="#2563eb" stroke="none"/>
+    <text x="222" y="110" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">8000</text>
+  </g>
+  <rect x="280" y="90" width="120" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="340.0" y="107.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Node 2</text>
+  <text x="340.0" y="127.0" text-anchor="middle" font-size="11" fill="#888888">PDT FΔ sensor</text>
+  <g>
+    <circle cx="382" cy="106" r="10" fill="#2563eb" stroke="none"/>
+    <text x="382" y="110" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">8001</text>
+  </g>
+  <rect x="440" y="90" width="120" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="500.0" y="107.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Node 3</text>
+  <text x="500.0" y="127.0" text-anchor="middle" font-size="11" fill="#888888">PDT FΔ sensor</text>
+  <g>
+    <circle cx="542" cy="106" r="10" fill="#2563eb" stroke="none"/>
+    <text x="542" y="110" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">8002</text>
+  </g>
+  <rect x="600" y="90" width="120" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="660.0" y="107.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Node 4</text>
+  <text x="660.0" y="127.0" text-anchor="middle" font-size="11" fill="#888888">PDT FΔ sensor</text>
+  <g>
+    <circle cx="702" cy="106" r="10" fill="#2563eb" stroke="none"/>
+    <text x="702" y="110" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">8003</text>
+  </g>
+  <rect x="760" y="90" width="120" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="820.0" y="107.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Node 5</text>
+  <text x="820.0" y="127.0" text-anchor="middle" font-size="11" fill="#888888">PDT FΔ sensor</text>
+  <g>
+    <circle cx="862" cy="106" r="10" fill="#2563eb" stroke="none"/>
+    <text x="862" y="110" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">8004</text>
+  </g>
+  <text x="480" y="175" text-anchor="middle" font-size="10" font-weight="400" fill="#2563eb">↑ Biometric anomalies · Wastewater signals · Clinical correlations</text>
+  <line x1="180" y1="140" x2="480" y2="200" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-accent)"/>
+  <line x1="340" y1="140" x2="480" y2="200" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-accent)"/>
+  <line x1="500" y1="140" x2="480" y2="200" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-accent)"/>
+  <line x1="660" y1="140" x2="480" y2="200" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-accent)"/>
+  <line x1="820" y1="140" x2="480" y2="200" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-accent)"/>
+  <rect x="340" y="205" width="280" height="60" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="480.0" y="227.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Regional Aggregation Engine</text>
+  <text x="480.0" y="247.0" text-anchor="middle" font-size="11" fill="#888888">Correlate FΔ anomalies across geography</text>
+  <g>
+    <circle cx="602" cy="221" r="10" fill="#2563eb" stroke="none"/>
+    <text x="602" y="225" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">804</text>
+  </g>
+  <line x1="480" y1="265" x2="480" y2="295" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="340" y="300" width="280" height="60" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="480.0" y="322.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">R₀ Transmission Vector Computation</text>
+  <text x="480.0" y="342.0" text-anchor="middle" font-size="11" fill="#888888">Effective reproduction number per region</text>
+  <g>
+    <circle cx="602" cy="316" r="10" fill="#2563eb" stroke="none"/>
+    <text x="602" y="320" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">806</text>
+  </g>
+  <line x1="480" y1="360" x2="480" y2="390" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <polygon points="480,400.0 580.0,440 480,480.0 380.0,440" fill="#fffde7" stroke="#666666" stroke-width="1.5"/>
+  <text x="480" y="436" text-anchor="middle" font-size="12" font-weight="600" fill="#1a1a1a">R₀ &gt; 1.0 ?</text>
+  <g>
+    <circle cx="568.0" cy="414.0" r="10" fill="#2563eb" stroke="none"/>
+    <text x="568.0" y="418.0" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">808</text>
+  </g>
+  <line x1="380" y1="440" x2="200" y2="440" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="290.0" y="434.0" text-anchor="middle" font-size="10" fill="#888888">No</text>
+  <rect x="80" y="415" width="200" height="50" rx="4" ry="4" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="180.0" y="432.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">NORMAL</text>
+  <text x="180.0" y="452.0" text-anchor="middle" font-size="11" fill="#888888">Continue monitoring</text>
+  <g>
+    <circle cx="262" cy="431" r="10" fill="#2563eb" stroke="none"/>
+    <text x="262" y="435" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">810</text>
+  </g>
+  <line x1="480" y1="480" x2="480" y2="510" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="480.0" y="489.0" text-anchor="middle" font-size="10" fill="#888888">Yes</text>
+  <rect x="140" y="515" width="260" height="60" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="270.0" y="537.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">WHO Epidemiology Nodes</text>
+  <text x="270.0" y="557.0" text-anchor="middle" font-size="11" fill="#888888">Validate R₀ · Issue advisory</text>
+  <g>
+    <circle cx="382" cy="531" r="10" fill="#2563eb" stroke="none"/>
+    <text x="382" y="535" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">812</text>
+  </g>
+  <rect x="560" y="515" width="260" height="60" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="690.0" y="537.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Predictive Council</text>
+  <text x="690.0" y="557.0" text-anchor="middle" font-size="11" fill="#888888">In silico docking requests</text>
+  <g>
+    <circle cx="802" cy="531" r="10" fill="#2563eb" stroke="none"/>
+    <text x="802" y="535" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">814</text>
+  </g>
+  <line x1="400" y1="510" x2="270" y2="510" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="560" y1="510" x2="690" y2="510" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="270" y1="575" x2="270" y2="605" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="690" y1="575" x2="690" y2="605" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="140" y="610" width="260" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="270.0" y="627.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Micro-Quarantine Rules</text>
+  <text x="270.0" y="647.0" text-anchor="middle" font-size="11" fill="#888888">Update municipal rules</text>
+  <g>
+    <circle cx="382" cy="626" r="10" fill="#2563eb" stroke="none"/>
+    <text x="382" y="630" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">816</text>
+  </g>
+  <rect x="560" y="610" width="260" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="690.0" y="627.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Supply Chain Redirect</text>
+  <text x="690.0" y="647.0" text-anchor="middle" font-size="11" fill="#888888">Diagnostic mfg request</text>
+  <g>
+    <circle cx="802" cy="626" r="10" fill="#2563eb" stroke="none"/>
+    <text x="802" y="630" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">818</text>
+  </g>
+  <line x1="270" y1="660" x2="180" y2="690" stroke="#d97706" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-dashed)"/>
+  <text x="225.0" y="669.0" text-anchor="middle" font-size="10" fill="#888888">Rule update</text>
+  <text x="220" y="690" text-anchor="middle" font-size="10" font-weight="400" fill="#888888">↓</text>
+</svg>

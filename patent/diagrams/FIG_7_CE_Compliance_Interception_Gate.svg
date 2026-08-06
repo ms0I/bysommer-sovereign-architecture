@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" width="960" height="680" font-family="Arial, Helvetica, sans-serif">
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#444444"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrow-dashed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#888888"/>
+    </marker>
+  </defs>
+    <text x="480" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">FIG. 7 — CE Compliance Interception Gate — Customs &amp; Product Conformity</text>
+  <rect x="340" y="60" width="280" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="480.0" y="77.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Transaction Request</text>
+  <text x="480.0" y="97.0" text-anchor="middle" font-size="11" fill="#888888">buyer_id · amount · product_category</text>
+  <g>
+    <circle cx="602" cy="76" r="10" fill="#2563eb" stroke="none"/>
+    <text x="602" y="80" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">700</text>
+  </g>
+  <line x1="480" y1="110" x2="480" y2="140" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <polygon points="480,145.0 610.0,190 480,235.0 350.0,190" fill="#fffde7" stroke="#666666" stroke-width="1.5"/>
+  <text x="480" y="186" text-anchor="middle" font-size="12" font-weight="600" fill="#1a1a1a">Cross-border &amp;
+amount &lt; €150 ?</text>
+  <g>
+    <circle cx="598.0" cy="159.0" r="10" fill="#2563eb" stroke="none"/>
+    <text x="598.0" y="163.0" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">702</text>
+  </g>
+  <line x1="350" y1="190" x2="230" y2="190" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="290.0" y="184.0" text-anchor="middle" font-size="10" fill="#888888">Yes</text>
+  <polygon points="170,145.0 290.0,190 170,235.0 50.0,190" fill="#fffde7" stroke="#666666" stroke-width="1.5"/>
+  <text x="170" y="186" text-anchor="middle" font-size="12" font-weight="600" fill="#1a1a1a">IOSS
+registered?</text>
+  <g>
+    <circle cx="278.0" cy="159.0" r="10" fill="#2563eb" stroke="none"/>
+    <text x="278.0" y="163.0" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">704</text>
+  </g>
+  <line x1="170" y1="145" x2="170" y2="110" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="170.0" y="121.5" text-anchor="middle" font-size="10" fill="#888888">No</text>
+  <line x1="170" y1="110" x2="340" y2="110" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="50" y1="190" x2="50" y2="250" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="50.0" y="214.0" text-anchor="middle" font-size="10" fill="#888888">No IOSS</text>
+  <rect x="20" y="250" width="160" height="50" rx="4" ry="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <text x="100.0" y="267.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">PENDING</text>
+  <text x="100.0" y="287.0" text-anchor="middle" font-size="11" fill="#888888">PENDING_IOSS
+Class II</text>
+  <g>
+    <circle cx="162" cy="266" r="10" fill="#2563eb" stroke="none"/>
+    <text x="162" y="270" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">706</text>
+  </g>
+  <line x1="170" y1="235" x2="170" y2="280" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="170.0" y="251.5" text-anchor="middle" font-size="10" fill="#888888">Yes</text>
+  <line x1="170" y1="280" x2="340" y2="280" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="480" y1="235" x2="480" y2="270" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="480.0" y="246.5" text-anchor="middle" font-size="10" fill="#888888">No</text>
+  <polygon points="480,275.0 630.0,320 480,365.0 330.0,320" fill="#fffde7" stroke="#666666" stroke-width="1.5"/>
+  <text x="480" y="316" text-anchor="middle" font-size="12" font-weight="600" fill="#1a1a1a">Regulated category?
+(electronics, toys,
+medical, machinery)</text>
+  <g>
+    <circle cx="618.0" cy="289.0" r="10" fill="#2563eb" stroke="none"/>
+    <text x="618.0" y="293.0" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">708</text>
+  </g>
+  <line x1="480" y1="365" x2="480" y2="395" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="480.0" y="374.0" text-anchor="middle" font-size="10" fill="#888888">Yes</text>
+  <polygon points="480,400.0 590.0,440 480,480.0 370.0,440" fill="#fffde7" stroke="#666666" stroke-width="1.5"/>
+  <text x="480" y="436" text-anchor="middle" font-size="12" font-weight="600" fill="#1a1a1a">CE marking
+present?</text>
+  <g>
+    <circle cx="578.0" cy="414.0" r="10" fill="#2563eb" stroke="none"/>
+    <text x="578.0" y="418.0" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">710</text>
+  </g>
+  <line x1="370" y1="440" x2="230" y2="440" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="300.0" y="434.0" text-anchor="middle" font-size="10" fill="#888888">No</text>
+  <rect x="50" y="415" width="200" height="50" rx="4" ry="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="150.0" y="432.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">BLOCKED</text>
+  <text x="150.0" y="452.0" text-anchor="middle" font-size="11" fill="#888888">BLOCKED_MISSING_CE
+Class III</text>
+  <g>
+    <circle cx="232" cy="431" r="10" fill="#2563eb" stroke="none"/>
+    <text x="232" y="435" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">712</text>
+  </g>
+  <line x1="480" y1="480" x2="480" y2="510" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="480.0" y="489.0" text-anchor="middle" font-size="10" fill="#888888">Yes</text>
+  <line x1="630" y1="320" x2="720" y2="320" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="675.0" y="314.0" text-anchor="middle" font-size="10" fill="#888888">No</text>
+  <line x1="780" y1="320" x2="780" y2="510" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="340" y="515" width="280" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="480.0" y="532.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">VAT Rate Verification</text>
+  <text x="480.0" y="552.0" text-anchor="middle" font-size="11" fill="#888888">Expected 25% vs applied rate</text>
+  <g>
+    <circle cx="602" cy="531" r="10" fill="#2563eb" stroke="none"/>
+    <text x="602" y="535" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">714</text>
+  </g>
+  <line x1="480" y1="565" x2="480" y2="590" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="340" y="595" width="280" height="45" rx="4" ry="4" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="480.0" y="609.5" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">VALIDATED</text>
+  <text x="480.0" y="629.5" text-anchor="middle" font-size="11" fill="#888888">Advisory Class I · → s.net</text>
+  <g>
+    <circle cx="602" cy="611" r="10" fill="#2563eb" stroke="none"/>
+    <text x="602" y="615" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">716</text>
+  </g>
+</svg>

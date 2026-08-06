@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" width="960" height="680" font-family="Arial, Helvetica, sans-serif">
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#444444"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrow-dashed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#888888"/>
+    </marker>
+  </defs>
+    <text x="480" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">FIG. 3 — Spatial Rule Matcher — Multi-Tier Jurisdictional Pipeline</text>
+  <rect x="350" y="60" width="260" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="480.0" y="77.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">GPS Telemetry Capture</text>
+  <text x="480.0" y="97.0" text-anchor="middle" font-size="11" fill="#888888">lat/lng from PDT</text>
+  <g>
+    <circle cx="592" cy="76" r="10" fill="#2563eb" stroke="none"/>
+    <text x="592" y="80" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">300</text>
+  </g>
+  <line x1="480" y1="110" x2="480" y2="140" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="350" y="145" width="260" height="50" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="480.0" y="162.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Municipal Reverse Geocoding</text>
+  <text x="480.0" y="182.0" text-anchor="middle" font-size="11" fill="#888888">→ MUNICIPAL_CODE</text>
+  <g>
+    <circle cx="592" cy="161" r="10" fill="#2563eb" stroke="none"/>
+    <text x="592" y="165" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">302</text>
+  </g>
+  <line x1="480" y1="195" x2="480" y2="225" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="480" y="240" text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a1a">Rule Lookup — Three-Tier Hierarchy</text>
+  <rect x="80" y="250" width="250" height="60" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="205.0" y="272.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Supranational Rules</text>
+  <text x="205.0" y="292.0" text-anchor="middle" font-size="11" fill="#888888">EU · IOSS · Cross-border</text>
+  <g>
+    <circle cx="312" cy="266" r="10" fill="#2563eb" stroke="none"/>
+    <text x="312" y="270" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">304</text>
+  </g>
+  <rect x="355" y="250" width="250" height="60" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="480.0" y="272.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">National Rules</text>
+  <text x="480.0" y="292.0" text-anchor="middle" font-size="11" fill="#888888">NATIONAL_DK · VAT 25% · CE Mark</text>
+  <g>
+    <circle cx="587" cy="266" r="10" fill="#2563eb" stroke="none"/>
+    <text x="587" y="270" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">306</text>
+  </g>
+  <rect x="630" y="250" width="250" height="60" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="755.0" y="272.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Municipal Rules</text>
+  <text x="755.0" y="292.0" text-anchor="middle" font-size="11" fill="#888888">MUNICIPAL_&lt;CODE&gt; · Env Zone · Noise</text>
+  <g>
+    <circle cx="862" cy="266" r="10" fill="#2563eb" stroke="none"/>
+    <text x="862" y="270" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">308</text>
+  </g>
+  <line x1="205" y1="310" x2="380" y2="340" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="480" y1="310" x2="480" y2="340" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="755" y1="310" x2="580" y2="340" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="300" y="345" width="360" height="60" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="480.0" y="367.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">ZK-CPR Identity Validation</text>
+  <text x="480.0" y="387.0" text-anchor="middle" font-size="11" fill="#888888">Verify cpr_zk_hash — no PII transmitted</text>
+  <g>
+    <circle cx="642" cy="361" r="10" fill="#2563eb" stroke="none"/>
+    <text x="642" y="365" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">310</text>
+  </g>
+  <line x1="480" y1="405" x2="480" y2="435" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <polygon points="480,435.0 630.0,485 480,535.0 330.0,485" fill="#fffde7" stroke="#666666" stroke-width="1.5"/>
+  <text x="480" y="481" text-anchor="middle" font-size="12" font-weight="600" fill="#1a1a1a">Rule Matching
++ Conflict Resolution
+(stricter-rule-wins)</text>
+  <g>
+    <circle cx="618.0" cy="449.0" r="10" fill="#2563eb" stroke="none"/>
+    <text x="618.0" y="453.0" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">312</text>
+  </g>
+  <line x1="330" y1="485" x2="200" y2="485" stroke="#444444" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="265.0" y="479.0" text-anchor="middle" font-size="10" fill="#888888">All pass</text>
+  <rect x="60" y="460" width="220" height="50" rx="4" ry="4" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="170.0" y="477.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">VALIDATED</text>
+  <text x="170.0" y="497.0" text-anchor="middle" font-size="11" fill="#888888">Advisory Class I</text>
+  <g>
+    <circle cx="262" cy="476" r="10" fill="#2563eb" stroke="none"/>
+    <text x="262" y="480" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">314</text>
+  </g>
+  <line x1="480" y1="535" x2="480" y2="565" stroke="#d97706" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="480.0" y="544.0" text-anchor="middle" font-size="10" fill="#888888">Missing doc</text>
+  <rect x="350" y="570" width="260" height="50" rx="4" ry="4" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+  <text x="480.0" y="587.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">PENDING</text>
+  <text x="480.0" y="607.0" text-anchor="middle" font-size="11" fill="#888888">Advisory Class II</text>
+  <g>
+    <circle cx="592" cy="586" r="10" fill="#2563eb" stroke="none"/>
+    <text x="592" y="590" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">316</text>
+  </g>
+  <line x1="630" y1="485" x2="760" y2="485" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="695.0" y="479.0" text-anchor="middle" font-size="10" fill="#888888">Violation</text>
+  <rect x="680" y="460" width="220" height="50" rx="4" ry="4" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="790.0" y="477.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">BLOCKED</text>
+  <text x="790.0" y="497.0" text-anchor="middle" font-size="11" fill="#888888">BLOCKED_MISSING_CE · Class III</text>
+  <g>
+    <circle cx="882" cy="476" r="10" fill="#2563eb" stroke="none"/>
+    <text x="882" y="480" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">318</text>
+  </g>
+  <line x1="480" y1="620" x2="480" y2="650" stroke="#444444" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-dashed)"/>
+  <text x="480.0" y="629.0" text-anchor="middle" font-size="10" fill="#888888">→ s.net</text>
+</svg>

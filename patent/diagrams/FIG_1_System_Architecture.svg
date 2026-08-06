@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 700" width="960" height="700" font-family="Arial, Helvetica, sans-serif">
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#444444"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrow-dashed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#888888"/>
+    </marker>
+  </defs>
+    <text x="480" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">FIG. 1 — System Architecture Overview</text>
+  <rect x="310" y="60" width="340" height="70" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="480.0" y="87.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Edge Physiological Sensors</text>
+  <text x="480.0" y="107.0" text-anchor="middle" font-size="11" fill="#888888">HRV · Core Temp · Resp Rate · SpO₂</text>
+  <g>
+    <circle cx="632" cy="76" r="10" fill="#2563eb" stroke="none"/>
+    <text x="632" y="80" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">100</text>
+  </g>
+  <line x1="480" y1="130" x2="480" y2="165" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <text x="480.0" y="141.5" text-anchor="middle" font-size="10" fill="#888888">ZK Proof Transmission</text>
+  <rect x="310" y="170" width="340" height="70" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="480.0" y="197.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Active Inference Engine</text>
+  <text x="480.0" y="217.0" text-anchor="middle" font-size="11" fill="#888888">Variational Free-Energy Divergence (FΔ)</text>
+  <g>
+    <circle cx="632" cy="186" r="10" fill="#2563eb" stroke="none"/>
+    <text x="632" y="190" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">102</text>
+  </g>
+  <line x1="480" y1="240" x2="480" y2="275" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="480.0" y="251.5" text-anchor="middle" font-size="10" fill="#888888">Anomaly Signal</text>
+  <rect x="620" y="170" width="240" height="70" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="740.0" y="197.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Circuit Breaker Module</text>
+  <text x="740.0" y="217.0" text-anchor="middle" font-size="11" fill="#888888">Transaction Freeze + Cap → 0 DKK</text>
+  <g>
+    <circle cx="842" cy="186" r="10" fill="#2563eb" stroke="none"/>
+    <text x="842" y="190" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">104</text>
+  </g>
+  <line x1="650" y1="205" x2="560" y2="205" stroke="#dc2626" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <rect x="310" y="280" width="340" height="70" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="480.0" y="307.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">ZK Compliance Engine (BDT+)</text>
+  <text x="480.0" y="327.0" text-anchor="middle" font-size="11" fill="#888888">Multi-Tier Jurisdictional Rule Matcher</text>
+  <g>
+    <circle cx="632" cy="296" r="10" fill="#2563eb" stroke="none"/>
+    <text x="632" y="300" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">106</text>
+  </g>
+  <rect x="620" y="280" width="240" height="70" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="740.0" y="307.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Zero-Knowledge Vault</text>
+  <text x="740.0" y="327.0" text-anchor="middle" font-size="11" fill="#888888">cpr_zk_hash · Identity Verification</text>
+  <g>
+    <circle cx="842" cy="296" r="10" fill="#2563eb" stroke="none"/>
+    <text x="842" y="300" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">108</text>
+  </g>
+  <line x1="650" y1="315" x2="560" y2="315" stroke="#444444" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-dashed)"/>
+  <text x="605.0" y="309.0" text-anchor="middle" font-size="10" fill="#888888">ZK Hash Verify</text>
+  <line x1="480" y1="350" x2="480" y2="385" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <text x="480.0" y="361.5" text-anchor="middle" font-size="10" fill="#888888">Compliance Verdict</text>
+  <rect x="140" y="390" width="300" height="70" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="290.0" y="417.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Planetary Shield</text>
+  <text x="290.0" y="437.0" text-anchor="middle" font-size="11" fill="#888888">R₀ Monitoring · Micro-Quarantine</text>
+  <g>
+    <circle cx="422" cy="406" r="10" fill="#2563eb" stroke="none"/>
+    <text x="422" y="410" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">110</text>
+  </g>
+  <rect x="520" y="390" width="300" height="70" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="670.0" y="417.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Non-Profit Surplus Ledger</text>
+  <text x="670.0" y="437.0" text-anchor="middle" font-size="11" fill="#888888">Δ_surplus Accrual · Dec 10 Epoch</text>
+  <g>
+    <circle cx="802" cy="406" r="10" fill="#2563eb" stroke="none"/>
+    <text x="802" y="410" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">112</text>
+  </g>
+  <line x1="400" y1="350" x2="290" y2="385" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="560" y1="350" x2="670" y2="385" stroke="#2563eb" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <line x1="740" y1="240" x2="670" y2="385" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-red)"/>
+  <text x="705.0" y="306.5" text-anchor="middle" font-size="10" fill="#888888">Suspend Credit</text>
+  <rect x="80" y="500" width="800" height="50" rx="4" ry="4" fill="#f8f8f8" stroke="#666666" stroke-width="1.5"/>
+  <text x="480" y="530" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">s.net — Immutable Append-Only Decision Ledger</text>
+  <g>
+    <circle cx="860" cy="515" r="10" fill="#2563eb" stroke="none"/>
+    <text x="860" y="519" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">114</text>
+  </g>
+  <line x1="200" y1="460" x2="200" y2="495" stroke="#444444" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-dashed)"/>
+  <text x="200.0" y="471.5" text-anchor="middle" font-size="10" fill="#888888">Audit Log</text>
+  <line x1="480" y1="460" x2="480" y2="495" stroke="#444444" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-dashed)"/>
+  <text x="480.0" y="471.5" text-anchor="middle" font-size="10" fill="#888888">Audit Log</text>
+  <line x1="740" y1="460" x2="740" y2="495" stroke="#444444" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-dashed)"/>
+  <text x="740.0" y="471.5" text-anchor="middle" font-size="10" fill="#888888">Audit Log</text>
+  <rect x="820" y="170" width="120" height="380" rx="4" ry="4" fill="#ffffff" stroke="#666666" stroke-width="1.5"/>
+  <text x="880.0" y="352.0" text-anchor="middle" font-size="14" font-weight="600" fill="#1a1a1a">Sovereign Governance</text>
+  <text x="880.0" y="372.0" text-anchor="middle" font-size="11" fill="#888888">HITL Override
+Ethical Guardrails</text>
+  <g>
+    <circle cx="922" cy="186" r="10" fill="#2563eb" stroke="none"/>
+    <text x="922" y="190" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">116</text>
+  </g>
+  <text x="880" y="360" text-anchor="middle" font-size="10" font-weight="600" fill="#888888">HITL</text>
+  <text x="880" y="375" text-anchor="middle" font-size="10" font-weight="600" fill="#888888">Level 2</text>
+  <line x1="820" y1="205" x2="860" y2="205" stroke="#444444" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-dashed)"/>
+  <line x1="820" y1="315" x2="860" y2="315" stroke="#444444" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow-dashed)"/>
+  <text x="50" y="95" text-anchor="start" font-size="10" font-weight="600" fill="#888888">L1 — PDT</text>
+  <text x="50" y="205" text-anchor="start" font-size="10" font-weight="600" fill="#888888">L2 — PDT+</text>
+  <text x="50" y="315" text-anchor="start" font-size="10" font-weight="600" fill="#888888">L4 — BDT+</text>
+  <text x="50" y="425" text-anchor="start" font-size="10" font-weight="600" fill="#888888">L6-L8</text>
+  <text x="50" y="525" text-anchor="start" font-size="10" font-weight="600" fill="#888888">L7 — s.net</text>
+</svg>
