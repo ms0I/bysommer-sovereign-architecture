@@ -3,7 +3,11 @@
 **Document Identifier:** EIC_ACCELERATOR_APPLICATION_FRAMEWORK.md
 **Date Prepared:** 06 August 2026
 **Prepared By:** Solas (Archivist) under direction of Michael Sommer
-**Status:** Draft for review — EIC Accelerator 3-step GO/NO-GO process (Step 1: Short Proposal → Step 2: Full Proposal → Step 3: Jury Interview)
+**Status:** Draft for review — targeting EIC 2026 cut-off cycle
+**Target Call:** HORIZON-EIC-2025-ACCELERATOR-02-CHALLENGES-03 (GenAI4EU — European Champions in Generative AI)
+**Submission Strategy:** Step 1 (Short Proposal) immediately → target 4 November 2026 Step 2 cut-off
+
+**EIC Accelerator 3-Step GO/NO-GO Process:** Step 1 (Short Proposal) → Step 2 (Full Proposal) → Step 3 (Jury Interview)
 **Repository:** [MSDK0I/bysommer-sovereign-architecture](https://github.com/MSDK0I/bysommer-sovereign-architecture)
 
 ---
@@ -16,6 +20,76 @@ By Sommer Sovereign Architecture proposes to deploy the **TONE Architecture** �
 **Duration:** 24 months
 **Applicant:** By Sommer (Copenhagen, Denmark) — Danish SME
 **Attorney Docket:** TONE-2026-PCT-01 (DKPTO priority filing August 2026)
+
+---
+
+
+## 0. Target Call & Submission Strategy
+
+### 0.1 Call Identification
+
+| Parameter | Value |
+|-----------|-------|
+| **Call Identifier** | `HORIZON-EIC-2025-ACCELERATOR-02-CHALLENGES-03` |
+| **Call Title** | GenAI4EU — Creating European Champions in Generative AI |
+| **Work Programme** | EIC Accelerator Challenges 2025 |
+| **Indicative Budget** | ~€50M (single challenge topic) |
+| **Relevance** | Directly targets AI governance, European digital sovereignty, trustworthy AI, compliance with EU AI Act & GDPR, privacy-preserving models, explainable AI (XAI), data sovereignty for public administration and civic infrastructure |
+
+### 0.2 2026 Cut-Off Calendar
+
+EIC Accelerator Step 1 (Short Proposal) is open **continuously year-round** (evaluated within ~4 weeks).
+Step 2 (Full Proposal) is evaluated at fixed cut-off dates:
+
+| 2026 Cut-Off | Date | Strategic Assessment |
+|-------------|------|----------------------|
+| Cut-off 1 | 7 January 2026 | ❌ Passed |
+| Cut-off 2 | 4 March 2026 | ❌ Passed |
+| Cut-off 3 | 6 May 2026 | ❌ Passed |
+| Cut-off 4 | 8 July 2026 | ❌ Passed |
+| **Cut-off 5** | **2 September 2026** | ⚠️ Tight — only ~4 weeks for full proposal if Step 1 approved immediately |
+| **Cut-off 6** | **4 November 2026** | ✅ **PRIMARY TARGET** — ~3 months for full proposal preparation |
+
+### 0.3 Submission Timeline
+
+```
+August 2026 (NOW)
+  │
+  ├── Submit Step 1: Short Proposal (online questionnaire + pitch deck + video)
+  │   └── Evaluated within ~4 weeks → GO/NO-GO decision by ~September 2026
+  │
+  ▼
+September 2026
+  │
+  ├── If Step 1 GO: Begin Step 2 full proposal preparation
+  │   └── Draft Part B narrative (Excellence, Impact, Implementation)
+  │   └── Prepare 6 mandatory annexes (FTO, financials, LOIs, ethics, CVs, FDI)
+  │
+  ▼
+4 November 2026
+  │
+  ├── Submit Step 2: Full Proposal (target cut-off)
+  │   └── Evaluated within ~8-10 weeks → GO/NO-GO by ~January 2027
+  │
+  ▼
+January-February 2027
+  │
+  ├── If Step 2 GO (unanimous 3/3): Invited to Step 3 Jury Interview
+  │   └── Interview ~5-7 weeks after cut-off → ~December 2026/January 2027
+  │
+  ▼
+Q1 2027
+  │
+  └── If Step 3 GO: Grant Agreement + Investment Agreement execution
+      └── Project begins: WP1 (Technical Maturation) starts M1
+```
+
+### 0.4 Alternative Call: 2026 EIC Work Programme
+
+If the GenAI4EU challenge is not the optimal fit, the **2026 EIC Work Programme** includes:
+- **Strategic Digital and Health Technologies Call** — focuses on health-tech compliance, regulatory sandboxes, trustworthy AI in healthcare
+- **STEP Scale-Up** (`HORIZON-EIC-2026-STEP-SCALE-UP`) — pure equity (€10M–€30M) for critical digital/AI technologies
+- **2026 cut-off dates**: 7 Jan, 4 Mar, 6 May, 8 Jul, 2 Sep, 4 Nov 2026
 
 ---
 
