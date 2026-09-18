@@ -1,4 +1,4 @@
-# By Sommer — Sovereign Intelligence Architecture
+# Sovereign Intelligence Architecture
 
 > Constitutional thinking, not technological thinking. The law is the source code.
 
