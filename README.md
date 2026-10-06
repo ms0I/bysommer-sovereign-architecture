@@ -155,10 +155,9 @@ The TONE Architecture introduces novel mechanisms in biosecurity circuit-breakin
 
 - **TONE Architecture** — Formal claims draft complete (Claims 1–15). DK national patent priority filing targeted, with EP filing within 12-month priority window. PCT route recommended for broadest coverage.
 
-## Founder
+## Innovater
 
-**Michael Sommer** — Copenhagen, Denmark
-
+**Michael Sommer** — [MSDK]
 ---
 
-*This archive is organized and maintained as part of the Archivist protocol. The Compliance Book is a living document — the legal operating system the digital system runs on top of. Documents are tagged and structured for eventual deployment to cloud infrastructure and collaborative platforms.*
+*This archive is organized and maintained as part of the protocol. Compliance is the legal digital system runs on top of. Documents are tagged and structured for eventual deployment to cloud infrastructure and collaborative platforms.*
